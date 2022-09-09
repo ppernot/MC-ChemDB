@@ -1,0 +1,51 @@
+*** Release Notes for ChemDB v_1.2 ***
+
+Purpose:
+* Remove spurious sinks due to introduction of new species in 1.1 >>>WIP<<<
+* Rationalize dummy species
+
+Changes:
+* 2020_06 (PP) Conform to KiDA's nomenclature for HC3N isomers >>>TBD<<<
+
+*** Release Notes for ChemDB v_1.1 ***
+
+Purpose:
+* Improve Oxygen chemistry
+
+Changes:
+* 2019_04 (PP) Add photolysis for H2O and CO
+* 2019_05 (PP) Add reactions with O+, OH+ and update H2O+ and H3O+
+  - CH3+ + H2O
+  - H2O+ + NH3
+  - H2O+ + H2CO
+  - H3O+ + C2H2 [New product: CH3CHOH+]
+  - CH3CHOH+ + E
+  - H3O+ + C3H6
+  - H3O+ + C2H5CN
+  - H3O+ + HC5N
+  - H3O+ + H2CO
+  - O+ + H
+  - O+ + H2
+  - O+ + CH4
+  - O+ + C2H4
+  - O+ + C2H2
+  - O+ + C2H6
+  - O+ + C6H6
+  - O+ + NH3
+  - O+ + HCN
+
+*** Release Notes for ChemDB v_1.0 ***
+
+Changes:
+* New data for CH4+ from [Thomas2013]
+* Updated data for BR of N2+ + CH3CN [Gichuhi2012]
+
+Bugs/Typos:
+* 2018-06-29: Corrected invalid rates for H+ + E and H2+ + E (Thanks E. Roueff)
+* Corrected invalid products in C3H6+ + E --> C + CH3 + CH4. 
+* Corrected invalid products in C3H7+ + E --> C2H3 + 1CH2 + 1CH2 and similar channels. 
+* Corrected invalid products in C4H6+ + E --> C3H2 + 1CH2 + H
+* In several reaction of N+ with hydrocarbons from [Dutuit2013], 
+  I changed CHCN+ to CHNC+ (most stable) to conform with [Anicich2004],
+  from which the BR were issued
+

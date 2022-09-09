@@ -1,0 +1,878 @@
+REACTANTS;TYPE; ALPHA;BETA;GAMMA ; NBR;STRINGBR; REF_ALPHA;REF_BETA;REF_GAMMA;REF_BR ; COMMENTS;TIMESTAMP
+"ArH+ + C2H4";"kooij";"Logn(1.17e-09,1.15)";"Delta(0)";"Delta(0)";2;"Dirg(0.73<C2H3+ + Ar + H2>,0.27<C2H5+ + Ar>;0.05,0.05)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"ArH+ + C2H6";"kooij";"Logn(1.4e-09,1.15)";"Delta(0)";"Delta(0)";2;"Dirg(0.04<C2H3+ + Ar + H2 + H2>,0.96<C2H5+ + Ar + H2>;0.05,0.05)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"ArH+ + C3H6";"kooij";"Logn(1.2e-09,1.2)";"Delta(0)";"Delta(0)";2;"Dirg(0.60<C2H3+ + Ar + CH4>,0.40<C3H5+ + Ar + H2>;0.05,0.05)";"Anicich2003";"NA";"NA";"Anicich2003;Smith1976";"NA";2022-08-19 09:26:14
+"ArH+ + C6H6";"kooij";"Logn(1.4e-09,1.2)";"Delta(0)";"Delta(0)";3;"Dirg(0.40<C6H5+ + Ar + H2>,0.05<C6H6+ + Ar + H>,0.55<C6H7+ + Ar>;0.05,0.05,0.05)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"ArH+ + CH4";"kooij";"Logn(1.02,1.3)";"Delta(0)";"Delta(0)";1;"CH5+ + Ar";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"ArH+ + H2";"kooij";"Logn(6.3e-10,1.4)";"Delta(0)";"Delta(0)";1;"H3+ + Ar";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"ArH+ + H2O";"kooij";"Logn(2e-09,2)";"Delta(0)";"Delta(0)";1;"H3O+ + Ar";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"ArH+ + N2";"kooij";"Logn(8e-10,1.3)";"Delta(0)";"Delta(0)";1;"N2H+ + Ar";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"ArH+ + NH3";"kooij";"Logn(2.4e-09,1.15)";"Delta(0)";"Delta(0)";2;"Diut(0.00<NH3+ + Ar + H>,0.75<NH4+ + Ar>;0.25,1)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C+ + C2H2";"kooij";"Logn(2.63e-09,1.1)";"Delta(0)";"Delta(0)";1;"C3H+ + H";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C+ + C2H3NH";"kooij";"Logn(8.1e-10,2)";"Delta(-5.0e-01)";"Delta(0)";1;"C2H3+ + HNC";"Quan2016";"Quan2016";"NA";"Quan2016";"NA";2022-08-19 09:26:14
+"C+ + C2H4";"kooij";"Logn(1.5e-09,1.3)";"Delta(0)";"Delta(0)";5;"Dirg(0.8000E-01<C2H3+ + CH>,0.1500E+00<C2H4+ + C>,0.6000E-01<C3H+ + H2 + H>,0.2900E+00<C3H2+ + H2>,0.4200E+00<cC3H3+ + H>;0.8000E-01,0.4500E-01,0.6000E-01,0.8700E-01,0.1260E+00)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C+ + C2H6";"kooij";"Logn(1.65e-09,1.3)";"Delta(0)";"Delta(0)";6;"Dirg(0.5000E-01<C2H2+ + CH4>,0.3000E+00<C2H3+ + CH3>,0.7000E-01<C2H4+ + 3CH2>,0.1400E+00<C2H5+ + CH>,0.1000E-01<C3H2+ + H2 + H2>,0.4300E+00<cC3H3+ + H2 + H>;0.5000E-01,0.9000E-01,0.7000E-01,0.4200E-01,0.1000E-01,0.1290E+00)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C+ + C2N2";"kooij";"Logn(1.9e-09,1.3)";"Delta(0)";"Delta(0)";2;"Dirg(0.1100E+00<CCN+ + CN>,0.8900E+00<CNC+ + CN>;0.3300E-01,0.2670E+00)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C+ + C3H6";"kooij";"Logn(2e-09,1.25)";"Delta(0)";"Delta(0)";6;"Dirg(0.30<C2H3+ + C2H3>,0.20<C3H5+ + CH>,0.15<cC3H3+ + CH3>,0.15<C2H2+ + C2H4>,0.10<C3H6+ + C>,0.10<C4H3+ + H2 + H>;0.10,0.07,0.05,0.05,0.10,0.10)";"Anicich2003";"NA";"NA";"Anicich2003";"data for CH3CHCH2";2022-08-19 09:26:14
+"C+ + C3H8";"kooij";"Logn(0.180E-08,1.3)";"Delta(0)";"Delta(0)";5;"Dirg(0.35<C2H3+ + C2H5>,0.20<cC3H3+ + H + CH4>,0.30<C3H7+ + CH>,0.10<C3H8+ + C>,0.05<C4H5+ + H2 + H>;0.10,0.06,0.10,0.10,0.05)";"Anicich1997";"NA";"NA";"Anicich1997;KIDA";"NA";2022-08-19 09:26:14
+"C+ + C4H2";"kooij";"Logn(2.9e-09,1.3)";"Delta(0)";"Delta(0)";3;"Dirg(0.5000E+00<C5H+ + H>,0.4500E+00<C4H2+ + C>,0.5000E-01<C3H+ + C2H>;0.1500E+00,0.1350E+00,0.5000E-01)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C+ + C6H6";"kooij";"Logn(2.4e-09,1.25)";"Delta(0)";"Delta(0)";4;"Dirg(0.67<C6H6+ + C>,0.17<C5H3+ + C2H3>,0.10<C7H5+ + H>,0.06<cC3H3+ + C4H3>;0.07,0.06,0.10,0.06)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C+ + CH2CCH2";"kooij";"Logn(1.4e-09,1.2)";"Delta(0)";"Delta(0)";4;"Dirg(0.40<C4H2+ + H2>,0.25<cC3H3+ + CH>,0.20<C2H2+ + C2H2>,0.15<C3H4+ + C>;0.13,0.09,0.07,0.05)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C+ + CH3C2H";"kooij";"Logn(1.9e-09,1.25)";"Delta(0)";"Delta(0)";5;"Dirg(0.3<C4H2+ + H2>,0.3<C3H4+ + C>,0.2<cC3H3+ + CH>,0.1<C2H2+ + C2H2>,0.1<C2H3+ + C2H>;0.1,0.1,0.07,0.1,0.1)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C+ + CH3CHNH";"kooij";"Logn(1.65e-09,2)";"Delta(-5.00e-01)";"Delta(0)";1;"C2H4+ + HNC";"Quan2016";"Quan2016";"NA";"Quan2016";"NA";2022-08-19 09:26:14
+"C+ + CH3CN";"kooij";"Logn(5.6e-09,1.2)";"Delta(0)";"Delta(0)";1;"CxHyNz+ + CxHyNz";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C+ + CH3NH2";"kooij";"Logn(3.2e-09,1.45)";"Delta(0)";"Delta(0)";4;"Dirg(0.01<CH3+ + HCN + H>,0.03<HCNH+ + CH3>,0.27<CH2NH2+ + CH>,0.69<CH3NH2+ + C>;0.01,0.03,0.09,0.07)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C+ + CH4";"kooij";"Logn(1.3e-09,1.1)";"Delta(0)";"Delta(0)";2;"Dirg(0.2800E+00<C2H2+ + H2>,0.7200E+00<C2H3+ + H>;0.8400E-01,0.2160E+00)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C+ + E";"dr";"Logn(4.67e-12,1.5)";"Nort(0.6,0.3,0.5,1.5)";"Delta(0)";1;"C + HV";"Woodall2007;Nahar1997";"Woodall2007";"NA";"NA";"NA";2022-08-19 09:26:14
+"C+ + H2O";"kooij";"Logn(2.4e-09,1.15)";"Delta(0)";"Delta(0)";2;"Dirg(0.1000E+00<H2O+ + C>,0.9000E+00<HCO+ + H>;0.1000E+00,0.2700E+00)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C+ + HC2O";"kooij";"Logn(2e-09,3)";"Delta(0)";"Delta(0)";1;"CHCO+ + C";"KIDA";"NA";"NA";"KIDA";"NA";2022-08-19 09:26:14
+"C+ + HC3N";"kooij";"Logn(5.5e-09,1.2)";"Delta(0)";"Delta(0)";4;"Dirg(0.5000E-01<C3+ + HCN>,0.7000E+00<C3H+ + CN>,0.2000E-01<CNC+ + C2H>,0.2300E+00<C4N+ + H>;0.5000E-01,0.2100E+00,0.2000E-01,0.6900E-01)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C+ + HCN";"kooij";"Logn(2.95e-09,1.15)";"Delta(0)";"Delta(0)";2;"Diri(1<CNC+ + H>,1<CCN+ + H>;1)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C+ + NH3";"kooij";"Logn(2.3e-09,1.1)";"Delta(0)";"Delta(0)";3;"Dirg(0.3200E+00<NH3+ + C>,0.5000E-01<HCN+ + H2>,0.6300E+00<HCNH+ + H>;0.9600E-01,0.5000E-01,0.1890E+00)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C10H11+ + E";"dr";"Logu(5e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"CxHy";"Plessis2010";"Plessis2010";"NA";"NA";"NA";2022-08-19 09:26:14
+"C10H8+ + E";"dr";"Logu(5e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"CxHy";"Plessis2010";"Plessis2010";"NA";"NA";"NA";2022-08-19 09:26:14
+"C10H9+ + E";"dr";"Logu(5e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"CxHy";"Plessis2010";"Plessis2010";"NA";"NA";"NA";2022-08-19 09:26:14
+"C11H9+ + E";"dr";"Logu(5e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"CxHy";"Plessis2010";"Plessis2010";"NA";"NA";"NA";2022-08-19 09:26:14
+"C2H+ + C";"kooij";"Logn(9.3e-10,2)";"Delta(0)";"Delta(0)";2;"Dirg(0.93<C3+ + H>,0.07<H+ + C3>;0.07,0.07)";"KIDA";"NA";"NA";"KIDA";"NA";2022-08-19 09:26:14
+"C2H+ + C2H2";"kooij";"Logn(1.85e-09,1.3)";"Delta(0)";"Delta(0)";1;"C4H2+ + H";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C2H+ + C2H4";"kooij";"Logn(1.71e-09,1.1)";"Delta(0)";"Delta(0)";2;"Dirg(0.83<C4H3+ + H2>,0.17<C4H2+ + H2 + H>;0.09,0.05)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C2H+ + C2H6";"kooij";"Logn(2.9e-9,1.2)";"Delta(0)";"Delta(0)";3;"Dirg(0.91<cC3H3+ + CH4>,0.03<C4H4+ + H2 + H>,0.06<C4H5+ + H2>;0.09,0.03,0.06)";"Anicich2003";"NA";"NA";"Anicich2003;McEwan2007";"NA";2022-08-19 09:26:14
+"C2H+ + C3H8";"kooij";"Logn(4e-09,1.2)";"Delta(0)";"Delta(0)";1;"CxHyNz+ + Products";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C2H+ + CH3CN";"kooij";"Logn(3.64e-09,1.6)";"Delta(0)";"Delta(0)";1;"CxHyNz+ + Products";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C2H+ + CH4";"kooij";"Logn(1.1e-09,1.2)";"Delta(0)";"Delta(0)";4;"Dirg(0.3400E+00<C2H2+ + CH3>,0.3400E+00<cC3H3+ + H2>,0.1200E+00<C3H4+ + H>,0.2000E+00<C3H5+ + HV>;0.1020E+00,0.1020E+00,0.3600E-01,0.6000E-01)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C2H+ + E";"dr";"Logn(2.7e-7,1.3)";"Nort(0.76,0.26,0.5,1.5)";"Delta(0)";3;"Dirg(0.43<1C2 + H>,0.39<CH + C>,0.18<C + C + H>;0.03,0.04,0.04)";"Florescu2006;Ehlerding2004";"Florescu2006;Ehlerding2004;physto";"NA";"Ehlerding2004";"NA";2022-08-19 09:26:14
+"C2H+ + H2";"kooij";"Logn(1.24e-09,1.5)";"Delta(0)";"Delta(0)";1;"C2H2+ + H";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C2H+ + H2O";"ionpol1";"Logn(8.60e-10,2)";"Delta(5.41e+00)";"Delta(0)";1;"CH2CO+ + H";"KIDA";"KIDA";"NA";"KIDA";"NA";2022-08-19 09:26:14
+"C2H+ + HC3N";"kooij";"Logn(3.8e-09,1.25)";"Delta(0)";"Delta(0)";4;"Dirg(0.2000E+00<C4H+ + HCN>,0.1200E+00<C4H2+ + CN>,0.3700E+00<HC3NH+ + 1C2>,0.3100E+00<HC5N+ + H>;0.6000E-01,0.3600E-01,0.1110E+00,0.9300E-01)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C2H+ + HCN";"kooij";"Logn(2.7e-09,1.1)";"Delta(0)";"Delta(0)";3;"Dirg(0.2000E+00<C2H2+ + CN>,0.3500E+00<HCNH+ + 1C2>,0.4500E+00<HC3N+ + H>;0.6000E-01,0.1050E+00,0.1350E+00)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C2H+ + N4S";"kooij";"Logn(9.5e-11,1.2)";"Delta(0)";"Delta(0)";1;"CH+ + CN";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C2H+ + NH3";"ionpol1";"Logn(1.06e-09,2)";"Delta(3.65e+00)";"Delta(0)";2;"Diri(1<NH4+ + 1C2>,1<CH2CN+ + H2>;1)";"KIDA";"KIDA";"NA";"KIDA";"NA";2022-08-19 09:26:14
+"C2H2+ + C";"kooij";"Logn(6.9e-10,2)";"Delta(0)";"Delta(0)";2;"Dirg(0.35<C3+ + H2>,0.65<C3H+ + H>;0.10,0.10)";"KIDA";"NA";"NA";"KIDA";"NA";2022-08-19 09:26:14
+"C2H2+ + C2H2";"kooij";"Logn(1.4e-09,1.15)";"Delta(0)";"Delta(0)";2;"Dirg(0.3200E+00<C4H2+ + H2>,0.6800E+00<C4H3+ + H>;0.10,0.07)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C2H2+ + C2H4";"kooij";"Logn(1.38e-09,1.15)";"Delta(0)";"Delta(0)";3;"Dirg(0.3000E+00<C2H4+ + C2H2>,0.4800E+00<cC3H3+ + CH3>,0.2200E+00<C4H5+ + H>;0.9000E-01,0.1440E+00,0.6600E-01)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C2H2+ + C2H6";"kooij";"Logn(1.38e-09,1.1)";"Delta(0)";"Delta(0)";7;"Dirg(0.17<C2H4+ + C2H4>,0.09<C2H5+ + C2H3>,0.06<cC3H3+ + H2 + CH3>,0.01<C3H4+ + CH4>,0.53<C3H5+ + CH3>,0.05<C4H5+ + H2 + H>,0.09<C4H7+ + H>;0.06,0.09,0.06,0.01,0.06,0.05,0.09)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C2H2+ + C3H6";"kooij";"Logn(1.3e-09,1.3)";"Delta(0)";"Delta(0)";1;"C3H6+ + C2H2";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C2H2+ + C3H8";"kooij";"Logn(1.4e-09,1.3)";"Delta(0)";"Delta(0)";4;"Dirg(0.15<C3H6+ + C2H4>,0.50<C3H7+ + C2H3>,0.30<C3H8+ + C2H2>,0.05<C4H7+ + CH3>;0.05,0.05,0.10,0.05)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C2H2+ + C4H2";"kooij";"Logn(1.4e-09,1.3)";"Delta(0)";"Delta(0)";2;"Dirg(0.90<C4H2+ + C2H2>,0.10<C6H2+ + H2>;0.09,0.10)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C2H2+ + CH2CHCN";"kooij";"Logn(4.3e-09,1.3)";"Delta(0)";"Delta(0)";4;"Dirg(0.15<cC3H3+ + CH2CN>,0.55<CH2CHCN+ + C2H2>,0.15<CH2CHCNH+ + C2H>,0.15<C5H5N+ + HV>;0.05,0.06,0.05,0.05)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C2H2+ + CH3C2H";"kooij";"Logn(1.5e-09,1.3)";"Delta(0)";"Delta(0)";3;"Dirg(0.5<C3H4+ + C2H2>,0.05<C3H5+ + C2H>,0.45<C5H5+ + H>;0.05,0.05,0.15)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C2H2+ + CH3CN";"kooij";"Logn(3.8e-09,1.25)";"Delta(0)";"Delta(0)";4;"Dirg(0.2200E+00<CH3CNH+ + C2H>,0.2800E+00<C3H4+ + HCN>,0.2800E+00<C3H5+ + CN>,0.2200E+00<C4H5N+ + HV>;0.6600E-01,0.8400E-01,0.8400E-01,0.6600E-01)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C2H2+ + CH3NH2";"kooij";"Logn(2.7e-09,1.25)";"Delta(0)";"Delta(0)";3;"Dirg(0.48<CH3NH3+ + C2H>,0.28<CH3NH2+ + C2H2>,0.24<CH2NH2+ + C2H3>;0.17,0.09,0.08)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C2H2+ + CH4";"kooij";"Logn(8.9e-10,1.1)";"Delta(0.0e+00)";"Delta(0)";2;"Dirg(0.2100E+00<C3H4+ + H2>,0.7900E+00<C3H5+ + H>;0.6300E-01,0.08)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C2H2+ + E";"dr";"Logu(2.7e-7,1e-06)";"Unif(0.5,1e+00)";"Delta(0)";6;"Dirg(0.5<C2H + H>,0.3<1C2 + H + H>,0.02<1C2 + H2>,0.05*Diri(1<1CH2 + C>,1<3CH2 + C>;1),0.13<CH + CH>;0.06,0.05,0.03,0.01,0.01)";"Florescu2006;physto";"Florescu2006;physto";"NA";"Derkatch1999";"NA";2022-08-19 09:26:14
+"C2H2+ + H2";"kooij";"Logn(1e-11,1.3)";"Delta(0)";"Delta(0)";1;"C2H3+ + H";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C2H2+ + H2O";"kooij";"Logn(2.2e-10,1.1)";"Delta(0)";"Delta(0)";1;"H3O+ + C2H";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C2H2+ + HC3N";"kooij";"Logn(3.7e-10,1.3)";"Delta(0)";"Delta(0)";1;"C4H2+ + HCN";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C2H2+ + HCN";"kooij";"Logn(3.9e-10,1.3)";"Delta(0)";"Delta(0)";2;"Dirg(0.66<HCNH+ + C2H>,0.34<HC3NH+ + H>;0.07,0.11)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C2H2+ + N4S";"kooij";"Logn(2.5e-10,1.2)";"Delta(0)";"Delta(0)";3;"Dirg(0.10<CH+ + HCN>,0.30<CCN+ + H2>,0.60<CHCN+ + H>;0.10,0.10,0.06)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C2H2+ + NH3";"kooij";"Logn(3.1e-09,1.1)";"Delta(0)";"Delta(0)";2;"Dirg(0.69<NH3+ + C2H2>,0.31<NH4+ + C2H>;0.07,0.10)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C2H3+ + C2H2";"kooij";"Logn(2.4e-10,1.3)";"Delta(0)";"Delta(0)";1;"C4H3+ + H2";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C2H3+ + C2H4";"kooij";"Logn(8.2e-10,1.1)";"Delta(0)";"Delta(0)";1;"C2H5+ + C2H2";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C2H3+ + C2H6";"kooij";"Logn(6.2e-10,1.1)";"Delta(0)";"Delta(0)";3;"Dirg(0.4700E+00<C2H5+ + C2H4>,0.4000E+00<C3H5+ + CH4>,0.1300E+00<C4H7+ + H2>;0.1410E+00,0.1200E+00,0.3900E-01)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C2H3+ + C2N2";"kooij";"Logn(5.5e-10,1.4)";"Delta(0)";"Delta(0)";1;"C2HN2+ + C2H2";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C2H3+ + C3H6";"kooij";"Logn(8.7e-10,1.3)";"Delta(0)";"Delta(0)";1;"C4H5+ + CH4";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C2H3+ + C3H8";"kooij";"Logn(6.7e-10,1.25)";"Delta(0)";"Delta(0)";3;"Dirg(0.68<C3H7+ + C2H4>,0.28<C3H5+ + C2H6>,0.04<C4H7+ + CH4>;0.07,0.10,0.04)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C2H3+ + C6H6";"kooij";"Logn(2.4e-10,1.3)";"Delta(0)";"Delta(0)";1;"C6H7+ + C2H2";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C2H3+ + CH2CHCN";"kooij";"Logn(4.4e-09,1.3)";"Delta(0)";"Delta(0)";2;"Dirg(0.80<CH2CHCNH+ + C2H2>,0.20<C5H6N+ + HV>;0.08,0.07)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C2H3+ + CH3C2H";"kooij";"Logn(1.5e-09,1.3)";"Delta(0)";"Delta(0)";1;"C3H5+ + C2H2";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C2H3+ + CH4";"kooij";"Logn(1.9e-10,1.2)";"Delta(0.0e+00)";"Delta(0)";1;"C3H5+ + H2";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C2H3+ + E";"dr";"Logu(4.5e-7,16e-7)";"Nort(0.84,0.25,0.5,1.5)";"Delta(0)";7;"Dirg(0.29<C2H2 + H>,0.06<C2H + H + H>,0.584<C2H + H2>,0.03<1C2 + H2 + H>,0.006<CH3 + C>,0.03*Diri(1<1CH2 + CH>,1<3CH2 + CH>;1);0.04,0.03,0.06,0.01,0.002,0.01)";"Florescu2006;physto;Adams2006;Kalhori2002";"Florescu2006;physto;Adams2006;Kalhori2002";"NA";"Florescu2006;Kalhori2002";"NA";2022-08-19 09:26:14
+"C2H3+ + H";"kooij";"Logn(6.8e-11,1.2)";"Delta(0)";"Delta(0)";1;"C2H2+ + H2";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C2H3+ + H2O";"kooij";"Logn(1.11e-09,1.1)";"Delta(0)";"Delta(0)";1;"H3O+ + C2H2";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C2H3+ + HC3N";"kooij";"Logn(3.8e-09,1.2)";"Delta(0)";"Delta(0)";1;"HC3NH+ + C2H2";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C2H3+ + HCN";"kooij";"Logn(2.3e-09,1.4)";"Delta(0)";"Delta(0)";1;"HCNH+ + C2H2";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C2H3+ + N4S";"kooij";"Logn(2.2e-11,1.4)";"Delta(0)";"Delta(0)";2;"Diut(0.9<CHCN+ + H2>,0.0<CHCNH+ + H>;1.0,0.1)";"McEwan2007";"NA";"NA";"McEwan2007";"Check product CHCNH+ ???";2022-08-19 09:26:14
+"C2H3+ + NH3";"kooij";"Logn(2.48e-09,1.1)";"Delta(0)";"Delta(0)";1;"NH4+ + C2H2";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C2H4+ + C2H2";"kooij";"Logn(8.4e-10,1.1)";"Delta(0)";"Delta(0)";2;"Dirg(0.77<cC3H3+ + CH3>,0.23<C4H5+ + H>;0.08,0.08)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C2H4+ + C2H4";"kooij";"Logn(7.9e-10,1.1)";"Delta(0)";"Delta(0)";3;"Dirg(0.06<C3H4+ + CH4>,0.89<C3H5+ + CH3>,0.05<C4H7+ + H>;0.06,0.09,0.05)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C2H4+ + C2H6";"kooij";"Logn(5.15e-12,1.1)";"Delta(0)";"Delta(0)";2;"Dirg(0.07<C3H6+ + CH4>,0.93<C3H7+ + CH3>;0.07,0.09)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C2H4+ + C3H6";"kooij";"Logn(1.3e-10,1.3)";"Delta(0)";"Delta(0)";2;"Dirg(0.90<C3H6+ + C2H4>,0.10<C3H7+ + C2H3>;0.09,0.10)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C2H4+ + C3H8";"kooij";"Logn(1.2e-09,1.3)";"Delta(0)";"Delta(0)";2;"Dirg(0.55<C3H6+ + C2H6>,0.45<C3H7+ + C2H5>;0.06,0.06)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C2H4+ + CH3C2H";"kooij";"Logn(1.1e-09,1.3)";"Delta(0)";"Delta(0)";3;"Dirg(0.20<C3H4+ + C2H4>,0.30<C4H5+ + CH3>,0.50<C5H7+ + H>;0.07,0.10,0.05)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C2H4+ + CH3CN";"kooij";"Logn(3.2e-09,1.2)";"Delta(0)";"Delta(0)";2;"Dirg(0.89<CH3CNH+ + C2H3>,0.11<CxHyNz+ + Products>;0.09,0.10)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C2H4+ + CH3NH2";"kooij";"Logn(1.7e-09,1.2)";"Delta(0)";"Delta(0)";2;"Dirg(0.38<CH3NH3+ + C2H3>,0.62<CxHyNz+ + Products>;0.13,0.06)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C2H4+ + E";"dr";"Logn(5.7e-7,1.11)";"Nort(0.76,0.76,0.5,1.5)";"Delta(0)";9;"Dirg(0.11<C2H3 + H>,0.66<C2H2 + H + H>,0.06<C2H2 + H2>,0.10<C2H + H2 + H>,0.01<CH4 + C>,0.02<CH3 + CH>,0.04*Diri(1<1CH2 + 1CH2>,1<3CH2 + 1CH2>,1<3CH2 + 3CH2>;1);0.07,0.06,0.03,0.04,0.01,0.02,0.02)";"Ehlerding2004";"Ehlerding2004;Adams2006";"NA";"Ehlerding2004";"NA";2022-08-19 09:26:14
+"C2H4+ + H";"kooij";"Logn(3e-10,1.2)";"Delta(0)";"Delta(0)";1;"C2H3+ + H2";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C2H4+ + HC3N";"kooij";"Logn(1.5e-09,1.15)";"Delta(0)";"Delta(0)";2;"Dirg(0.85<HC3NH+ + C2H3>,0.15<C5H4N+ + H>;0.09,0.05)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C2H4+ + N4S";"kooij";"Logn(3e-10,1.4)";"Delta(0)";"Delta(0)";1;"CH3CN+ + H";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C2H4+ + NH3";"kooij";"Logn(2.06e-09,1.1)";"Delta(0)";"Delta(0)";2;"Dirg(0.06<NH3+ + C2H4>,0.94<NH4+ + C2H3>;0.06,0.10)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C2H5+ + C2H2";"kooij";"Logn(1.9e-10,1.1)";"Delta(0)";"Delta(0)";2;"Dirg(0.36<cC3H3+ + CH4>,0.64<C4H5+ + H2>;0.12,0.07)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C2H5+ + C2H4";"kooij";"Logn(3.55e-10,1.15)";"Delta(0)";"Delta(0)";1;"C3H5+ + CH4";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C2H5+ + C2H6";"kooij";"Logn(3.9e-11,1.1)";"Delta(0)";"Delta(0)";2;"Dirg(0.14<C3H7+ + CH4>,0.86<C4H9+ + H2>;0.05,0.09)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C2H5+ + C2N2";"kooij";"Logn(8e-11,1.5)";"Delta(0)";"Delta(0)";1;"C2HN2+ + C2H4";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C2H5+ + C3H8";"kooij";"Logn(6.3e-10,1.15)";"Delta(0)";"Delta(0)";1;"C3H7+ + C2H6";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C2H5+ + CH2NH";"kooij";"Logn(2.7e-09,1.5)";"Delta(0)";"Delta(0)";1;"CH2NH2+ + C2H4";"Vuitton2007";"NA";"NA";"Vuitton2007";"NA";2022-08-19 09:26:14
+"C2H5+ + CH3C2H";"kooij";"Logn(1.4e-09,1.3)";"Delta(0)";"Delta(0)";2;"Dirg(0.90<C3H5+ + C2H4>,0.10<C4H5+ + CH4>;0.09,0.10)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C2H5+ + CH3CN";"kooij";"Logn(3.8e-09,1.2)";"Delta(0)";"Delta(0)";1;"CH3CNH+ + C2H4";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C2H5+ + CH3NH2";"kooij";"Logn(1.8e-09,1.6)";"Delta(0)";"Delta(0)";1;"CxHyNz+ + Products";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C2H5+ + CH4";"kooij";"Logn(9e-14,1.15)";"Delta(0)";"Delta(0)";1;"C3H7+ + H2";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C2H5+ + E";"dr";"Logn(8.35e-7,1.3)";"Nort(1.2,1.2,0.5,1.5)";"Delta(0)";7;"Dirg(0.12<C2H4 + H>,0.27<C2H3 + H + H>,0.13<C2H2 + H + H + H>,0.30<C2H2 + H2 + H>,0.17*Diri(1<CH3 + 1CH2>,1<CH3 + 3CH2>;1),0.01<CH4 + CH>;0.03,0.04,0.03,0.03,0.01,0.01)";"Florescu2006;Lehfaoui1997;Gougousi1997;McLain2004";"Florescu2006;Lehfaoui1997;Gougousi1997;McLain2004";"NA";"Geppert2004c";"NA";2022-08-19 09:26:14
+"C2H5+ + H";"kooij";"Logn(1e-11,1.3)";"Delta(0)";"Delta(0)";1;"C2H4+ + H2";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C2H5+ + H2CO";"kooij";"Logn(3.1e-09,1.25)";"Delta(0)";"Delta(0)";1;"CH2OH+ + C2H4";"Anicich1993";"NA";"NA";"Anicich1993";"NA";2022-08-19 09:26:14
+"C2H5+ + H2O";"kooij";"Logn(1.86e-09,1.65)";"Delta(0)";"Delta(0)";1;"H3O+ + C2H4";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C2H5+ + HC3N";"kooij";"Logn(3.55e-09,1.2)";"Delta(0)";"Delta(0)";1;"HC3NH+ + C2H4";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C2H5+ + HCN";"kooij";"Logn(2.7e-09,1.2)";"Delta(0)";"Delta(0)";1;"HCNH+ + C2H4";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C2H5+ + NH3";"kooij";"Logn(2.09e-09,1.1)";"Delta(0)";"Delta(0)";1;"NH4+ + C2H4";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C2H5CN+ + C6H6";"kooij";"Logn(1.3e-09,1.6)";"Delta(0)";"Delta(0)";1;"Products";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C2H5CN+ + E";"dr";"Logu(3e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"Products";"NA";"NA";"NA";"NA";"Default data: auto generated";2022-08-19 09:26:14
+"C2H5CNH+ + E";"dr";"Logn(1.5e-6,1.15)";"Norm(0.76,0.02)";"Delta(0)";1;"Products";"Vigren2010";"Vigren2010";"NA";"Vigren2010;Plessis2010";"BR to be done: need thermochemistry of fragments";2022-08-19 09:26:14
+"C2H5N+ + E";"dr";"Logn(3e-07,2)";"Delta(5e-01)";"Delta(0)";2;"Diri(1<C2H3NH + H>,1<H2CN + CH3>;1)";"Quan2016";"Quan2016";"NA";"Quan2016";"NA";2022-08-19 09:26:14
+"C2H5O2+ + E";"dr";"Logn(3e-07,2)";"Delta(5e-01)";"Delta(0)";2;"Diri(1<CH3OH + HCO>,1<CH3COOH + H>;1)";"KIDA";"KIDA";"NA";"KIDA";"NA";2022-08-19 09:26:14
+"C2H5OH2+ + E";"dr";"Logn(4.5e-07,2)";"Delta(5.0e-01)";"Delta(0)";3;"Dirg(0.333<C2H4 + H2O + H>,0.333<CH3CHO + H2 + H>,0.333<C2H5OH + H>;0.1,0.1,0.1)";"KIDA";"KIDA";"NA";"KIDA";"NA";2022-08-19 09:26:14
+"C2H6+ + C2H2";"kooij";"Logn(1.3e-09,1.1)";"Delta(0)";"Delta(0)";3;"Dirg(0.19<C2H5+ + C2H3>,0.70<C3H5+ + CH3>,0.11<C4H7+ + H>;0.08,0.07,0.10)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C2H6+ + C2H4";"kooij";"Logn(1.15e-09,1.1)";"Delta(0)";"Delta(0)";1;"C2H4+ + C2H6";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C2H6+ + C2H6";"kooij";"Logn(1.9e-11,1.1)";"Delta(0)";"Delta(0)";2;"Dirg(0.42<C3H8+ + CH4>,0.58<C3H9+ + CH3>;0.06,0.06)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C2H6+ + E";"dr";"Logu(5e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"Products";"Plessis2010";"Plessis2010";"NA";"NA";"Thermochimie des produits?";2022-08-19 09:26:14
+"C2H6+ + H";"kooij";"Logn(1e-10,1.2)";"Delta(0)";"Delta(0)";1;"C2H5+ + H2";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C2H6+ + H2O";"kooij";"Logn(2.95e-09,1.1)";"Delta(0)";"Delta(0)";1;"H3O+ + C2H5";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C2H6+ + HCN";"kooij";"Logn(1.2e-09,1.1)";"Delta(0)";"Delta(0)";2;"Dirg(0.95<HCNH+ + C2H5>,0.05<C2H5CNH+ + H>;0.10,0.05)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C2H6+ + NH3";"kooij";"Logn(2.23e-09,1.1)";"Delta(0)";"Delta(0)";2;"Dirg(0.28<NH3+ + C2H6>,0.72<NH4+ + C2H5>;0.09,0.07)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C2H7+ + E";"dr";"Logu(5e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"Products";"Plessis2010";"Plessis2010";"NA";"NA";"Thermochimie des produits?";2022-08-19 09:26:14
+"C2H7+ + HCN";"kooij";"Logn(2.2e-09,1.2)";"Delta(0)";"Delta(0)";2;"Dirg(0.90<HCNH+ + C2H6>,0.10<CH3CNH+ + CH4>;0.09,0.10)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C2H7+ + NH3";"kooij";"Logn(2e-09,1.2)";"Delta(0)";"Delta(0)";1;"NH4+ + C2H6";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C2HN2+ + C2H2";"kooij";"Logn(4.8e-10,1.15)";"Delta(0)";"Delta(0)";2;"Dirg(0.15<C2H3+ + C2N2>,0.85<C4H3N2+ + HV>;0.05,0.09)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C2HN2+ + C2H4";"kooij";"Logn(8e-10,1.15)";"Delta(0)";"Delta(0)";1;"C2H5+ + C2N2";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C2HN2+ + E";"dr";"Logu(3e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"Products";"NA";"NA";"NA";"NA";"Default data: auto generated";2022-08-19 09:26:14
+"C2HN2+ + H2O";"kooij";"Logn(5.1e-10,1.3)";"Delta(0)";"Delta(0)";1;"H3O+ + C2N2";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C2N2+ + C2H2";"kooij";"Logn(2e-10,1.15)";"Delta(0)";"Delta(0)";3;"Dirg(0.50<C2H2+ + C2N2>,0.35<C4HN2+ + H>,0.15<C4N2+ + H2>;0.05,0.12,0.05)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C2N2+ + C4H2";"kooij";"Logn(1.2e-09,1.3)";"Delta(0)";"Delta(0)";2;"Dirg(0.90<C4H2+ + C2N2>,0.10<HC5N+ + HCN>;0.09,0.10)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C2N2+ + E";"dr";"Logu(0.5e-6,3.0e-06)";"Unif(0.5,1.5e+00)";"Delta(0)";1;"CN + CN";"Plessis2010";"Plessis2010";"NA";"Jacox2007";"NA";2022-08-19 09:26:14
+"C2N2+ + H";"kooij";"Logn(6.2e-10,1.2)";"Delta(0)";"Delta(0)";2;"Dirg(0.80<HNC+ + CN>,0.20<C2H+ + N2>;0.08,0.07)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C2N2+ + H2";"kooij";"Logn(9e-10,1.2)";"Delta(0)";"Delta(0)";1;"C2HN2+ + H";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C2N2+ + H2O";"kooij";"Logn(2.6e-09,1.2)";"Delta(0)";"Delta(0)";2;"Dirg(0.09<H2O+ + C2N2>,0.91<C2HN2+ + OH>;0.09,0.09)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C2N2+ + HC3N";"kooij";"Logn(1.6e-09,1.3)";"Delta(0)";"Delta(0)";1;"HC3N+ + C2N2";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C2N2+ + HCN";"kooij";"Logn(2.7e-09,1.25)";"Delta(0)";"Delta(0)";3;"Dirg(0.20<HCN+ + C2N2>,0.75<C2HN2+ + CN>,0.05<C3HN3+ + HV>;0.07,0.08,0.05)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C3+ + C2H2";"kooij";"Logn(1.7e-09,1.3)";"Delta(0)";"Delta(0)";1;"C5H+ + H";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C3+ + C2H4";"kooij";"Logn(9e-10,1.3)";"Delta(0)";"Delta(0)";4;"Dirg(0.15<C5H3+ + H>,0.26<C5H2+ + H2>,0.15<C3H2+ + C2H2>,0.44<C2H4+ + C3>;0.05,0.09,0.05,0.15)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C3+ + CH4";"kooij";"Logn(9.5e-10,1.3)";"Delta(0)";"Delta(0)";3;"Dirg(0.25<C3H+ + CH3>,0.37<C4H3+ + H>,0.38<C4H2+ + H2>;0.08,0.12,0.13)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C3+ + E";"dr";"Logu(5e-7,3e-6)";"Unif(0.5,1.5)";"Delta(0)";3;"Dirg(0.001<C3>,1.000<1C2 + C>,0.001<C + C + C>;0.001,0.002,0.001)";"Plessis2010";"Plessis2010";"NA";"Adams2006;Heber2006";"NA";2022-08-19 09:26:14
+"C3+ + H2";"kooij";"Logn(2.4e-10,1.25)";"Delta(0)";"Delta(0)";1;"C3H+ + H";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C3+ + HC3N";"kooij";"Logn(3.2e-09,1.2)";"Delta(0)";"Delta(0)";1;"C5H+ + CN";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C3+ + HCN";"kooij";"Logn(1.3e-09,1.3)";"Delta(0)";"Delta(0)";2;"Dirg(0.20<C3H+ + CN>,0.80<C4N+ + H>;0.07,0.08)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C3+ + N4S";"kooij";"Logn(2.3e-10,1.4)";"Delta(0)";"Delta(0)";1;"C3N+ + HV";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C3H+ + C2H2";"kooij";"Logn(8.4e-10,1.5)";"Delta(0)";"Delta(0)";1;"C5H2+ + H";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C3H+ + C2H4";"kooij";"Logn(9.5e-10,1.3)";"Delta(0)";"Delta(0)";2;"Dirg(0.95<cC3H3+ + C2H2>,0.05<C5H3+ + H2>;0.10,0.05)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C3H+ + C2N2";"kooij";"Logn(4.4e-10,1.6)";"Delta(0)";"Delta(0)";1;"C5HN2+ + HV";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C3H+ + C3H8";"kooij";"Logn(1.6e-09,1.4)";"Delta(0)";"Delta(0)";1;"CxHy+ + CxHy";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C3H+ + C4H2";"kooij";"Logn(0.1200E-08,1.3)";"Delta(0)";"Delta(0)";4;"Dirg(0.85<C5H2+ + C2H>,0.10<C5H+ + C2H2>,0.05*Diri(1<C4H2+ + cC3H>,1<C4H2+ + lC3H>;1);0.09,0.10,0.05)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C3H+ + CH2CCH2";"kooij";"Logn(1.4e-09,1.2)";"Delta(0)";"Delta(0)";1;"C4H3+ + C2H2";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C3H+ + CH3C2H";"kooij";"Logn(1.4e-09,1.4)";"Delta(0)";"Delta(0)";1;"C4H3+ + C2H2";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C3H+ + CH3CN";"kooij";"Logn(3e-09,1.3)";"Delta(0)";"Delta(0)";4;"Dirg(0.20<C2H3+ + HC3N>,0.15<CH3CNH+ + C3>,0.35<HC3NH+ + C2H2>,0.30<C5H4N+ + HV>;0.07,0.05,0.12,0.10)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C3H+ + CH4";"kooij";"Logn(8.7e-10,1.2)";"Delta(0)";"Delta(0)";2;"Dirg(0.90<C2H3+ + C2H2>,0.10<C4H3+ + H2>;0.09,0.10)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C3H+ + E";"dr";"Logu(5e-7,3e-6)";"Unif(0.5,1.5)";"Delta(0)";3;"Dirg(0.661<C3 + H>,0.338<C2H + C>,0.001<1C2 + CH>;0.015,0.017,0.01)";"Plessis2010";"Plessis2010";"NA";"Florescu2006;Angelova2004";"NA";2022-08-19 09:26:14
+"C3H+ + H2";"kooij";"Logn(2.6e-11,1.3)";"Delta(0)";"Delta(0)";2;"Dirg(0.20<C3H2+ + H>,0.80<cC3H3+ + HV>;0.07,0.08)";"Vuitton2007";"NA";"NA";"Vuitton2007";"NA";2022-08-19 09:26:14
+"C3H+ + H2O";"kooij";"Logn(9e-10,1.2)";"Delta(0)";"Delta(0)";2;"Dirg(0.50<C2H3+ + CO>,0.50<HCO+ + C2H2>;0.05,0.05)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C3H+ + HC3N";"kooij";"Logn(1.25e-09,1.2)";"Delta(0)";"Delta(0)";1;"C6H2N+ + HV";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C3H+ + HCN";"kooij";"Logn(4e-11,1.3)";"Delta(0)";"Delta(0)";2;"Dirg(0.09<HCNH+ + C3>,0.91<C4H2N+ + HV>;0.09,0.09)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C3H+ + N4S";"kooij";"Logn(2.7e-10,1.4)";"Delta(0)";"Delta(0)";2;"Dirg(0.90<C3N+ + H>,0.10<HC3N+ + HV>;0.09,0.10)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C3H+ + NH3";"kooij";"Logn(1.65e-9,1.3)";"Delta(0)";"Delta(0)";5;"Dirg(0.20*Diri(1<NH3+ + cC3H>,1<NH3+ + lC3H>;1),0.45<NH4+ + C3>,0.25<HCNH+ + C2H2>,0.10<CH2CHCN+ + H>;0.07,0.15,0.08,0.10)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C3H2+ + C2H2";"kooij";"Logn(1.1e-09,1.2)";"Delta(0)";"Delta(0)";1;"C5H3+ + H";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C3H2+ + C2H4";"kooij";"Logn(1.1e-09,1.2)";"Delta(0)";"Delta(0)";3;"Dirg(0.20<cC3H3+ + C2H3>,0.60<C3H4+ + C2H2>,0.20<C5H5+ + H>;0.07,0.06,0.07)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C3H2+ + C3H8";"kooij";"Logn(1.2e-09,1.2)";"Delta(0)";"Delta(0)";5;"Dirg(0.30<cC3H3+ + C3H7>,0.45<C3H7+ + C3H3>,0.10<C4H6+ + C2H4>,0.05<C4H8+ + C2H2>,0.10<C5H7+ + CH3>;0.10,0.15,0.10,0.05,0.10)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C3H2+ + CH2CCH2";"kooij";"Logn(1.3e-09,1.2)";"Delta(0)";"Delta(0)";5;"Dirg(0.05<C4H2+ + C2H4>,0.14<C4H3+ + C2H3>,0.50<C4H4+ + C2H2>,0.10<C5H3+ + CH3>,0.21<C6H5+ + H>;0.05,0.05,0.05,0.10,0.07)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C3H2+ + CH3C2H";"kooij";"Logn(1.3e-09,1.2)";"Delta(0)";"Delta(0)";5;"Dirg(0.09<C4H2+ + C2H4>,0.12<C4H3+ + C2H3>,0.41<C4H4+ + C2H2>,0.18<C5H3+ + CH3>,0.20<C6H5+ + H>;0.09,0.04,0.14,0.06,0.07)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C3H2+ + CH4";"kooij";"Logn(5.5e-10,1.2)";"Delta(0)";"Delta(0)";2;"Dirg(0.85<cC3H3+ + CH3>,0.15<C4H5+ + H>;0.09,0.05)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C3H2+ + E";"dr";"Logu(5e-7,3e-6)";"Unif(0.5,1.5)";"Delta(0)";7;"Dirg(0.875*Diri(1*Dior(1<C3 + H + H>,2<C3 + H2>),1*Diri(1<cC3H + H>,1<lC3H + H>;1);1),0.125*Diri(1<C2H2 + C>,1<1C2 + 1CH2>,1<3C2 + 3CH2>;1);0.02,0.02)";"Plessis2010";"Plessis2010";"NA";"Plessis2010;Florescu2006;Angelova2004;Mitchell2005;physto";"NA";2022-08-19 09:26:14
+"C3H2+ + HCN";"kooij";"Logn(1.6e-10,1.2)";"Delta(0)";"Delta(0)";1;"CxHyNz+";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C3H2+ + N4S";"kooij";"Logn(4.4e-11,1.4)";"Delta(0)";"Delta(0)";2;"Dirg(0.85<C2H2+ + CN>,0.15<HCNH+ + 1C2>;0.09,0.05)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C3H2+ + NH3";"kooij";"Logn(0.2300E-08,1.2)";"Delta(0)";"Delta(0)";6;"Dirg(0.20*Diri(1<NH4+ + cC3H>,1<NH4+ + lC3H>;1),0.10*Diri(1<CH2NH+ + C2H2>,1<C2H5+ + CN>;1),0.60<CH2CHCNH+ + H>,0.10<C2H5CN+ + HV>;0.07,0.10,0.20,0.10)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C3H2N2H+ + E";"dr";"Logu(3e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"Products";"NA";"NA";"NA";"NA";"Default data: auto generated";2022-08-19 09:26:14
+"C3H2O+ + E";"dr";"Logn(8e-07,3)";"Delta(7e-01)";"Delta(0)";4;"Dirg(0.25<CO + C2H2>,0.125<C3O + H + H>,0.125<HC3O + H>,0.50<CO + C2H + H>;0.1,0.1,0.1,0.1)";"KIDA";"KIDA";"NA";"KIDA";"NA";2022-08-19 09:26:14
+"C3H3O+ + E";"dr";"Logu(3e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"Products";"NA";"NA";"NA";"NA";"No data: auto generated";2022-08-19 09:26:14
+"C3H4+ + C2H2";"kooij";"Logn(4.2e-10,1.2)";"Delta(0)";"Delta(0)";1;"C5H5+ + H";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C3H4+ + C2H4";"kooij";"Logn(8.3e-10,1.2)";"Delta(0)";"Delta(0)";2;"Dirg(0.11<C4H5+ + CH3>,0.89<C5H7+ + H>;0.10,0.09)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C3H4+ + C3H8";"kooij";"Logn(1.2e-10,1.2)";"Delta(0)";"Delta(0)";1;"CxHyNz+ + Products";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C3H4+ + C4H2";"kooij";"Logn(1.8e-09,1.5)";"Delta(0)";"Delta(0)";2;"Dirg(0.07<C5H4+ + C2H2>,0.93<C7H5+ + H>;0.07,0.09)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C3H4+ + CH2CCH2";"kooij";"Logn(1.1e-09,1.2)";"Delta(0)";"Delta(0)";5;"Dirg(0.04<C4H4+ + C2H4>,0.01<C4H6+ + C2H2>,0.01<C5H5+ + CH3>,0.07<C6H5+ + H2 + H>,0.87<C6H7+ + H>;0.04,0.01,0.01,0.07,0.09)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C3H4+ + CH3C2H";"kooij";"Logn(1.1e-09,1.2)";"Delta(0)";"Delta(0)";6;"Dirg(0.18<C3H5+ + C3H3>,0.02<C4H4+ + C2H4>,0.02<C4H6+ + C2H2>,0.02<C5H5+ + CH3>,0.08<C6H5+ + H2 + H>,0.68<C6H7+ + H>;0.06,0.02,0.02,0.02,0.08,0.07)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C3H4+ + E";"dr";"Logn(2.95e-6,1.04)";"Norm(0.67,0.02)";"Delta(0)";7;"Dirg(0.88<C3H3 + H>,0.04*Dior(2<cC3H2 + H2>,1<cC3H2 + H + H>),0.01<C2H3 + CH>,0.06*Diri(1<C2H2 + 1CH2>,1<C2H2 + 3CH2>;1),0.01<C2H + CH3>;0.04,0.01,0.01,0.01,0.01)";"Geppert2004";"Geppert2004";"NA";"Plessis2010;Florescu2006;Angelova2004;Mitchell2005;Geppert2004";"NA";2022-08-19 09:26:14
+"C3H4+ + H";"kooij";"Logn(3e-11,1.6)";"Delta(0)";"Delta(0)";1;"cC3H3+ + H2";"McEwan2007";"NA";"NA";"McEwan2007";"Isomérie ???";2022-08-19 09:26:14
+"C3H4+ + HC3N";"kooij";"Logn(1.8e-10,1.3)";"Delta(0)";"Delta(0)";1;"HC3NH+ + C3H3";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C3H4+ + NH3";"kooij";"Logn(1.5e-09,1.2)";"Delta(0)";"Delta(0)";2;"Dirg(0.14<NH3+ + CH3C2H>,0.86<NH4+ + C3H3>;0.05,0.09)";"Vuitton2007";"NA";"NA";"Vuitton2007";"NA";2022-08-19 09:26:14
+"C3H4NO+ + E";"dr";"Logu(3e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"Products";"NA";"NA";"NA";"NA";"Default data: auto generated";2022-08-19 09:26:14
+"C3H5+ + C2H2";"kooij";"Logn(3.8e-10,1.15)";"Delta(0)";"Delta(0)";1;"C5H5+ + H2";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C3H5+ + C2H4";"kooij";"Logn(1.7e-10,1.15)";"Delta(0)";"Delta(0)";2;"Dirg(0.70<C5H7+ + H2>,0.30<C5H9+ + HV>;0.07,0.10)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C3H5+ + C3H6";"kooij";"Logn(1e-09,1.3)";"Delta(0)";"Delta(0)";1;"C4H7+ + C2H4";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C3H5+ + C3H8";"kooij";"Logn(4.7e-10,1.3)";"Delta(0)";"Delta(0)";3;"Dirg(0.83<C3H7+ + C3H6>,0.06<C4H7+ + C2H6>,0.11<C4H9+ + C2H4>;0.09,0.06,0.10)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C3H5+ + C4H2";"kooij";"Logn(1.5e-10,1.3)";"Delta(0)";"Delta(0)";1;"C5H5+ + C2H2";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C3H5+ + C6H6";"kooij";"Logn(1.15e-09,1.5)";"Delta(0)";"Delta(0)";2;"Dirg(0.91<C7H7+ + C2H4>,0.10<C6H7+ + CH3C2H>;0.09,0.10)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C3H5+ + CH2NH";"kooij";"Logn(1.38e-09,1.58)";"Delta(0)";"Delta(0)";2;"Diri(1<CH2NH2+ + CH3C2H>,1<CH2NH2+ + CH2CCH2>;1)";"NA";"NA";"NA";"NA";"NA";2022-08-19 09:26:14
+"C3H5+ + CH3C2H";"kooij";"Logn(3.5e-10,1.2)";"Delta(0)";"Delta(0)";1;"C6H7+ + H2";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C3H5+ + CH3CN";"kooij";"Logn(1e-10,1.6)";"Delta(0)";"Delta(0)";2;"Diri(1<CH3CNH+ + CH3C2H>,1<CH3CNH+ + CH2CCH2>;1)";"NA";"NA";"NA";"NA";"??? Source ???";2022-08-19 09:26:14
+"C3H5+ + CH3NH2";"kooij";"Logn(0.1280E-08,1.58)";"Delta(0)";"Delta(0)";3;"Dirg(0.62*Diri(1<CH3NH3+ + CH3C2H>,1<CH3NH3+ + CH2CCH2>;1),0.38<CH2NH2+ + C3H6>;0.06,0.13)";"NA";"NA";"NA";"NA";"NA";2022-08-19 09:26:14
+"C3H5+ + E";"dr";"Logu(0.5e-6,3.0e-6)";"Unif(0.5,1.5)";"Delta(0)";17;"Dirg(0.867*Diri(1*Diri(1<CH3C2H + H>,1<CH2CCH2 + H>;1),1*Dior(2<C3H3 + H2>,1<C3H3 + H + H>),1<cC3H2 + H2 + H>,1*Diri(1<cC3H + H2 + H2>,1<lC3H + H2 + H2>;1);1),0.133*Diri(1<C2H5 + C>,1<C2H4 + CH>,1*Diri(1<C2H3 + 1CH2>,1<C2H3 + 3CH2>;1),1*Diri(1*Diri(1<C2H2 + 1CH2 + H>,1<C2H2 + 3CH2 + H>;1),1<C2H2 + CH + H2>,1<C2H2 + CH3>;1),1*Diri(1<C2H + CH3 + H>,1<C2H + CH4>;1);1);0.004,0.026)";"Plessis2010";"Plessis2010";"NA";"Plessis2010;Florescu2006;Angelova2004;Mitchell2005";"NA";2022-08-19 09:26:14
+"C3H5+ + H";"kooij";"Logn(1e-11,1.6)";"Delta(0)";"Delta(0)";2;"Dirg(0.05<C2H2+ + CH4>,0.95<C2H3+ + CH3>;0.05,0.10)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C3H5+ + HC3N";"kooij";"Logn(3.8e-10,1.3)";"Delta(0)";"Delta(0)";2;"Diri(1<HC3NH+ + CH3C2H>,1<HC3NH+ + CH2CCH2>;1)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C3H5+ + HCN";"kooij";"Logn(5e-11,1.15)";"Delta(0)";"Delta(0)";1;"C4H6N+ + HV";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C3H5+ + N4S";"kooij";"Logn(0.1250E-09,1.2)";"Delta(0)";"Delta(0)";2;"Dirg(0.88<C2H4+ + HCN>,0.12<CH2CHCN+ + H2>;0.09,0.04)";"Anicich1997";"NA";"NA";"Anicich1997";"NA";2022-08-19 09:26:14
+"C3H5+ + NH3";"kooij";"Logn(9e-10,1.2)";"Delta(0)";"Delta(0)";2;"Diri(1<NH4+ + CH3C2H>,1<NH4+ + CH2CCH2>;1)";"Vuitton2007";"NA";"NA";"Vuitton2007";"NA";2022-08-19 09:26:14
+"C3H5NO+ + E";"dr";"Logu(3e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"Products";"NA";"NA";"NA";"NA";"Default data: auto generated";2022-08-19 09:26:14
+"C3H5O+ + E";"dr";"Logu(3e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"Products";"NA";"NA";"NA";"NA";"No data: auto generated";2022-08-19 09:26:14
+"C3H6+ + C2H2";"kooij";"Logn(6.7e-10,1.3)";"Delta(0)";"Delta(0)";2;"Dirg(0.12<C4H5+ + CH3>,0.88<C5H7+ + H>;0.04,0.09)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C3H6+ + C3H6";"kooij";"Logn(1.4e-09,1.15)";"Delta(0)";"Delta(0)";4;"Dirg(0.15<C3H7+ + C3H5>,0.20<C4H7+ + C2H5>,0.35<C4H8+ + C2H4>,0.30<C5H9+ + CH3>;0.05,0.07,0.12,0.10)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C3H6+ + E";"dr";"Logu(0.5e-6,3.0e-6)";"Unif(0.5,1.5)";"Delta(0)";23;"Dirg(0.692*Diri(1<C3H5 + H>,1*Dior(1*Diri(1<CH3C2H + H + H>,1<CH2CCH2 + H + H>;1),2*Diri(1<CH3C2H + H2>,1<CH2CCH2 + H2>;1)),1<C3H3 + H2 + H>,1*Dior(2<cC3H2 + H2 + H2>,1<cC3H2 + H2 + H + H>);1),0.307*Diri(1<C2H5 + CH>,1*Diri(1*Diri(1<C2H4 + 1CH2>,1<C2H4 + 3CH2>;1),1<C2H4 + CH + H>,1<C2H4 + C + H2>;1),1*Diri(1<C2H3 + CH + H2>,1<C2H3 + CH3>;1),1*Diri(1<C2H2 + CH4>,1*Diri(1<C2H2 + 1CH2 + H2>,1<C2H2 + 3CH2 + H2>;1),1<C2H2 + CH3 + H>;1),1*Diri(1<C2H + CH4 + H>,1<C2H + CH3 + H2>;1);1),0.001*Diri(1<C + 1CH2 + CH4>,1<C + 3CH2 + CH4>;1);0.016,0.013,0.001)";"Plessis2010";"Plessis2010";"NA";"Plessis2010;Florescu2006;Angelova2004;Mitchell2005";"NA";2022-08-19 09:26:14
+"C3H6+ + HCN";"kooij";"Logn(4e-10,1.15)";"Delta(0)";"Delta(0)";2;"Dirg(0.40<CH3CN+ + C2H4>,0.60<C4H6N+ + H>;0.13,0.06)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C3H6+ + NH3";"kooij";"Logn(1e-09,2)";"Delta(0)";"Delta(0)";3;"Dirg(0.57<CH2NH2+ + C2H5>,0.13<CH3NH2+ + C2H4>,0.30<NH4+ + C3H5>;0.06,0.05,0.10)";"Vuitton2007";"NA";"NA";"Vuitton2007";"NA";2022-08-19 09:26:14
+"C3H6OH+ + E";"dr";"Logn(3e-07,2)";"Delta(5e-01)";"Delta(0)";2;"Diri(1<CH3CHO + CH3>,1<CH3COCH3 + H>;1)";"KIDA";"KIDA";"NA";"KIDA";"NA";2022-08-19 09:26:14
+"C3H7+ + C2H6";"kooij";"Logn(1e-09,2)";"Delta(0)";"Delta(0)";1;"C4H9+ + CH4";"Vuitton2007";"NA";"NA";"Vuitton2007";"NA";2022-08-19 09:26:14
+"C3H7+ + C3H6";"kooij";"Logn(4.5e-10,1.3)";"Delta(0)";"Delta(0)";1;"C4H9+ + C2H4";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C3H7+ + CH3NH2";"kooij";"Logn(1.65e-09,1.15)";"Delta(0)";"Delta(0)";1;"CxHyNz+ + Products";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C3H7+ + E";"dr";"Norm(1.9e-6,0.35e-6)";"Norm(0.68,0.01)";"Delta(0)";20;"Dirg(0.43<C3H6 + H>,0.12*Dior(2<C3H5 + H2>,1<C3H5 + H + H>),0.09*Diri(1<CH3C2H + H2 + H>,1<CH2CCH2 + H2 + H>;1),0.04*Diri(1<C2H4 + CH3>,1*Diri(1<C2H4 + 1CH2 + H>,1<C2H4 + 3CH2 + H>;1);1),0.19*Diri(1<C2H3 + CH4>,1<C2H3 + CH3 + H>;1),0.11*Diri(1<C2H2 + CH4 + H>,1<C2H2 + CH3 + H2>;1),0.02*Diri(1<C3H3 + H2 + H2>,1<C2H6 + CH>,1*Diri(1<C2H5 + 1CH2>,1<C2H5 + 3CH2>;1),1<C2H4 + CH + H2>,1*Diri(1<C2H3 + 1CH2 + H2>,1<C2H3 + 3CH2 + H2>;1),1<C2H + CH4 + H2>;1);0.10,0.08,0.05,0.02,0.05,0.02,0.01)";"Lehfaoui1997;Ehlerding2003;Larsson2005";"Larsson2005";"NA";"Plessis2010;Ehlerding2003";"cf. report.pdf";2022-08-19 09:26:14
+"C3H7+ + H";"kooij";"Logn(3.7e-11,1.3)";"Delta(0)";"Delta(0)";1;"C3H6+ + H2";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C3H7+ + NH3";"kooij";"Logn(1.9e-09,1.2)";"Delta(0)";"Delta(0)";1;"NH4+ + C3H6";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C3H8+ + C4H10";"kooij";"Logn(1.2e-09,1.5)";"Delta(0)";"Delta(0)";1;"C4H10+ + C3H8";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C3H8+ + E";"dr";"Logu(0.5e-6,3e-6)";"Unif(0.5,1.5)";"Delta(0)";31;"Dirg(0.678*Diri(1<C3H7 + H>,1*Dior(2<C3H6 + H2>,1<C3H6 + H + H>),1<C3H5 + H2 + H>,1*Dior(2*Diri(1<CH3C2H + H2 + H2>,1<CH2CCH2 + H2 + H2>;1),1*Diri(1<CH3C2H + H2 + H + H>,1<CH2CCH2 + H2 + H + H>;1));1),0.321*Diri(1*Diri(1<C2H6 + 1CH2>,1<C2H6 + 3CH2>;1),1<C2H5 + CH3>,1*Dior(2<C2H5 + CH + H2>,1<C2H5 + CH + H + H>),1*Diri(1<C2H5 + 1CH2 + H>,1<C2H5 + 3CH2 + H>;1),1<C2H4 + CH4>,1*Diri(1*Dior(2<C2H4 + 1CH2 + H2>,1<C2H4 + 1CH2 + H + H>),1*Dior(2<C2H4 + 3CH2 + H2>,1<C2H4 + 3CH2 + H + H>);1),1<C2H4 + CH3 + H>,1*Dior(2<C2H3 + CH3 + H2>,1<C2H3 + CH3 + H + H>),1<C2H3 + CH4 + H>,1<C2H2 + CH4 + H2>;1),0.001*Diri(1*Diri(1<1CH2 + CH3 + CH3>,1<3CH2 + CH3 + CH3>;1),1*Diri(1<1CH2 + CH4 + 1CH2>,1<1CH2 + CH4 + 3CH2>,1<3CH2 + CH4 + 3CH2>;1),1<CH4 + CH3 + CH>;1);0.029,0.028,0.01)";"Plessis2010";"Plessis2010";"NA";"Plessis2010;Florescu2006;Angelova2004;Mitchell2005";"NA";2022-08-19 09:26:14
+"C3H8+ + H2O";"kooij";"Logn(1.4e-09,1.5)";"Delta(0)";"Delta(0)";1;"H3O+ + C3H7";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C3H9+ + E";"dr";"Logu(5e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"Products";"Plessis2010";"Plessis2010";"NA";"NA";"NA";2022-08-19 09:26:14
+"C3HN2+ + E";"dr";"Logu(3e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"Products";"NA";"NA";"NA";"NA";"Default data: auto generated";2022-08-19 09:26:14
+"C3HN3+ + E";"dr";"Logu(3e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"Products";"NA";"NA";"NA";"NA";"Default data: auto generated";2022-08-19 09:26:14
+"C3N+ + E";"dr";"Logu(0.5e-6,3.0e-06)";"Unif(0.5,1.5e+00)";"Delta(0)";1;"CN + 1C2";"Plessis2010";"Plessis2010";"NA";"Woodall2007";"NA";2022-08-19 09:26:14
+"C3N+ + H2";"kooij";"Logn(9.1e-10,1.2)";"Delta(0)";"Delta(0)";2;"Dirg(0.9<HC3N+ + H>,0.1<HC3NH+>;0.1,0.1)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C4H+ + C2H2";"kooij";"Logn(1.22e-09,1.35)";"Delta(0)";"Delta(0)";1;"C6H2+ + H";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C4H+ + C4H2";"kooij";"Logn(1.6e-09,1.2)";"Delta(0)";"Delta(0)";1;"C8H2+ + H";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C4H+ + C4H4";"kooij";"Logn(2.2e-09,1.2)";"Delta(0)";"Delta(0)";3;"Dirg(0.55<C4H4+ + C4H>,0.37<C6H3+ + C2H2>,0.08<C8H4+ + H>;0.06,0.12,0.08)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C4H+ + E";"dr";"Logu(0.5e-6,3e-6)";"Unif(0.5,1.5)";"Delta(0)";4;"Dirg(0.439<C4 + H>,0.282*Diri(1<cC3H + C>,1<lC3H + C>;1),0.279<C2H + 1C2>;0.012,0.021,0.017)";"Plessis2010";"Plessis2010";"NA";"Florescu2006;Angelova2004;Mitchell2005";"NA";2022-08-19 09:26:14
+"C4H+ + H2";"kooij";"Logn(1.65e-09,1.2)";"Delta(0)";"Delta(0)";1;"C4H2+ + H";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C4H+ + HCN";"kooij";"Logn(1.35e-09,1.3)";"Delta(0)";"Delta(0)";3;"Dirg(0.07<C4H2+ + CN>,0.91<HC5N+ + H>,0.03<HC5NH+ + HV>;0.07,0.09,0.03)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C4H10+ + E";"dr";"Logu(3e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"Products";"NA";"NA";"NA";"NA";"No data: auto generated";2022-08-19 09:26:14
+"C4H2+ + C2H2";"kooij";"Logn(2.8e-10,1.65)";"Delta(0)";"Delta(0)";2;"Dirg(0.05<C6H3+ + H>,0.95<C6H4+ + HV>;0.05,0.10)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C4H2+ + C2H4";"kooij";"Logn(1.5e-09,1.3)";"Delta(0)";"Delta(0)";3;"Dirg(0.47<C4H4+ + C2H2>,0.05<C6H4+ + H2>,0.49<C6H5+ + H>;0.15,0.05,0.15)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C4H2+ + C2N2";"kooij";"Logn(2e-10,1.2)";"Delta(0)";"Delta(0)";1;"CxHyNz+ + Products";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C4H2+ + C4H2";"kooij";"Logn(1.4e-09,1.2)";"Delta(0)";"Delta(0)";3;"Dirg(0.82<C6H2+ + C2H2>,0.17<C8H2+ + H2>,0.01<C8H3+ + H>;0.08,0.06,0.01)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C4H2+ + C4H4";"kooij";"Logn(0.14E-08,1.2)";"Delta(0)";"Delta(0)";4;"Diut(0.99*Dirg(0.13<C4H4+ + C4H2>,0.81<C6H4+ + C2H2>,0.06<C8H4+ + H2>;0.05,0.08,0.06),0.00<C8H6+ + HV>;1.00,0.01)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C4H2+ + CH3C2H";"kooij";"Logn(1.3e-09,1.3)";"Delta(0)";"Delta(0)";2;"Dirg(0.10<C5H4+ + C2H2>,0.90<C7H5+ + H>;0.10,0.09)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C4H2+ + E";"dr";"Logu(0.5e-6,3e-6)";"Unif(0.5,1.5)";"Delta(0)";9;"Dirg(0.783*Diri(1<C4H + H>,1<C4 + H2>;1),0.040*Diri(1*Diri(1<cC3H + CH>,1<lC3H + CH>;1),1<cC3H2 + C>,1*Diri(1<C3 + 1CH2>,1<C3 + 3CH2>;1);1),0.177*Diri(1<C2H + C2H>,1<1C2 + C2H2>;1);0.013,0.016,0.015)";"Plessis2010";"Plessis2010";"NA";"Florescu2006;Angelova2004;Mitchell2005";"NA";2022-08-19 09:26:14
+"C4H2+ + H";"kooij";"Logn(7e-11,1.2)";"Delta(0)";"Delta(0)";1;"C4H3+ + HV";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C4H2+ + HC3N";"kooij";"Logn(1.7e-09,1.2)";"Delta(0)";"Delta(0)";1;"C7H3N+ + HV";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C4H2+ + N4S";"kooij";"Logn(1.9e-10,1.4)";"Delta(0)";"Delta(0)";3;"Dirg(0.90<C3H+ + HCN>,0.05<HC4N+ + H>,0.05<HCNH+ + C3>;0.09,0.05,0.05)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C4H2N+ + E";"dr";"Logu(3e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"Products";"NA";"NA";"NA";"NA";"Default data: auto generated";2022-08-19 09:26:14
+"C4H2N2+ + E";"dr";"Logu(3e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"Products";"NA";"NA";"NA";"NA";"No data: auto generated";2022-08-19 09:26:14
+"C4H2NO+ + E";"dr";"Logu(3e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"Products";"NA";"NA";"NA";"NA";"No data: auto generated";2022-08-19 09:26:14
+"C4H3+ + C2H2";"kooij";"Logn(2.2e-10,1.1)";"Delta(0)";"Delta(0)";1;"C6H5+ + HV";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C4H3+ + C2H4";"kooij";"Logn(1.2e-10,1.3)";"Delta(0)";"Delta(0)";1;"C6H5+ + H2";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C4H3+ + C2N2";"kooij";"Logn(1.9e-10,1.2)";"Delta(0)";"Delta(0)";1;"CxHyNz+ + Products";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C4H3+ + C4H2";"kooij";"Logn(7.4e-10,1.2)";"Delta(0)";"Delta(0)";1;"C6H3+ + C2H2";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C4H3+ + C4H4";"kooij";"Logn(1.1e-09,1.2)";"Delta(0)";"Delta(0)";3;"Dirg(0.25<C4H5+ + C4H2>,0.56<C6H5+ + C2H2>,0.10<C8H6+ + H>;0.08,0.07,0.10)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C4H3+ + C6H6";"kooij";"Logn(1.93e-10,1.6)";"Delta(0)";"Delta(0)";1;"C10H8+ + H";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C4H3+ + CH2NH";"kooij";"Logn(5.01e-09,1.58)";"Delta(0)";"Delta(0)";1;"CH2NH2+ + C4H2";"NA";"NA";"NA";"NA";"Refs ???";2022-08-19 09:26:14
+"C4H3+ + CH3C2H";"kooij";"Logn(1.4e-09,1.3)";"Delta(0)";"Delta(0)";1;"C5H5+ + C2H2";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C4H3+ + CH3NH2";"kooij";"Logn(1.76e-09,1.58)";"Delta(0)";"Delta(0)";2;"Dirg(0.7400E+00<CH3NH3+ + C4H2>,0.2600E+00<CH2NH2+ + C4H2 + H2>;0.2220E+00,0.7800E-01)";"NA";"NA";"NA";"NA";"Refs ???";2022-08-19 09:26:14
+"C4H3+ + E";"dr";"Logn(6.2e-7,2)";"Unif(0.5,1.5)";"Delta(0)";13;"Dirg(0.759*Diri(1<C4H2 + H>,1*Dior(2<C4H + H2>,1<C4H + H + H>),1<C4 + H2 + H>;1),0.063*Diri(1<C3H3 + C>,1<cC3H2 + CH>,1*Diri(1*Diri(1<cC3H + 1CH2>,1<lC3H + 1CH2>;1),1*Diri(1<cC3H + 3CH2>,1<lC3H + 3CH2>;1);1),1<C3 + CH3>;1),0.178*Diri(1<C2H3 + 1C2>,1<C2H2 + C2H>;1);0.005,0.004,0.004)";"Florescu2006;Adams1988;Plessis2010;physto";"Plessis2010";"NA";"Florescu2006;Angelova2004;Mitchell2005";"NA";2022-08-19 09:26:14
+"C4H3+ + NH3";"kooij";"Logn(9.9e-10,2)";"Delta(0)";"Delta(0)";1;"NH4+ + C4H2";"Vuitton2007";"NA";"NA";"Vuitton2007";"NA";2022-08-19 09:26:14
+"C4H4+ + C2H2";"kooij";"Logn(1.2e-10,1.2)";"Delta(0)";"Delta(0)";3;"Dirg(0.10<C6H4+ + H2>,0.75<C6H5+ + H>,0.15<C6H6+ + HV>;0.10,0.08,0.05)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C4H4+ + C4H2";"kooij";"Logn(8e-10,1.2)";"Delta(0)";"Delta(0)";2;"Dirg(0.87<C6H4+ + C2H2>,0.13<C8H6+ + HV>;0.09,0.05)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C4H4+ + C4H4";"kooij";"Logn(1e-09,1.2)";"Delta(0)";"Delta(0)";2;"Dirg(0.38<C6H6+ + C2H2>,0.62<C8H7+ + H>;0.13,0.07)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C4H4+ + E";"dr";"Logu(0.5e-6,3e-6)";"Unif(0.5,1.5)";"Delta(0)";20;"Dirg(0.766*Diri(1<C4H3 + H>,1*Dior(2<C4H2 + H2>,1<C4H2 + H + H>),1<C4H + H2 + H>;1),0.063*Diri(1<CH3C2H + C>,1<CH2CCH2 + C>,1<C3H3 + CH>,1*Diri(1*Diri(1<cC3H2 + 1CH2>,1<cC3H2 + 3CH2>;1),1<cC3H2 + C + H2>;1),1*Diri(1<cC3H + CH3>,1<lC3H + CH3>;1),1*Diri(1<C3 + CH4>,1<C3 + CH3 + H>;1);1),0.171*Diri(1<C2H4 + 1C2>,1<C2H3 + C2H>,1*Diri(1<C2H2 + C2H2>,1<C2H2 + C2H + H>,1<C2H2 + 1C2 + H2>;1),1<C2H + C2H + H2>;1);0.027,0.020,0.021)";"Plessis2010";"Plessis2010";"NA";"Florescu2006;Angelova2004;Mitchell2005";"NA";2022-08-19 09:26:14
+"C4H4+ + NH3";"kooij";"Delta(3.64e-10)";"Delta(0)";"Delta(0)";2;"Mlgn(0.88<NH4+ + C4H3>,0.12<CH2NH2+ + C3H3>;1.2,1.2)";"Vuitton2007;Operti2004";"NA";"NA";"Vuitton2007;Operti2004";"Treatment as independent partial rates (see Operti2004)";2022-08-19 09:26:14
+"C4H4N+ + C";"kooij";"Logn(1e-09,2)";"Delta(0)";"Delta(0)";1;"C5H3N+ + H";"KIDA";"NA";"NA";"KIDA";"NA";2022-08-19 09:26:14
+"C4H4N+ + E";"dr";"Logu(3e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"Products";"NA";"NA";"NA";"NA";"Default data: auto generated";2022-08-19 09:26:14
+"C4H5+ + C2H2";"kooij";"Logn(1.6e-10,1.3)";"Delta(0)";"Delta(0)";1;"C6H5+ + H2";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C4H5+ + C2H4";"kooij";"Logn(7.3e-11,1.3)";"Delta(0)";"Delta(0)";1;"C6H7+ + H2";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C4H5+ + C4H2";"kooij";"Logn(5e-10,2)";"Delta(0)";"Delta(0)";1;"C6H5+ + C2H2";"NA";"NA";"NA";"McEwan2007";"No data on rate";2022-08-19 09:26:14
+"C4H5+ + CH3C2H";"kooij";"Logn(2e-10,1.3)";"Delta(0)";"Delta(0)";2;"Dirg(0.25<C6H5+ + CH4>,0.75<C7H7+ + H2>;0.09,0.08)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C4H5+ + E";"dr";"Logn(8.2e-7,1.3)";"Unif(0.5,1.5)";"Delta(0)";18;"Dirg(0.460*Diri(1<C4H4 + H>,1*Dior(2<C4H3 + H2>,1<C4H3 + H + H>),1<C4H2 + H2 + H>,1<C4H + H2 + H2>;1),0.093*Diri(1*Diri(1<cC3H + CH4>,1<lC3H + CH4>;1),1<cC3H2 + CH3>,1*Diri(1<C3H3 + 1CH2>,1<C3H3 + 3CH2>;1),1<CH3C2H + CH>,1<CH2CCH2 + CH>,1<C3H5 + C>;1),0.447*Diri(1<C2H5 + 1C2>,1<C2H4 + C2H>,1<C2H3 + C2H2>,1*Diri(1<C2H2 + C2H2 + H>,1<C2H2 + C2H + H2>;1);1);0.054,0.021,0.053)";"Rebrion-Rowe1998";"Plessis2010";"NA";"Florescu2006;Angelova2004;Mitchell2005";"NA";2022-08-19 09:26:14
+"C4H5+ + NH3";"kooij";"Logn(0.47E-9,1.2)";"Delta(0)";"Delta(0)";1;"NH4+ + C4H4";"Vuitton2007;Operti2004";"NA";"NA";"Vuitton2007";"NA";2022-08-19 09:26:14
+"C4H5N+ + E";"dr";"Logu(3e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"Products";"NA";"NA";"NA";"NA";"Default data: auto generated";2022-08-19 09:26:14
+"C4H6+ + C2H2";"kooij";"Logn(7.3e-11,1.2)";"Delta(0)";"Delta(0)";1;"C6H7+ + H";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C4H6+ + CH3C2H";"kooij";"Logn(2.5e-10,1.2)";"Delta(0)";"Delta(0)";2;"Dirg(0.85<C6H7+ + CH3>,0.15<C7H9+ + H>;0.09,0.05)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C4H6+ + E";"dr";"Logu(0.5e-6,3e-6)";"Unif(0.5,1.5)";"Delta(0)";33;"Dirg(0.588*Diri(1<C4H5 + H>,1*Dior(2<C4H4 + H2>,1<C4H4 + H + H>),1<C4H3 + H2 + H>,1*Dior(2<C4H2 + H2 + H2>,1<C4H2 + H2 + H + H>);1),0.090*Diri(1<C3H6 + C>,1<C3H5 + CH>,1*Diri(1*Diri(1<CH3C2H + 1CH2>,1<CH3C2H + 3CH2>;1),1*Diri(1<CH2CCH2 + 1CH2>,1<CH2CCH2 + 3CH2>;1),1<CH3C2H + C + H2>,1<CH2CCH2 + C + H2>;1),1*Diri(1<C3H3 + CH3>,1<C3H3 + CH + H2>;1),1*Diri(1<cC3H2 + CH4>,1<cC3H2 + CH3 + H>,1*Diri(1<cC3H2 + 1CH2 + H2>,1<cC3H2 + 3CH2 + H2>;1);1),1*Diri(1*Diri(1<cC3H + CH4 + H>,1<lC3H + CH4 + H>;1),1*Diri(1<cC3H + CH3 + H2>,1<lC3H + CH3 + H2>;1);1);1),0.321*Diri(1<C2H6 + 1C2>,1<C2H5 + C2H>,1*Diri(1<C2H4 + C2H2>,1<C2H4 + C2H + H>,1<C2H4 + 1C2 + H2>;1),1*Diri(1<C2H3 + C2H2 + H>,1<C2H3 + C2H + H2>;1);1),0.001*Diri(1<C2H2 + CH + CH3>,1<C2H2 + C + CH4>;1);0.035,0.015,0.034,0.01)";"Plessis2010";"Plessis2010";"NA";"Florescu2006;Angelova2004;Mitchell2005";"NA";2022-08-19 09:26:14
+"C4H6N+ + E";"dr";"Logu(3e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"Products";"NA";"NA";"NA";"NA";"Default data: auto generated";2022-08-19 09:26:14
+"C4H7+ + CH3C2H";"kooij";"Logn(1.5e-10,1.3)";"Delta(0)";"Delta(0)";1;"C7H9+ + H2";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C4H7+ + CH3CN";"kooij";"Logn(5.2e-11,1.2)";"Delta(0)";"Delta(0)";1;"CH3CNH+ + C4H6";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C4H7+ + E";"dr";"Logu(0.5e-6,3e-6)";"Unif(0.5,1.5)";"Delta(0)";33;"Dirg(0.198*Diri(1<C4H6 + H>,1*Dior(2<C4H5 + H2>,1<C4H5 + H + H>),1<C4H4 + H2 + H>,1<C4H3 + H2 + H2>;1),0.654*Diri(1<C3H7 + C>,1<C3H6 + CH>,1*Diri(1<C3H5 + 1CH2>,1<C3H5 + 3CH2>;1),1*Diri(1<CH3C2H + CH3>,1*Diri(1<CH3C2H + 1CH2 + H>,1<CH3C2H + 3CH2 + H>;1),1<CH3C2H + CH + H2>;1),1*Diri(1<CH2CCH2 + CH3>,1*Diri(1<CH2CCH2 + 1CH2 + H>,1<CH2CCH2 + 3CH2 + H>;1),1<CH2CCH2 + CH + H2>;1),1*Diri(1<C3H3 + CH4>,1<C3H3 + CH3 + H>,1*Diri(1<C3H3 + 1CH2 + H2>,1<C3H3 + 3CH2 + H2>;1);1),1*Diri(1<cC3H2 + CH4 + H>,1<cC3H2 + CH3 + H2>;1),1*Diri(1<cC3H + CH4 + H2>,1<lC3H + CH4 + H2>;1);1),0.147*Diri(1<C2H6 + C2H>,1<C2H5 + C2H2>,1*Diri(1<C2H4 + C2H2 + H>,1<C2H4 + C2H + H2>;1),1*Diri(1<C2H3 + C2H3 + H>,1<C2H3 + C2H2 + H2>;1);1),0.001*Diri(1<C2H2 + 1CH2 + CH3>,1<C2H2 + 3CH2 + CH3>;1);0.044,0.059,0.034,0.01)";"Plessis2010";"Plessis2010";"NA";"Florescu2006;Angelova2004;Mitchell2005";"NA";2022-08-19 09:26:14
+"C4H8+ + E";"dr";"Logu(0.5e-6,3e-6)";"Unif(0.5,1.5)";"Delta(0)";45;"Dirg(0.305*Diri(1<C4H7 + H>,1*Dior(2<C4H6 + H2>,1<C4H6 + H + H>),1*Dior(2<C4H5 + H2 + H>,1<C4H5 + H + H + H>),1*Dior(2<C4H4 + H2 + H2>,1<C4H4 + H2 + H + H>);1),0.633*Diri(1<C3H8 + C>,1<C3H7 + CH>,1*Diri(1*Diri(1<C3H6 + 1CH2>,1<C3H6 + 3CH2>;1),1<C3H6 + CH + H>,1<C3H6 + C + H2>;1),1*Diri(1<C3H5 + CH3>,1*Diri(1<C3H5 + 1CH2 + H>,1<C3H5 + 3CH2 + H>;1),1<C3H5 + CH + H2>;1),1*Diri(1<CH3C2H + CH4>,1<CH3C2H + CH3 + H>,1*Diri(1<CH3C2H + 1CH2 + H2>,1<CH3C2H + 3CH2 + H2>;1);1),1*Diri(1<CH2CCH2 + CH4>,1<CH2CCH2 + CH3 + H>,1*Diri(1<CH2CCH2 + 1CH2 + H2>,1<CH2CCH2 + 3CH2 + H2>;1);1),1*Diri(1<C3H3 + CH4 + H>,1<C3H3 + CH3 + H2>;1),1*Dior(2<cC3H2 + CH4 + H2>,1<cC3H2 + CH4 + H + H>);1),0.061*Diri(1*Diri(1<C2H6 + C2H2>,1<C2H6 + C2H + H>,1<C2H6 + 1C2 + H2>;1),1*Diri(1<C2H5 + C2H3>,1<C2H5 + C2H2 + H>,1<C2H5 + C2H + H2>;1),1*Diri(1<C2H4 + C2H4>,1<C2H4 + C2H3 + H>;1);1),0.001*Diri(1*Diri(1<C2H4 + CH + CH3>,1<C2H4 + C + CH4>;1),1<C2H3 + CH + CH4>,1*Diri(1<C2H2 + CH3 + CH3>,1*Diri(1<C2H2 + 1CH2 + CH4>,1<C2H2 + 3CH2 + CH4>;1);1),1<C2H + CH4 + CH3>,1<1C2 + CH4 + CH4>;1);0.031,0.032,0.021,0.01)";"Plessis2010";"Plessis2010";"NA";"Florescu2006;Angelova2004;Mitchell2005";"NA";2022-08-19 09:26:14
+"C4H9+ + C2H4";"kooij";"Logn(4e-10,1.3)";"Delta(0)";"Delta(0)";3;"Diri(1<C6H9+ + H2 + H2>,1<C6H11+ + H2>,1<C6H13+ + HV>;1)";"Anicich2003";"NA";"NA";"Anicich2003";"No info on BR values";2022-08-19 09:26:14
+"C4H9+ + CH3NH2";"kooij";"Logn(1.3e-09,1.6)";"Delta(0)";"Delta(0)";1;"CxHyNz+ + Products";"Vuitton2007";"NA";"NA";"Vuitton2007";"NA";2022-08-19 09:26:14
+"C4H9+ + E";"dr";"Logn(8.3e-7,1.3)";"Unif(0.5,1.5)";"Delta(0)";36;"Dirg(0.573*Diri(1<C4H8 + H>,1*Dior(2<C4H7 + H2>,1<C4H7 + H + H>),1<C4H6 + H2 + H>,1*Dior(2<C4H5 + H2 + H2>,1<C4H5 + H2 + H + H>);1),0.411*Diri(1<C3H8 + CH>,1*Diri(1<C3H7 + 1CH2>,1<C3H7 + 3CH2>;1),1*Diri(1<C3H6 + CH3>,1*Diri(1<C3H6 + 3CH2 + H>,1<C3H6 + 1CH2 + H>;1),1<C3H6 + CH + H2>;1),1*Diri(1<C3H5 + CH4>,1<C3H5 + CH3 + H>,1*Diri(1<C3H5 + 3CH2 + H2>,1<C3H5 + 1CH2 + H2>;1);1),1*Diri(1<CH3C2H + CH4 + H>,1<CH3C2H + CH3 + H2>;1),1*Diri(1<CH2CCH2 + CH4 + H>,1<CH2CCH2 + CH3 + H2>;1),1<C3H3 + CH4 + H2>;1),0.015*Diri(1*Diri(1<C2H6 + C2H3>,1<C2H6 + C2H2 + H>,1<C2H6 + C2H + H2>;1),1*Diri(1<C2H5 + C2H4>,1<C2H5 + C2H3 + H>,1<C2H5 + C2H2 + H2>;1),1<C2H4 + C2H4 + H>;1),0.001*Diri(1*Diri(1<C2H4 + CH + CH4>,1*Diri(1<C2H4 + 1CH2 + CH3>,1<C2H4 + 3CH2 + CH3>;1);1),1*Diri(1<C2H3 + CH3 + CH3>,1*Diri(1<C2H3 + 1CH2 + CH4>,1<C2H3 + 3CH2 + CH4>;1);1),1<C2H2 + CH3 + CH4>;1);0.041,0.038,0.026,0.01)";"Lehfaoui1997";"Plessis2010";"NA";"Florescu2006;Angelova2004;Mitchell2003;Mitchell2005";"NA";2022-08-19 09:26:14
+"C4H9+ + NH3";"kooij";"Logn(1.6e-09,1.6)";"Delta(0)";"Delta(0)";2;"Dirg(0.98<NH4+ + C4H8>,0.01<CxHyNz+ + HV>;0.10,0.02)";"Vuitton2007";"NA";"NA";"Vuitton2007";"NA";2022-08-19 09:26:14
+"C4HN2+ + E";"dr";"Logu(3e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"Products";"NA";"NA";"NA";"NA";"Default data: auto generated";2022-08-19 09:26:14
+"C4N+ + C2H2";"kooij";"Logn(8e-10,1.3)";"Delta(0)";"Delta(0)";2;"Diut(0.70<C5H+ + HCN>,0.00<C6H2N+ + HV>;1.00,0.30)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C4N+ + C4H2";"kooij";"Logn(1.6e-09,1.3)";"Delta(0)";"Delta(0)";2;"Dirg(0.40<C7H+ + HCN>,0.60<C8H2N+ + HV>;0.13,0.06)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C4N+ + CH3CN";"kooij";"Logn(3.1e-09,1.3)";"Delta(0)";"Delta(0)";2;"Dirg(0.60<C2H3+ + C4N2>,0.40<C4HN2+ + C2H2>;0.06,0.13)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C4N+ + CH4";"kooij";"Logn(6.35e-10,1.2)";"Delta(0)";"Delta(0)";7;"Dirg(0.05<H3+ + HC5N>,0.22<C2H3+ + HC3N>,0.01<C4H2+ + H2CN>,0.32<C4H3+ + HCN>,0.08<HCNH+ + C4H2>,0.26<HC3NH+ + C2H2>,0.06<HC5NH+ + H2>;0.05,0.07,0.01,0.11,0.08,0.09,0.06)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C4N+ + E";"dr";"Logu(5e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";2;"Diri(1<C2N + 1C2>,1<C3N + C>;1)";"Plessis2010";"Plessis2010";"NA";"Woodall2007";"NA";2022-08-19 09:26:14
+"C4N+ + H2";"kooij";"Logn(2.2e-11,1.3)";"Delta(0)";"Delta(0)";1;"C3H+ + HCN";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C4N+ + H2O";"kooij";"Logn(1.5e-09,1.3)";"Delta(0)";"Delta(0)";3;"Dirg(0.50<HC3NH+ + CO>,0.40<HCO+ + HC3N>,0.10<C4H2NO+ + HV>;0.05,0.13,0.10)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C4N+ + HC3N";"kooij";"Logn(1e-09,1.3)";"Delta(0)";"Delta(0)";1;"C7HN2+ + HV";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C4N+ + HCN";"kooij";"Logn(3.8e-10,1.3)";"Delta(0)";"Delta(0)";1;"HC5N2+ + HV";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C4N2+ + E";"dr";"Logu(3e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"Products";"NA";"NA";"NA";"NA";"Default data: auto generated";2022-08-19 09:26:14
+"C5H+ + C2H2";"kooij";"Logn(5e-10,1.3)";"Delta(0)";"Delta(0)";2;"Dirg(0.3<C7H2+ + H>,0.7<C7H3+ + HV>;0.1,0.07)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C5H+ + E";"dr";"Logu(5e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"CxHy";"Plessis2010";"Plessis2010";"NA";"NA";"NA";2022-08-19 09:26:14
+"C5H+ + HCN";"kooij";"Logn(9e-11,1.3)";"Delta(0)";"Delta(0)";1;"C6H2N+ + HV";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C5H11+ + CH3NH2";"kooij";"Logn(9.1e-10,1.15)";"Delta(0)";"Delta(0)";1;"CH3NH3+ + C5H10";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C5H11+ + E";"dr";"Logu(5e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"CxHy";"Plessis2010";"Plessis2010";"NA";"NA";"NA";2022-08-19 09:26:14
+"C5H11+ + NH3";"kooij";"Logn(6.5e-10,1.15)";"Delta(0)";"Delta(0)";1;"NH4+ + C5H10";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C5H2+ + C4H2";"kooij";"Logn(1e-09,2)";"Delta(0)";"Delta(0)";2;"Dirg(0.60<C7H3+ + C2H>,0.40<C9H4+ + HV>;0.06,0.13)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C5H2+ + E";"dr";"Logu(5e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"CxHy";"Plessis2010";"Plessis2010";"NA";"NA";"NA";2022-08-19 09:26:14
+"C5H3+ + C4H2";"kooij";"Logn(5.6e-10,1.2)";"Delta(0)";"Delta(0)";2;"Dirg(0.43<C7H3+ + C2H2>,0.57<C9H5+ + HV>;0.15,0.06)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C5H3+ + C6H6";"kooij";"Logn(2.4e-10,1.6)";"Delta(0)";"Delta(0)";1;"CxHy+ + CxHy";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C5H3+ + E";"dr";"Logn(9e-07,1.3)";"Unif(5e-01,1.5)";"Delta(0)";1;"CxHy";"Abouelaziz1993";"Plessis2010";"NA";"NA";"NA";2022-08-19 09:26:14
+"C5H3N+ + E";"dr";"Logu(3e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"Products";"NA";"NA";"NA";"NA";"Default data: auto generated";2022-08-19 09:26:14
+"C5H4+ + E";"dr";"Logu(5e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"CxHy";"Plessis2010";"Plessis2010";"NA";"NA";"NA";2022-08-19 09:26:14
+"C5H4+ + N4S";"kooij";"Logn(1e-10,2)";"Delta(0)";"Delta(0)";1;"C5H3N+ + H";"KIDA";"NA";"NA";"KIDA";"NA";2022-08-19 09:26:14
+"C5H4N+ + E";"dr";"Logu(3e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"Products";"NA";"NA";"NA";"NA";"Default data: auto generated";2022-08-19 09:26:14
+"C5H5+ + C2H2";"kooij";"Logn(1.7e-10,1.3)";"Delta(0)";"Delta(0)";1;"C7H7+ + HV";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C5H5+ + C4H2";"kooij";"Logn(2.2e-10,1.4)";"Delta(0)";"Delta(0)";3;"Diri(1<C7H5+ + C2H2>,1<C7H7+ + 1C2>,1<C9H7+ + HV>;1)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C5H5+ + CH2NH";"kooij";"Logn(3.2e-10,1.3)";"Delta(0)";"Delta(0)";1;"CH2NH2+ + C5H4";"NA";"NA";"NA";"NA";"Refs ???";2022-08-19 09:26:14
+"C5H5+ + CH3NH2";"kooij";"Logn(2.39e-10,1.3)";"Delta(0)";"Delta(0)";2;"Dirg(0.87<CH3NH3+ + C5H4>,0.13<CH2NH2+ + C5H4 + H2>;0.09,0.05)";"NA";"NA";"NA";"NA";"Refs ???";2022-08-19 09:26:14
+"C5H5+ + E";"dr";"Logu(5e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"CxHy";"Plessis2010";"Plessis2010";"NA";"NA";"NA";2022-08-19 09:26:14
+"C5H5+ + N4S";"kooij";"Logn(1e-10,2)";"Delta(0)";"Delta(0)";1;"C5H3N+ + H2";"KIDA";"NA";"NA";"KIDA";"NA";2022-08-19 09:26:14
+"C5H5+ + NH3";"kooij";"Logn(0.3500E-10,1.2)";"Delta(0)";"Delta(0)";1;"NH4+ + C5H4";"Vuitton2007;Operti2004";"NA";"NA";"Vuitton2007;Operti2004";"NA";2022-08-19 09:26:14
+"C5H5N+ + E";"dr";"Logu(3e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"Products";"NA";"NA";"NA";"NA";"Default data: auto generated";2022-08-19 09:26:14
+"C5H6N+ + E";"dr";"Logu(3e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"Products";"NA";"NA";"NA";"NA";"Default data: auto generated";2022-08-19 09:26:14
+"C5H7+ + CH3C2H";"kooij";"Logn(7e-10,1.6)";"Delta(0)";"Delta(0)";1;"C8H11+ + HV";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C5H7+ + E";"dr";"Logu(5e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"CxHy";"Plessis2010";"Plessis2010";"NA";"NA";"NA";2022-08-19 09:26:14
+"C5H9+ + E";"dr";"Logn(9.5e-07,1.32)";"Unif(5.0e-01,1.50)";"Delta(0)";1;"CxHy";"Rebrion-Rowe1998";"Plessis2010";"NA";"NA";"NA";2022-08-19 09:26:14
+"C5HN2+ + E";"dr";"Logu(3e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"Products";"NA";"NA";"NA";"NA";"Default data: auto generated";2022-08-19 09:26:14
+"C6H11+ + E";"dr";"Logu(3e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"Products";"NA";"NA";"NA";"NA";"No data: auto generated";2022-08-19 09:26:14
+"C6H13+ + E";"dr";"Logu(3e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"Products";"NA";"NA";"NA";"NA";"No data: auto generated";2022-08-19 09:26:14
+"C6H2+ + C2H2";"kooij";"Logn(1.4e-10,1.3)";"Delta(0)";"Delta(0)";2;"Dirg(0.69<SOOTC+ + H>,0.31<SOOTC+>;0.07,0.10)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C6H2+ + C4H2";"kooij";"Logn(1.06e-09,1.2)";"Delta(0)";"Delta(0)";1;"SOOTC+ + C2H2";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C6H2+ + C6H6";"kooij";"Logn(1.3e-09,1.2)";"Delta(0)";"Delta(0)";1;"SOOTC+";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C6H2+ + E";"dr";"Logu(5e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"CxHy";"Plessis2010";"Plessis2010";"NA";"NA";"NA";2022-08-19 09:26:14
+"C6H2+ + N4S";"kooij";"Logn(1.9e-10,1.4)";"Delta(0)";"Delta(0)";1;"C5H+ + HCN";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C6H2N+ + E";"dr";"Logu(3e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"Products";"NA";"NA";"NA";"NA";"Default data: auto generated";2022-08-19 09:26:14
+"C6H2N2+ + E";"dr";"Logu(3e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"Products";"NA";"NA";"NA";"NA";"Default data: auto generated";2022-08-19 09:26:14
+"C6H3+ + C2H2";"kooij";"Logn(4.6e-10,1.2)";"Delta(0)";"Delta(0)";1;"C8H5+ + HV";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C6H3+ + C4H2";"kooij";"Logn(5.4e-10,1.2)";"Delta(0)";"Delta(0)";1;"C8H3+ + C2H2";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C6H3+ + C6H6";"kooij";"Logn(5e-10,1.2)";"Delta(0)";"Delta(0)";1;"CxHy+ + CxHy";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C6H3+ + E";"dr";"Logu(5e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"CxHy";"Plessis2010";"Plessis2010";"NA";"NA";"NA";2022-08-19 09:26:14
+"C6H4+ + C2H2";"kooij";"Logn(2.9e-10,1.6)";"Delta(0)";"Delta(0)";1;"C8H6+ + HV";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C6H4+ + C6H6";"kooij";"Logn(1.4e-10,1.6)";"Delta(0)";"Delta(0)";2;"Dirg(0.1<CxHy+ + H2>,0.9<CxHy+ + HV>;0.1,0.09)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C6H4+ + E";"dr";"Logn(1.1e-06,1.3)";"Unif(5.0e-01,1.5)";"Delta(0)";1;"CxHy";"Rebrion-Rowe1998";"Plessis2010";"NA";"NA";"NA";2022-08-19 09:26:14
+"C6H4+ + H";"kooij";"Logn(3.3e-11,1.6)";"Delta(0)";"Delta(0)";1;"C6H5+ + HV";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C6H5+ + C2H2";"kooij";"Logn(1.3e-10,1.3)";"Delta(0)";"Delta(0)";2;"Dirg(0.60<C8H6+ + H>,0.40<C8H7+ + HV>;0.06,0.13)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C6H5+ + C2H4";"kooij";"Logn(1.7e-10,1.3)";"Delta(0)";"Delta(0)";2;"Dirg(0.60<C6H7+ + C2H2>,0.40<C8H7+ + H2>;0.06,0.13)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C6H5+ + C2H6";"kooij";"Logn(1.3e-10,1.3)";"Delta(0)";"Delta(0)";2;"Dirg(0.97<C6H7+ + C2H4>,0.03<C7H7+ + CH4>;0.10,0.03)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C6H5+ + C3H6";"kooij";"Logn(3.4e-10,1.3)";"Delta(0)";"Delta(0)";1;"C7H7+ + C2H4";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C6H5+ + C4H6";"kooij";"Logn(3.3e-10,1.3)";"Delta(0)";"Delta(0)";5;"Dirg(0.35<SOOTC+ + C2H4>,0.10<SOOTC+ + CH4>,0.20<SOOTC+ + CH3>,0.20<SOOTC+ + H2 + H>,0.10<SOOTC+ + H2>;0.12,0.10,0.07,0.07,0.10)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C6H5+ + C6H6";"kooij";"Logn(4.7e-10,1.6)";"Delta(0)";"Delta(0)";1;"CxHy+ + CxHy";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C6H5+ + CH2CCH2";"kooij";"Logn(7.2e-10,1.2)";"Delta(0)";"Delta(0)";2;"Dirg(0.30<C7H7+ + C2H2>,0.70<C9H7+ + H2>;0.10,0.07)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C6H5+ + CH3C2H";"kooij";"Logn(2.3e-10,1.3)";"Delta(0)";"Delta(0)";3;"Dirg(0.18<C7H7+ + C2H2>,0.79<C9H7+ + H2>,0.05<C9H8+ + H>;0.06,0.08,0.05)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C6H5+ + CH4";"kooij";"Logn(7.5e-11,1.3)";"Delta(0)";"Delta(0)";1;"C7H7+ + H2";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C6H5+ + E";"dr";"Logn(1.1e-06,1.3)";"Unif(5.0e-01,1.5)";"Delta(0)";1;"CxHy";"Rebrion-Rowe1998";"Plessis2010";"NA";"NA";"NA";2022-08-19 09:26:14
+"C6H5+ + H2";"kooij";"Logn(6e-11,1.2)";"Delta(0)";"Delta(0)";1;"C6H7+ + HV";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C6H5+ + N4S";"kooij";"Logn(3.7e-11,1.4)";"Delta(0)";"Delta(0)";1;"C5H4+ + HCN";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C6H5+ + NH3";"kooij";"Delta(0.2080E-09)";"Delta(0)";"Delta(0)";3;"Mlgn(0.36<NH4+ + C6H4>,0.23<C6H7N+ + H>,0.41<C6H8N+ + HV>;1.2,1.2,1.2)";"Vuitton2007;Operti2004";"NA";"NA";"Vuitton2007;Operti2004";"Treatment as independent partial rates (see Operti2004)";2022-08-19 09:26:14
+"C6H6+ + C4H2";"kooij";"Logn(5e-10,1.3)";"Delta(0)";"Delta(0)";1;"SOOTC+";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C6H6+ + E";"dr";"Logn(1e-06,1.33)";"Unif(5e-01,1.50)";"Delta(0)";1;"CxHy";"Abouelaziz1993";"Plessis2010";"NA";"NA";"NA";2022-08-19 09:26:14
+"C6H6+ + H";"kooij";"Logn(2.5e-10,1.5)";"Delta(0)";"Delta(0)";1;"C6H7+ + HV";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C6H6+ + N4S";"kooij";"Logn(1.4e-10,1.4)";"Delta(0)";"Delta(0)";2;"Diut(0.95<C5H5+ + HCN>,0.00<cC3H3+ + CH2CHCN>;1.00,0.05)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C6H7+ + CH2CCH2";"kooij";"Logn(4.7e-11,1.25)";"Delta(0)";"Delta(0)";1;"C3H5+ + C6H6";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C6H7+ + CH3C2H";"kooij";"Logn(9.7e-11,1.3)";"Delta(0)";"Delta(0)";1;"C7H7+ + C2H4";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C6H7+ + E";"dr";"Logn(2.4e-6,1.37)";"Nort(1.3,1.30,0.5,1.5)";"Delta(0)";1;"Products";"McLain2004";"McLain2004;Plessis2010";"NA";"NA";"NA";2022-08-19 09:26:14
+"C6H7+ + H2CNN";"kooij";"Logn(1e-09,1.3)";"Delta(0)";"Delta(0)";2;"Dirg(0.75<CH3N2+ + C6H6>,0.25<C7H7+ + N2 + H2>;0.08,0.08)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C6H7+ + NH3";"kooij";"Logn(2.2e-10,1.2)";"Delta(0.0e+00)";"Delta(0)";1;"NH4+ + C6H6";"NA";"NA";"NA";"NA";"NA";2022-08-19 09:26:14
+"C6H7N+ + E";"dr";"Logu(3e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"Products";"NA";"NA";"NA";"NA";"Default data: auto generated";2022-08-19 09:26:14
+"C6H8N+ + E";"dr";"Logu(3e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"Products";"NA";"NA";"NA";"NA";"Default data: auto generated";2022-08-19 09:26:14
+"C6H9+ + E";"dr";"Logu(3e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"Products";"NA";"NA";"NA";"NA";"No data: auto generated";2022-08-19 09:26:14
+"C6HN2+ + E";"dr";"Logu(3e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"Products";"NA";"NA";"NA";"NA";"Default data: auto generated";2022-08-19 09:26:14
+"C7H+ + E";"dr";"Logu(3e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"Products";"NA";"NA";"NA";"NA";"No data: auto generated";2022-08-19 09:26:14
+"C7H2+ + E";"dr";"Logu(3e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"Products";"NA";"NA";"NA";"NA";"No data: auto generated";2022-08-19 09:26:14
+"C7H3+ + E";"dr";"Logu(3e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"Products";"NA";"NA";"NA";"NA";"No data: auto generated";2022-08-19 09:26:14
+"C7H3N+ + E";"dr";"Logu(3e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"Products";"NA";"NA";"NA";"NA";"Default data: auto generated";2022-08-19 09:26:14
+"C7H3NH+ + E";"dr";"Logu(3e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"Products";"NA";"NA";"NA";"NA";"No data: auto generated";2022-08-19 09:26:14
+"C7H5+ + E";"dr";"Logn(7e-07,1.29)";"Unif(5e-01,1.50)";"Delta(0)";1;"CxHy";"Abouelaziz1993";"Plessis2010";"NA";"NA";"NA";2022-08-19 09:26:14
+"C7H5N+ + E";"dr";"Logu(3e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"Products";"NA";"NA";"NA";"NA";"Default data: auto generated";2022-08-19 09:26:14
+"C7H7+ + C2H4";"kooij";"Logn(2e-10,1.3)";"Delta(0)";"Delta(0)";1;"C9H11+ + HV";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C7H7+ + C4H2";"kooij";"Logn(1e-09,2)";"Delta(0)";"Delta(0)";1;"CxHy+ + HV";"Vuitton2007";"NA";"NA";"Vuitton2007";"NA";2022-08-19 09:26:14
+"C7H7+ + CH2NH";"kooij";"Logn(3.4e-11,1.3)";"Delta(0)";"Delta(0)";1;"CH2NH2+ + C7H6";"NA";"NA";"NA";"NA";"Ref ???";2022-08-19 09:26:14
+"C7H7+ + CH3C2H";"kooij";"Logn(1.4e-10,1.2)";"Delta(0)";"Delta(0)";1;"CxHy+ + HV";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"C7H7+ + E";"dr";"Logu(5e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"CxHy";"Plessis2010";"Plessis2010";"NA";"NA";"NA";2022-08-19 09:26:14
+"C7H9+ + E";"dr";"Logu(3e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"Products";"NA";"NA";"NA";"NA";"No data: auto generated";2022-08-19 09:26:14
+"C7HN2+ + E";"dr";"Logu(3e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"Products";"NA";"NA";"NA";"NA";"No data: auto generated";2022-08-19 09:26:14
+"C8H11+ + E";"dr";"Logu(3e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"Products";"NA";"NA";"NA";"NA";"No data: auto generated";2022-08-19 09:26:14
+"C8H2+ + C4H2";"kooij";"Logn(5.8e-10,1.2)";"Delta(0)";"Delta(0)";1;"CxHy+ + HV";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"C8H2+ + E";"dr";"Logu(5e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"CxHy";"Plessis2010";"Plessis2010";"NA";"NA";"NA";2022-08-19 09:26:14
+"C8H2N+ + E";"dr";"Logu(3e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"Products";"NA";"NA";"NA";"NA";"No data: auto generated";2022-08-19 09:26:14
+"C8H3+ + E";"dr";"Logu(5e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"CxHy";"Plessis2010";"Plessis2010";"NA";"NA";"NA";2022-08-19 09:26:14
+"C8H4+ + E";"dr";"Logu(3e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"Products";"NA";"NA";"NA";"NA";"No data: auto generated";2022-08-19 09:26:14
+"C8H5+ + E";"dr";"Logu(3e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"Products";"NA";"NA";"NA";"NA";"No data: auto generated";2022-08-19 09:26:14
+"C8H6+ + E";"dr";"Logu(5e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"CxHy";"Plessis2010";"Plessis2010";"NA";"NA";"NA";2022-08-19 09:26:14
+"C8H7+ + E";"dr";"Logu(5e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"CxHy";"Plessis2010";"Plessis2010";"NA";"NA";"NA";2022-08-19 09:26:14
+"C9H11+ + E";"dr";"Logu(5e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"CxHy";"Plessis2010";"Plessis2010";"NA";"NA";"NA";2022-08-19 09:26:14
+"C9H4+ + E";"dr";"Logu(3e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"Products";"NA";"NA";"NA";"NA";"No data: auto generated";2022-08-19 09:26:14
+"C9H5+ + E";"dr";"Logu(5e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"CxHy";"Plessis2010";"Plessis2010";"NA";"NA";"NA";2022-08-19 09:26:14
+"C9H7+ + E";"dr";"Logu(5e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"CxHy";"Plessis2010";"Plessis2010";"NA";"NA";"NA";2022-08-19 09:26:14
+"C9H8+ + E";"dr";"Logu(5e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"CxHy";"Plessis2010";"Plessis2010";"NA";"NA";"NA";2022-08-19 09:26:14
+"C9H9+ + E";"dr";"Logu(5e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"CxHy";"Plessis2010";"Plessis2010";"NA";"NA";"NA";2022-08-19 09:26:14
+"cC3H3+ + E";"dr";"Logn(8.4e-7,1.3)";"Nort(1.4,0.7,0.5,1.5)";"Delta(0)";11;"Dirg(0.907*Diri(1<cC3H2 + H>,1*Diri(1*Dior(1<cC3H + H + H>,2<cC3H + H2>),1*Dior(1<lC3H + H + H>,2<lC3H + H2>);1),1<C3 + H2 + H>;1),0.093*Diri(1*Diri(1<C2H2 + CH>,1<C2H2 + C + H>;1),1*Diri(1<C2H + 1CH2>,1<C2H + 3CH2>;1),1<1C2 + CH3>;1);0.011,0.005)";"Fournier2013";"Fournier2013";"NA";"Plessis2010;Florescu2006;Angelova2004;Mitchell2005";"NA";2022-08-19 09:26:14
+"CCN+ + C2H2";"kooij";"Logn(1.6e-09,1.4)";"Delta(0)";"Delta(0)";2;"Dirg(0.92<C3H+ + HCN>,0.08<HCNH+ + C3>;0.09,0.08)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CCN+ + C2H4";"kooij";"Logn(1.3e-09,1.2)";"Delta(0)";"Delta(0)";4;"Dirg(0.10<C2H4+ + C2N>,0.50<CHCNH+ + C2H2>,0.30<cC3H3+ + HCN>,0.10<C4H2N+ + H2>;0.10,0.05,0.10,0.10)";"McEwan2007";"NA";"NA";"McEwan2007";"Check product CHCNH+ ???";2022-08-19 09:26:14
+"CCN+ + C2H6";"kooij";"Logn(1.2e-09,1.2)";"Delta(0)";"Delta(0)";5;"Dirg(0.10<C2H3+ + CH3CN>,0.25<C2H5+ + CHCN>,0.30<cC3H3+ + H2 + HCN>,0.10<C3H5+ + HCN>,0.25<CHCNH+ + C2H4>;0.10,0.08,0.10,0.10,0.08)";"McEwan2007";"NA";"NA";"McEwan2007";"Check product CHCNH+ ???";2022-08-19 09:26:14
+"CCN+ + C4H2";"kooij";"Logn(0.1300E-08,1.3)";"Delta(0)";"Delta(0)";2;"Dirg(0.70<C5H+ + HCN>,0.30<C4H2+ + C2N>;0.07,0.10)";"McEwan2007";"NA";"NA";"McEwan2007;KIDA";"Removed the unreactive path in the reference";2022-08-19 09:26:14
+"CCN+ + CH2CHCN";"kooij";"Logn(3.6e-09,1.3)";"Delta(0)";"Delta(0)";1;"cC3H3+ + C2N2";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"CCN+ + CH3CN";"kooij";"Logn(4.1e-09,1.2)";"Delta(0)";"Delta(0)";1;"C2H3+ + C2N2";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CCN+ + CH4";"kooij";"Logn(7e-10,1.4)";"Delta(0)";"Delta(0)";3;"Dirg(0.60<C2H3+ + HCN>,0.10<HCNH+ + C2H2>,0.30<HC3NH+ + H2>;0.06,0.10,0.10)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CCN+ + E";"dr";"Logn(4e-07,3.00)";"Norm(6e-01,0.05)";"Delta(0)";2;"Diut(0.95<CN + C>,0.00<1C2 + N4S>;1.00,0.05)";"KIDA";"KIDA";"NA";"KIDA";"NA";2022-08-19 09:26:14
+"CCN+ + H2";"kooij";"Logn(9e-10,1.4)";"Delta(0)";"Delta(0)";2;"Dirg(0.90<HCNH+ + C>,0.10<CHCNH+ + HV>;0.09,0.10)";"McEwan2007";"NA";"NA";"McEwan2007";"Check product CHCNH+ ???";2022-08-19 09:26:14
+"CCN+ + H2O";"kooij";"Logn(1.63e-09,1.4)";"Delta(0)";"Delta(0)";2;"Dirg(0.08<HCNH+ + CO>,0.92<HCO+ + HCN>;0.08,0.09)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CCN+ + NH3";"kooij";"Logn(1.9e-09,1.4)";"Delta(0)";"Delta(0)";1;"HCNH+ + HCN";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"CH+ + C2H2";"kooij";"Logn(2.4e-09,1.2)";"Delta(0)";"Delta(0)";1;"C3H2+ + H";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CH+ + C2H6";"kooij";"Logn(2.6e-09,1.2)";"Delta(0)";"Delta(0)";1;"CxHyNz+ + Products";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CH+ + CH3NH2";"kooij";"Logn(2.2e-09,1.2)";"Delta(0)";"Delta(0)";3;"Dirg(0.50<CH2NH2+ + 3CH2>,0.1<CH3NH2+ + CH>,0.4<CH3NH3+ + C>;0.05,0.1,0.13)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"CH+ + CH4";"kooij";"Logn(1.3e-09,1.2)";"Delta(0)";"Delta(0)";3;"Dirg(0.1100E+00<C2H2+ + H2 + H>,0.8400E+00<C2H3+ + H2>,0.5000E-01<C2H4+ + H>;0.3300E-01,0.2520E+00,0.5000E-01)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CH+ + CO";"kooij";"Logn(7e-12,1.2)";"Delta(0)";"Delta(0)";1;"HCO+ + C";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CH+ + E";"dr";"Logu(0.97e-7,3.1e-7)";"Unif(0.37,0.89)";"Delta(0)";1;"C + H";"Florescu2006;Sheehan2004;Woodall2007";"Florescu2006;Sheehan2004;Woodall2007";"NA";"NA";"NA";2022-08-19 09:26:14
+"CH+ + H";"kooij";"Logn(7.5e-10,1.3)";"Delta(0)";"Delta(0)";1;"C+ + H2";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CH+ + H2";"kooij";"Logn(1.2e-09,1.15)";"Delta(0)";"Delta(0)";1;"CH2+ + H";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CH+ + H2O";"kooij";"Logn(0.2900E-08,1.2)";"Delta(0)";"Delta(0)";3;"Diut(0.5<H3O+ + C>,0.0*Diri(1<HCO+ + H2>,1<H2CO+ + H>;1);1.0,0.5)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CH+ + HCN";"kooij";"Logn(2.8e-09,1.15)";"Delta(0)";"Delta(0)";3;"Dirg(0.7500E+00<HCNH+ + C>,0.1500E+00<CNC+ + H2>,0.1000E+00<CHNC+ + H>;0.2250E+00,0.4500E-01,0.1000E+00)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CH+ + N4S";"kooij";"Logn(1.9e-10,1.5)";"Delta(0)";"Delta(0)";2;"Dirg(0.9900E+00<CN+ + H>,0.1000E-01<H+ + CN>;0.2970E+00,0.1000E-01)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"CH+ + NH3";"kooij";"Logn(2.7e-09,1.2)";"Delta(0)";"Delta(0)";3;"Dirg(0.6800E+00<HCNH+ + H2>,0.1700E+00<NH3+ + CH>,0.1500E+00<NH4+ + C>;0.2040E+00,0.5100E-01,0.4500E-01)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"CH2+ + C2H2";"kooij";"Logn(2.5e-09,1.2)";"Delta(0)";"Delta(0)";1;"cC3H3+ + H";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CH2+ + C2H5CN";"kooij";"Logn(3.12e-09,1.3)";"Delta(0)";"Delta(0)";1;"CxHyNz+ + Products";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"CH2+ + C2H6";"kooij";"Logn(2.6e-09,1.25)";"Delta(0)";"Delta(0)";1;"CxHyNz+ + Products";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CH2+ + CH3NH2";"kooij";"Logn(2.1e-09,1.2)";"Delta(0)";"Delta(0)";3;"Dirg(0.55<CH2NH2+ + CH3>,0.35<CH3NH2+ + 3CH2>,0.10<CH3NH3+ + CH>;0.06,0.12,0.10)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"CH2+ + CH4";"kooij";"Logn(1.3e-09,1.15)";"Delta(0)";"Delta(0)";2;"Dirg(0.7000E+00<C2H4+ + H2>,0.3000E+00<C2H5+ + H>;0.2100E+00,0.9000E-01)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CH2+ + E";"dr";"Logu(2.5e-7,8.7e-07)";"Unif(0.5,6.0e-01)";"Delta(0)";3;"Dirg(0.25<CH + H>,0.12<C + H2>,0.63<C + H + H>;0.04,0.02,0.06)";"Sheehan2004;Larson1998";"Sheehan2004;Larson1998";"NA";"Larson1998";"NA";2022-08-19 09:26:14
+"CH2+ + H2";"kooij";"Logn(1.16e-09,1.54)";"Delta(0)";"Delta(0)";1;"CH3+ + H";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CH2+ + H2O";"kooij";"Logn(2.05e-09,1.6)";"Delta(0)";"Delta(0)";1;"CH2OH+ + H";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CH2+ + HC3N";"kooij";"Logn(4.1e-09,1.3)";"Delta(0)";"Delta(0)";1;"HC3NH+ + CH";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CH2+ + HCN";"kooij";"Logn(1.8e-09,1.2)";"Delta(0)";"Delta(0)";1;"CH2CN+ + H";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CH2+ + HCO";"ionpol1";"Logn(1.21e-09,2)";"Delta(3.58e+00)";"Delta(0)";2;"Dirg(0.5<CH3+ + CO>,0.5<CH2CO+ + H>;0.1,0.1)";"KIDA";"KIDA";"NA";"KIDA";"NA";2022-08-19 09:26:14
+"CH2+ + N4S";"kooij";"Logn(2.2e-10,1.5)";"Delta(0)";"Delta(0)";2;"Diri(1<CN+ + H2>,1<HCN+ + H>;1)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CH2+ + NH3";"kooij";"Logn(2.66e-09,1.1)";"Delta(0)";"Delta(0)";2;"Dirg(0.3300E+00<NH4+ + CH>,0.6700E+00<CH2NH2+ + H>;0.9900E-01,0.2010E+00)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"CH2CHCN+ + C2H2";"kooij";"Logn(9.3e-10,1.3)";"Delta(0)";"Delta(0)";5;"Dirg(0.08<cC3H3+ + CH2CN>,0.55*Diri(1<C4H4+ + HCN>,1<HC3NH+ + C2H3>;1),0.21<HC5NH+ + H2 + H>,0.16<C5H3NH+ + H>;0.08,0.06,0.07,0.05)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CH2CHCN+ + CH2CHCN";"kooij";"Logn(2.5e-09,1.2)";"Delta(0)";"Delta(0)";1;"CH2CHCNH+ + HC3NH";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"CH2CHCN+ + CH4";"kooij";"Logn(2.6e-11,1.3)";"Delta(0)";"Delta(0)";3;"Dirg(0.70<CH3CN+ + C2H4>,0.25<CH2CHCNH+ + CH3>,0.05<C4H6N+ + H>;0.07,0.08,0.05)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CH2CHCN+ + E";"dr";"Logu(3e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"Products";"NA";"NA";"NA";"NA";"Default data: auto generated";2022-08-19 09:26:14
+"CH2CHCN+ + H2";"kooij";"Logn(1.2e-12,1.3)";"Delta(0)";"Delta(0)";1;"CH2CHCNH+ + H";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CH2CHCN+ + H2O";"kooij";"Logn(2.1e-10,1.3)";"Delta(0)";"Delta(0)";2;"Dirg(0.68<CH3CHO+ + HCN>,0.32<C3H4NO+ + H>;0.07,0.11)";"McEwan2007";"NA";"NA";"McEwan2007";"Neglects 1% of adduct";2022-08-19 09:26:14
+"CH2CHCN+ + HCN";"kooij";"Logn(1.9e-10,1.3)";"Delta(0)";"Delta(0)";3;"Dirg(0.09<C4HN2+ + H2 + H>,0.38<C4H2N2+ + H2>,0.20<CxHyNz+ + CxHyNz>;0.09,0.13,0.07)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CH2CHCN+ + NH3";"kooij";"Logn(1.9e-09,1.3)";"Delta(0)";"Delta(0)";2;"Dirg(0.66<NH3+ + CH2CHCN>,0.34<NH4+ + HC3NH>;0.07,0.12)";"Anicich2003";"NA";"NA";"Anicich2003";"Corrected products bug (CH2CN) in ref.";2022-08-19 09:26:14
+"CH2CHCNH+ + E";"dr";"Logn(1.78e-6,1.2)";"Norm(0.80,0.02)";"Delta(0)";28;"Dirg(0.50*Diri(1<CH2CHCN + H>,1*Dior(2<HC3NH + H2>,1<HC3NH + H + H>),1<HC3N + H + H2>,1*Dior(2<C3N + H2 + H2>,1<C3N + H + H + H2>);1),0.49*Diri(1<CH2NH + C2H>,1<H2CN + C2H2>,1*Diri(1<HCN + C2H3>,1<HNC + C2H3>;1),1*Diri(1<HCN + C2H2 + H>,1<HNC + C2H2 + H>;1),1*Diri(1<HCN + C2H + H2>,1<HNC + C2H + H2>;1),1<CN + C2H4>,1<CN + C2H2 + H2>;1),0.01*Diri(1<CH3CN + CH>,1*Diri(1<CH2CN + 1CH2>,1<CH2CN + 3CH2>;1),1<CHCN + CH3>,1<C2N + CH4>,1<C2N + CH3 + H>,1*Diri(1<NH3 + cC3H>,1<NH3 + lC3H>;1),1<NH2 + cC3H2>,1<NH + C3H3>,1<N4S + CH3C2H>,1<N4S + CH2CCH2>;1);0.04,0.04,0.01)";"Vigren2009";"Vigren2009";"NA";"Vigren2009;Plessis2010;Vigren2010b";"NA";2022-08-19 09:26:14
+"CH2CHCNH+ + H2O";"kooij";"Logn(1.8e-11,1.3)";"Delta(0)";"Delta(0)";1;"C3H5NO+ + H";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"CH2CHCNH+ + NH3";"kooij";"Logn(1.7e-09,1.3)";"Delta(0)";"Delta(0)";1;"NH4+ + CH2CHCN";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"CH2CN+ + C2H5CN";"kooij";"Logn(1e-09,1.6)";"Delta(0)";"Delta(0)";1;"Products";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"CH2CN+ + CH3CN";"kooij";"Logn(2.1e-09,1.6)";"Delta(0)";"Delta(0)";1;"Products";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"CH2CN+ + E";"dr";"Logn(5e-7,3)";"Norm(0.5,0.05)";"Delta(0)";5;"Diri(1*Diri(1<CH + HCN>,1<CH + HNC>;1),1*Diri(1<CN + 3CH2>,1<CN + 1CH2>;1),1<C2N + H2>;1)";"KIDA";"KIDA";"NA";"KIDA";"NA";2022-08-19 09:26:14
+"CH2CNH+ + E";"dr";"Logu(3e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"Products";"NA";"NA";"NA";"NA";"Default data: automatically generated";2022-08-19 09:26:14
+"CH2CO+ + E";"dr";"Logn(2e-07,3)";"Delta(5e-01)";"Delta(0)";1;"CO + 1CH2";"KIDA";"KIDA";"NA";"KIDA";"NA";2022-08-19 09:26:14
+"CH2NH+ + E";"dr";"Logu(5e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"Products";"Plessis2010";"Plessis2010";"NA";"NA";"NA";2022-08-19 09:26:14
+"CH2NH2+ + CH3NH2";"kooij";"Logn(1.8e-09,1.2)";"Delta(0)";"Delta(0)";1;"CH3NH3+ + CH2NH";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"CH2NH2+ + E";"dr";"Logu(0.5e-6,3e-6)";"Unif(0.5,1.5)";"Delta(0)";6;"Diri(1<CH2NH + H>,1*Diri(1<1CH2 + NH2>,1<3CH2 + NH2>;1),1*Diri(1<HCN + H2 + H>,1<HNC + H2 + H>;1),1<CN + H2 + H2>;1)";"Plessis2010";"Plessis2010";"NA";"Plessis2010";"NA";2022-08-19 09:26:14
+"CH2NH2+ + NH3";"kooij";"Logn(1.1e-10,1.2)";"Delta(0)";"Delta(0)";1;"NH4+ + CH2NH";"Operti2004;Vuitton2007";"NA";"NA";"Operti2004;Vuitton2007";"NA";2022-08-19 09:26:14
+"CH2OH+ + C4H2";"kooij";"Logn(9.3e-10,1.2)";"Delta(0)";"Delta(0)";1;"C4H3+ + H2CO";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CH2OH+ + E";"dr";"Logn(7.0e-7,1.2)";"Nort(0.70,0.07,0.5,1.5)";"Delta(0)";5;"Dirg(0.92*Dior(1<HCO + H + H>,2<HCO + H2>),0.02<CH + H2O>,0.06*Diri(1<1CH2 + OH>,1<3CH2 + OH>;1);0.02,0.01,0.01)";"Hamberg2007";"Hamberg2007";"NA";"Hamberg2007";"NA";2022-08-19 09:26:14
+"CH2OH+ + H2O";"kooij";"Logn(2.3e-10,1.1)";"Delta(0)";"Delta(0)";1;"H3O+ + H2CO";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CH2OH+ + HCN";"kooij";"Logn(1.3e-09,1.3)";"Delta(0)";"Delta(0)";1;"HCNH+ + H2CO";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CH3+ + C2H2";"kooij";"Logn(1.15e-09,1.1)";"Delta(0)";"Delta(0)";2;"Diri(1<cC3H3+ + H2>,1<lC3H3+ + H2>;1)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CH3+ + C2H4";"kooij";"Logn(1.06e-09,1.1)";"Delta(0)";"Delta(0)";3;"Dirg(0.4600E+00<C2H3+ + CH4>,0.3000E-01<cC3H3+ + H2 + H2>,0.5100E+00<C3H5+ + H2>;0.1380E+00,0.3000E-01,0.1530E+00)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CH3+ + C2H5CN";"kooij";"Logn(2.5e-09,1.4)";"Delta(0)";"Delta(0)";1;"CxHyNz+ + Products";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"CH3+ + C2H6";"kooij";"Logn(1.74e-09,1.1)";"Delta(0)";"Delta(0)";3;"Dirg(0.8500E+00<C2H5+ + CH4>,0.9000E-01<C3H5+ + H2 + H2>,0.6000E-01<C3H7+ + H2>;0.2550E+00,0.9000E-01,0.6000E-01)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CH3+ + C2N2";"kooij";"Logn(9e-11,1.2)";"Delta(0)";"Delta(0)";2;"Dirg(0.8000E+00<CH2CN+ + HCN>,0.2000E+00<C3H2N2H+ + HV>;0.2400E+00,0.6000E-01)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CH3+ + C4H2";"kooij";"Logn(1.3e-09,1.3)";"Delta(0)";"Delta(0)";2;"Dirg(0.9000E+00<cC3H3+ + C2H2>,0.1000E+00<C5H3+ + H2>;0.2700E+00,0.1000E+00)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CH3+ + CH2CHCN";"kooij";"Logn(5.4e-09,1.3)";"Delta(0)";"Delta(0)";1;"CxHyNz+ + Products";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"CH3+ + CH3C2H";"kooij";"Logn(1.9e-09,1.3)";"Delta(0)";"Delta(0)";4;"Dirg(0.15<C2H3+ + C2H4>,0.60<C2H5+ + C2H2>,0.15<cC3H3+ + CH4>,0.10<C4H5+ + H2>;0.05,0.06,0.05,0.10)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CH3+ + CH3CN";"kooij";"Logn(1.8e-09,1.2)";"Delta(0)";"Delta(0)";3;"Dirg(0.3700E+00<C2H5+ + HCN>,0.5800E+00<HCNH+ + C2H4>,0.5000E-01<C2H5CNH+ + HV>;0.1110E+00,0.1740E+00,0.5000E-01)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CH3+ + CH3NH2";"kooij";"Logn(3.2e-09,1.2)";"Delta(0)";"Delta(0)";2;"Dirg(0.45<CH2NH2+ + CH4>,0.55<CH3NH2+ + CH3>;0.15,0.06)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"CH3+ + CH3OH";"kooij";"Logn(2.3E-9,1.3)";"Delta(0)";"Delta(0)";4;"Dirg(0.91<CH2OH+ + CH4>,0.01<CH3OH+ + CH3>,0.08*Diri(1<CH3OH2+ + 1CH2>,1<CH3OH2+ + 3CH2>;1);0.05,0.01,0.05)";"Anicich1993";"NA";"NA";"NA";"NA";2022-08-19 09:26:14
+"CH3+ + CH4";"kooij";"Logn(1.1e-09,1.2)";"Delta(0)";"Delta(0)";1;"C2H5+ + H2";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CH3+ + E";"dr";"Logu(3.56e-7,12e-7)";"Nort(0.51,0.02,0.5,1.5)";"Delta(0)";5;"Dirg(0.4*Diri(1<1CH2 + H>,1<3CH2 + H>;1),0.14<CH + H2>,0.16<CH + H + H>,0.3<C + H2 + H>;0.1,0.1,0.15,0.08)";"Florescu2006;Sheehan2004;physto";"Florescu2006;Sheehan2004;physto";"NA";"Vejby-Christensen1997";"NA";2022-08-19 09:26:14
+"CH3+ + H2";"kooij";"Logn(4e-13,1.6)";"Delta(0)";"Delta(0)";1;"CH5+ + HV";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CH3+ + H2O";"kooij";"Logn(2e-12,10)";"Delta(0)";"Delta(0)";1;"CH3OH2+";"KIDA";"NA";"NA";"KIDA";"NA";2022-08-19 09:26:14
+"CH3+ + HC3N";"kooij";"Logn(4.3e-09,1.2)";"Delta(0)";"Delta(0)";2;"Dirg(0.49<cC3H3+ + HCN>,0.51<C4H4N+ + HV>;0.05,0.05)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CH3+ + HCN";"kooij";"Logn(2e-10,1.1)";"Delta(0)";"Delta(0)";1;"CH3CNH+";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CH3+ + N4S";"kooij";"Logn(6.7e-11,1.2)";"Delta(0)";"Delta(0)";2;"Diri(1<HCN+ + H2>,1<HCNH+ + H>;1)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CH3+ + NH3";"kooij";"Logn(0.1750E-08,1.1)";"Delta(0)";"Delta(0)";3;"Dirg(0.15*Diri(1<NH4+ + 1CH2>,1<NH4+ + 3CH2>;1),0.85<CH2NH2+ + H2>;0.05,0.27)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"CH3CHO+ + E";"dr";"Logn(1.5e-06,1.13)";"Norm(7.0e-01,0.02)";"Delta(0)";1;"Products";"Vigren2010c";"Vigren2010c";"NA";"Vigren2010c";"Partial data in Vigren2010c, but need to get thermochemistry for products list";2022-08-19 09:26:14
+"CH3CHOH+ + E";"dr";"Logu(1.0e-07,1.7e-06)";"Delta(7.7e-01)";"Delta(0)";2;"Diri(1<CO + CH4 + H>,1<H2CO + CH3>;1)";"Hamberg2010";"Hamberg2010";"NA";"Hamberg2010";"NA";2022-08-19 09:26:14
+"CH3CN+ + CH3CN";"kooij";"Logn(2e-09,1.6)";"Delta(0)";"Delta(0)";1;"CH3CNH+ + CH2CN";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"CH3CN+ + CH4";"kooij";"Logn(1.7e-09,1.6)";"Delta(0)";"Delta(0)";1;"CH3CNH+ + CH3";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"CH3CN+ + E";"dr";"Logu(3e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"Products";"NA";"NA";"NA";"NA";"Default data: automatically generated";2022-08-19 09:26:14
+"CH3CN+ + H2";"kooij";"Logn(5.7e-10,1.6)";"Delta(0)";"Delta(0)";1;"CH3CNH+ + H";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"CH3CNH+ + C4H6";"kooij";"Logn(1.4e-09,1.2)";"Delta(0)";"Delta(0)";1;"C4H7+ + CH3CN";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"CH3CNH+ + C4H8";"kooij";"Logn(1e-10,2)";"Delta(0)";"Delta(0)";1;"C4H9+ + CH3CN";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"CH3CNH+ + E";"dr";"Logn(3.3e-7,1.15)";"Nort(1.03,1,0.5,1.5)";"Delta(0)";26;"Dirg(0.65*Diut(0.25*Diri(1<CH3CN + H>,1*Dior(2<CH2CN + H2>,1<CH2CN + H + H>),1<CHCN + H2 + H>;1),0.00<C2N + H2 + H2>;1.00,0.25),0.35*Dior(2*Diri(1<C2H4 + N4S>,1<C2H2 + NH2>,1<C2H2 + NH + H>,1<C2H2 + N4S + H2>,1<C2H + NH3>,1<C2H + NH + H2>;1),1*Dior(1*Diri(1*Diri(1<HCN + CH3>,1<HNC + CH3>;1),1*Diri(1*Diri(1<HCN + 1CH2 + H>,1<HCN + 3CH2 + H>;1),1*Diri(1<HNC + 1CH2 + H>,1<HNC + 3CH2 + H>;1);1),1*Diri(1<HCN + CH + H2>,1<HNC + CH + H2>;1),1<CN + CH3 + H>;1),2*Diri(1<CH2NH + CH>,1*Diri(1<H2CN + 1CH2>,1<H2CN + 3CH2>;1),1<CN + CH4>,1*Diri(1<CN + 1CH2 + H2>,1<CN + 3CH2 + H2>;1);1)));0.03,0.03)";"Florescu2006;McLain2009a;Geoghegan1991;McLain2009";"Plessis2010;McLain2009a";"NA";"Vigren2008;Plessis2010";"NA";2022-08-19 09:26:14
+"CH3CO+ + E";"dr";"Logu(3e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"Products";"NA";"NA";"NA";"NA";"Default data: auto generated";2022-08-19 09:26:14
+"CH3N2+ + E";"dr";"Logu(3e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"Products";"NA";"NA";"NA";"NA";"Default data: auto generated";2022-08-19 09:26:14
+"CH3NH2+ + CH3NH2";"kooij";"Logn(1.9e-09,1.2)";"Delta(0)";"Delta(0)";1;"CH3NH3+ + CH2NH2";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"CH3NH2+ + E";"dr";"Logu(5e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"Products";"Plessis2010";"Plessis2010";"NA";"NA";"NA";2022-08-19 09:26:14
+"CH3NH3+ + E";"dr";"Logu(5e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"Products";"Plessis2010";"Plessis2010";"NA";"NA";"NA";2022-08-19 09:26:14
+"CH3OH+ + E";"dr";"Logn(6e-07,2)";"Delta(5e-01)";"Delta(0)";2;"Diri(1<CH3 + OH>,1<H2CO + H2>;1)";"KIDA";"KIDA";"NA";"KIDA";"NA";2022-08-19 09:26:14
+"CH3OH2+ + CH3OH";"kooij";"Logn(1e-10,1.25)";"Delta(-1e+00)";"Delta(0)";1;"CH3OHCH3+ + H2O";"KIDA";"KIDA";"NA";"KIDA";"NA";2022-08-19 09:26:14
+"CH3OH2+ + E";"dr";"Logn(8.9e-7,1.10)";"Nort(0.59,0.02,0.5,1.5)";"Delta(0)";9;"Dirg(0.09<CH3 + H2O>,0.51<CH3 + OH + H>,0.21*Diri(1<1CH2 + H2O + H>,1<3CH2 + H2O + H>;1),0.001<CH + H2O + H2>,0.03<CH3OH + H>,0.06<CH3O + H2>,0.001<CH3O + H + H>,0.10<H2CO + H2 + H>;0.02,0.04,0.02,0.01,0.02,0.02,0.01,0.01)";"Geppert2006";"Geppert2006";"NA";"Geppert2006";"NA";2022-08-19 09:26:14
+"CH3OHCH3+ + E";"dr";"Logu(1e-07,1.7e-06)";"Delta(0.70)";"Delta(0)";3;"Dirg(0.07<CH3OCH3 + H>,0.93*Diri(1<CH3OH + CH3>,1<CH4 + CH3 + O3P>;1);0.1,0.1)";"Hamberg2010";"Hamberg2010";"NA";"Hamberg2010";"NA";2022-08-19 09:26:14
+"CH4+ + C2H2";"kooij";"Logn(0.2720E-08,1.1)";"Delta(0)";"Delta(0)";4;"Dirg(0.53<C2H2+ + CH4>,0.41<C2H3+ + CH3>,0.06*Diri(1<cC3H3+ + H2 + H>,1<lC3H3+ + H2 + H>;1);0.05,0.05,0.06)";"Anicich1997";"NA";"NA";"Anicich1997";"1rst channel absent in KIDA";2022-08-19 09:26:14
+"CH4+ + C2H4";"kooij";"Logn(2e-09,1.3)";"Delta(0e+00)";"Delta(0)";3;"Dirg(0.85<C2H4+ + CH4>,0.13<C2H5+ + CH3>,0.02<C3H5+ + H2 + H>;0.09,0.04,0.02)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CH4+ + C2H6";"kooij";"Logn(1.91e-09,1.1)";"Delta(0)";"Delta(0)";1;"C2H4+ + H2 + CH4";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CH4+ + CH3NH2";"kooij";"Logn(2.2e-09,1.2)";"Delta(0)";"Delta(0)";2;"Dirg(0.6<CH3NH2+ + CH4>,0.4<CH2NH2+ + CH4 + H>;0.06,0.13)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"CH4+ + CH3OH";"kooij";"Logn(3e-09,1.3)";"Delta(0)";"Delta(0)";2;"Dirg(0.60<CH3OH+ + CH4>,0.40<CH3OH2+ + CH3>;0.05,0.05)";"Anicich1993";"NA";"NA";"Anicich1993";"NA";2022-08-19 09:26:14
+"CH4+ + CH4";"kooij";"Logn(1.14e-09,1.15)";"Delta(0)";"Delta(0)";1;"CH5+ + CH3";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CH4+ + CO";"kooij";"Logn(1.08e-09,1.4)";"Delta(0.00e+00)";"Delta(0)";2;"Dirg(0.96<HCO+ + CH3>,0.04<CH3CO+ + H>;0.10,0.04)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CH4+ + CO2";"kooij";"Logn(1e-09,1.2)";"Delta(0)";"Delta(0)";2;"Dirg(0.99<HCO2+ + CH3>,0.01<CH3CO+ + OH>;0.05,0.05)";"Anicich1993";"NA";"NA";"Anicich1993";"NA";2022-08-19 09:26:14
+"CH4+ + E";"dr";"Logn(1.71e-6,1.011)";"Norm(0.66,0.02)";"Delta(0)";7;"Dirg(0.18<CH3 + H>,0.06*Diri(1<1CH2 + H2>,1<3CH2 + H2>;1),0.51*Diri(1<1CH2 + H + H>,1<3CH2 + H + H>;1),0.23<CH + H2 + H>,0.02<C + H2 + H2>;0.03,0.01,0.03,0.01,0.01)";"Thomas2013";"Thomas2013";"NA";"Thomas2013";"NA";2022-08-19 09:26:14
+"CH4+ + H2";"kooij";"Logn(3.5e-11,1.15)";"Delta(0)";"Delta(0)";1;"CH5+ + H";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CH4+ + H2CO";"kooij";"Logn(3.6e-09,1.2)";"Delta(0)";"Delta(0)";2;"Dirg(0.45<H2CO+ + CH4>,0.55<CH2OH+ + CH3>;0.05,0.05)";"Anicich1993";"NA";"NA";"Anicich1993";"NA";2022-08-19 09:26:14
+"CH4+ + H2O";"kooij";"Logn(2.5e-09,1.1)";"Delta(0)";"Delta(0)";1;"H3O+ + CH3";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CH4+ + HC3N";"kooij";"Logn(2.5e-09,1.3)";"Delta(0)";"Delta(0)";1;"HC3NH+ + CH3";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CH4+ + HCN";"kooij";"Logn(3.3e-09,1.1)";"Delta(0)";"Delta(0)";2;"Dirg(0.98<HCNH+ + CH3>,0.02<CH3CNH+ + H>;0.10,0.02)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CH4+ + NH3";"ionpol1";"Logn(1.18E-9,2)";"Delta(3.65)";"Delta(0)";3;"Dirg(0.02<CH5+ + NH2>,0.45<NH4+ + CH3>,0.53<NH3+ + CH4>;0.02,0.15,0.18)";"KIDA";"KIDA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"CH4+ + O2";"kooij";"Logn(3.9e-10,1.2)";"Delta(0)";"Delta(0)";1;"O2+ + CH4";"Anicich1993";"NA";"NA";"Anicich1993";"NA";2022-08-19 09:26:14
+"CH5+ + C2H2";"kooij";"Logn(1.48e-09,1.2)";"Delta(0)";"Delta(0)";1;"C2H3+ + CH4";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CH5+ + C2H4";"kooij";"Logn(1.5e-09,1.2)";"Delta(0)";"Delta(0)";1;"C2H5+ + CH4";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CH5+ + C2H6";"kooij";"Logn(1.35e-09,1.15)";"Delta(0)";"Delta(0)";2;"Dirg(0.15<C2H5+ + H2 + CH4>,0.85<C2H7+ + CH4>;0.05,0.09)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CH5+ + C3H6";"kooij";"Logn(1.4e-09,1.2)";"Delta(0)";"Delta(0)";2;"Dirg(0.15<C3H5+ + H2 + CH4>,0.85<C3H7+ + CH4>;0.05,0.09)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"CH5+ + C3H8";"kooij";"Logn(1.5e-09,1.2)";"Delta(0)";"Delta(0)";2;"Diri(1<C3H7+ + H2 + CH4>,1<C2H5+ + CH4 + CH4>;1)";"Anicich2003";"NA";"NA";"Anicich2003";"Combined MS fragments with IonTrap rates";2022-08-19 09:26:14
+"CH5+ + C6H6";"kooij";"Logn(2e-09,1.2)";"Delta(0)";"Delta(0)";1;"C6H7+ + CH4";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"CH5+ + CH2CCH2";"kooij";"Logn(3.1e-09,1.1)";"Delta(0)";"Delta(0)";1;"CxHyNz+ + Products";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CH5+ + CH3C2H";"kooij";"Logn(2e-09,1.1)";"Delta(0)";"Delta(0)";1;"CxHy+ + CxHy";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CH5+ + CH3CN";"kooij";"Logn(4.9e-09,1.05)";"Delta(0)";"Delta(0)";1;"CxHyNz+ + Products";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"CH5+ + CH3NH2";"kooij";"Logn(2.3e-09,1.3)";"Delta(0)";"Delta(0)";1;"CxHyNz+ + Products";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"CH5+ + CO";"kooij";"Logn(9.9e-10,1.2)";"Delta(0)";"Delta(0)";1;"HCO+ + CH4";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CH5+ + E";"dr";"Logu(2.8e-7,14e-7)";"Nort(1.5,1.5,0.5,1.5)";"Delta(0)";6;"Diut(0.8<CH4 + H>,0*Dior(2<CH3 + H2>,1<CH3 + H + H>),0*Diri(1<1CH2 + H2 + H>,1<3CH2 + H2 + H>;1),0<CH + H2 + H2>;1,0.08,0.01,0.01)";"Florescu2006;Sheehan2004;physto";"Florescu2006;Sheehan2004;physto;Plessis2010";"NA";"Molek2009";"NA";2022-08-19 09:26:14
+"CH5+ + H";"kooij";"Logn(1.5e-10,1.5)";"Delta(0)";"Delta(0)";1;"CH4+ + H2";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CH5+ + H2CO";"kooij";"Logn(4.5e-09,1.25)";"Delta(0)";"Delta(0)";1;"CH2OH+ + CH4";"Anicich1993";"NA";"NA";"Anicich1993";"NA";2022-08-19 09:26:14
+"CH5+ + H2O";"kooij";"Logn(3.7e-09,1.25)";"Delta(0)";"Delta(0)";1;"H3O+ + CH4";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CH5+ + HC3N";"kooij";"Logn(4.5e-09,1.3)";"Delta(0)";"Delta(0)";1;"HC3NH+ + CH4";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CH5+ + N2O";"kooij";"Logn(9e-10,1.1)";"Delta(0)";"Delta(0)";1;"HN2O+ + CH4";"Anicich1993";"NA";"NA";"Anicich1993";"NA";2022-08-19 09:26:14
+"CH5+ + NH3";"kooij";"Logn(2.4e-09,1.15)";"Delta(0)";"Delta(0)";1;"NH4+ + CH4";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"CH5+ + O3P";"kooij";"Logn(2.4e-10,1.3)";"Delta(0)";"Delta(0)";2;"Dirg(0.98<H3O+ + 3CH2>,0.02<CH2OH+ + H2>;0.02,0.02)";"Anicich1993";"NA";"NA";"Anicich1993";"NA";2022-08-19 09:26:14
+"CHCN+ + E";"dr";"Logn(2e-07,4.00)";"Norm(5e-01,0.05)";"Delta(0)";2;"Diri(1<CH + CN>,1<C2N + H>;1)";"KIDA";"KIDA";"NA";"KIDA";"NA";2022-08-19 09:26:14
+"CHCN+ + HCN";"kooij";"Logn(1.4e-11,1.6)";"Delta(0)";"Delta(0)";1;"C3HN2+ + H";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"CHCNH+ + E";"dr";"Logn(5e-7,3)";"Norm(0.5,0.05)";"Delta(0)";5;"Diri(1*Diri(1<CH + HCN>,1<CH + HNC>;1),1*Diri(1<CN + 3CH2>,1<CN + 1CH2>;1),1<C2N + H2>;1)";"Plessis2010";"Plessis2010";"NA";"KIDA";"NA";2022-08-19 09:26:14
+"CHCO+ + E";"dr";"Logn(1.5e-07,2)";"Delta(5.0e-01)";"Delta(0)";4;"Dirg(0.3<CO + C + H>,0.2<CO + CH>,0.3<C2H + O3P>,0.2<C2O + H>;0.1,0.1,0.1,0.1)";"KIDA";"KIDA";"NA";"KIDA";"NA";2022-08-19 09:26:14
+"CHNC+ + E";"dr";"Logn(2e-07,4.00)";"Norm(5e-01,0.05)";"Delta(0)";2;"Diri(1<CH + CN>,1<CNC + H>;1)";"KIDA";"KIDA";"NA";"KIDA";"No data; duplicate CHCN+ except for CNC product";2022-08-19 09:26:14
+"CN+ + C2H2";"kooij";"Logn(1e-09,1.3)";"Delta(0)";"Delta(0)";2;"Dirg(0.80<C2H2+ + CN>,0.20<HC3N+ + H>;0.08,0.07)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CN+ + C2H4";"kooij";"Logn(1.3e-09,1.3)";"Delta(0)";"Delta(0)";3;"Dirg(0.70<C2H4+ + CN>,0.25<HCN+ + C2H3>,0.05<HC3NH+ + H2>;0.07,0.08,0.05)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CN+ + C2H6";"kooij";"Logn(1.9e-09,1.2)";"Delta(0)";"Delta(0)";3;"Dirg(0.15<C2H3+ + H2 + HCN>,0.65<C2H4+ + H + HCN>,0.20<C2H5+ + HCN>;0.05,0.07,0.07)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CN+ + C2N2";"kooij";"Logn(1.75e-09,1.3)";"Delta(0)";"Delta(0)";3;"Dirg(0.03<CNC+ + CN2>,0.92<C2N2+ + CN>,0.05<C3N+ + N2>;0.03,0.09,0.05)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CN+ + C4H2";"kooij";"Logn(9.7e-10,1.3)";"Delta(0)";"Delta(0)";2;"Dirg(0.75<C4H2+ + CN>,0.25<HC5N+ + H>;0.08,0.09)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CN+ + CH3CN";"kooij";"Logn(3.4e-09,1.3)";"Delta(0)";"Delta(0)";4;"Dirg(0.50<CH3CN+ + CN>,0.20<CHCNH+ + HCN>,0.20<CH3+ + C2N2>,0.10<C2H3+ + CN2>;0.05,0.07,0.07,0.03)";"McEwan2007";"NA";"NA";"McEwan2007";"Check products CHCNH+ ???";2022-08-19 09:26:14
+"CN+ + CH4";"kooij";"Logn(1e-09,1.15)";"Delta(0)";"Delta(0)";5;"Dirg(0.50<CH3+ + HCN>,0.15<CH4+ + CN>,0.15<HCN+ + CH3>,0.10<HCNH+ + 1CH2>,0.10<CH2CN+ + H2>;0.05,0.05,0.05,0.03,0.03)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CN+ + CO";"kooij";"Logn(4.4e-10,1.6)";"Delta(0)";"Delta(0)";1;"CO+ + CN";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CN+ + E";"dr";"Logn(3.4E-7,1.16)";"Nort(0.55,0.55,0.5,1.5)";"Delta(0)";5;"Dirg(0.04<N4S + C>,0.14*Diri(1<N2D + C>,1<N4S + C>;1),0.82*Diri(1<N2P + C>,1<N2D + C>;1);0.03,0.014,0.03)";"LePadellec1999";"LePadellec1999;Adams2006;Plessis2010";"NA";"LePadellec1999;Plessis2010";"NA";2022-08-19 09:26:14
+"CN+ + H";"kooij";"Logn(6.4e-10,1.2)";"Delta(0)";"Delta(0)";1;"H+ + CN";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CN+ + H2";"kooij";"Logn(1.6e-09,1.2)";"Delta(0.0e+00)";"Delta(0)";2;"Diri(1<HCN+ + H>,1<HNC+ + H>;1)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CN+ + H2O";"kooij";"Logn(3.2e-09,1.2)";"Delta(0)";"Delta(0)";5;"Dirg(0.10<H2O+ + CN>,0.50<HCN+ + OH>,0.15<HCNH+ + O3P>,0.05<HCO+ + NH>,0.20<HNCO+ + H>;0.03,0.05,0.05,0.05,0.07)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CN+ + HC3N";"kooij";"Logn(4.6e-09,1.2)";"Delta(0)";"Delta(0)";2;"Dirg(0.20<C3N+ + HCN>,0.80<HC3N+ + CN>;0.07,0.08)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CN+ + HCN";"kooij";"Logn(2.7e-09,1.2)";"Delta(0)";"Delta(0)";2;"Dirg(0.83<HCN+ + CN>,0.17<C2N2+ + H>;0.09,0.06)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CN+ + N4S";"kooij";"Logn(6.5e-10,1.2)";"Delta(0)";"Delta(0)";1;"N2+ + C";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CN+ + NH3";"kooij";"Logn(2e-09,1.2)";"Delta(0)";"Delta(0)";4;"Dirg(0.05<NH2+ + HCN>,0.60<NH3+ + CN>,0.20<HCN+ + NH2>,0.15<HCNH+ + NH>;0.05,0.06,0.07,0.05)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"CNC+ + C2H2";"kooij";"Logn(8e-10,1.4)";"Delta(0)";"Delta(0)";2;"Dirg(0.92<C3H+ + HCN>,0.08<HCNH+ + C3>;0.09,0.08)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"CNC+ + CH4";"kooij";"Logn(4.2e-12,1.2)";"Delta(0)";"Delta(0)";2;"Diri(1<C2H3+ + HCN>,1<HC3NH+ + H2>;1)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CNC+ + E";"dr";"Logn(4e-07,3.00)";"Norm(6e-01,0.05)";"Delta(0)";2;"Diut(0.95<CN + C>,0.00<1C2 + N4S>;1.00,0.05)";"KIDA";"KIDA";"NA";"KIDA";"NA";2022-08-19 09:26:14
+"CNC+ + H2O";"kooij";"Logn(7e-11,1.4)";"Delta(0)";"Delta(0)";2;"Dirg(0.25<CHNC+ + OH>,0.75<HCO+ + HCN>;0.09,0.08)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CNC+ + HC3N";"kooij";"Logn(3.3e-09,1.2)";"Delta(0)";"Delta(0)";1;"C3H+ + C2N2";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"CNC+ + NH3";"kooij";"Logn(1.85e-09,1.1)";"Delta(0)";"Delta(0)";2;"Dirg(0.95<HCNH+ + HCN>,0.05<N2H+ + C2H2>;0.09,0.05)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"CO+ + C2H2";"kooij";"Logn(4.1e-10,1.6)";"Delta(0)";"Delta(0)";1;"C2H2+ + CO";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CO+ + C2H6";"kooij";"Logn(1.39e-09,1.3)";"Delta(0)";"Delta(0)";3;"Dirg(0.36<C2H5+ + HCO>,0.62<C2H4+ + H2CO>,0.02<CH3+ + CO + CH3>;0.12,0.06,0.02)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CO+ + C3H8";"kooij";"Logn(1e-09,1.3)";"Delta(0)";"Delta(0)";4;"Dirg(0.13<C3H7+ + HCO>,0.03<C3H6+ + H2CO>,0.66<C2H5+ + CO + CH3>,0.18<C2H4+ + CO + CH4>;0.04,0.03,0.07,0.06)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CO+ + CH3CN";"kooij";"Logn(3e-09,1.3)";"Delta(0)";"Delta(0)";2;"Dirg(0.75<CH3CN+ + CO>,0.25<CHCNH+ + HCO>;0.08,0.08)";"McEwan2007";"NA";"NA";"McEwan2007";"Check products CHCNH+ ???";2022-08-19 09:26:14
+"CO+ + CH4";"kooij";"Logn(1.34e-09,1.1)";"Delta(0)";"Delta(0)";3;"Dirg(0.67<CH4+ + CO>,0.28<HCO+ + CH3>,0.05<CH3CO+ + H>;0.07,0.09,0.05)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CO+ + E";"dr";"Logn(2.75e-07,2)";"Delt(5.50e-01)";"Delta(0)";2;"Dirg(0.90<O3P + C>,0.10<O1D + C>;0.09,0.10)";"Rosen1998";"Rosen1998";"NA";"Rosen1998";"Check the uncertainties";2022-08-19 09:26:14
+"CO+ + H";"kooij";"Logn(4e-10,1.2)";"Delta(0)";"Delta(0)";1;"H+ + CO";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CO+ + H2";"kooij";"Logn(1.4e-09,1.15)";"Delta(0)";"Delta(0)";2;"Dirg(0.52<HCO+ + H>,0.48<HOC+ + H>;0.05,0.05)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CO+ + H2O";"kooij";"Logn(2.4e-09,1.1)";"Delta(0)";"Delta(0)";2;"Dirg(0.65<H2O+ + CO>,0.35<HCO+ + OH>;0.07,0.12)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CO+ + HC3N";"kooij";"Logn(3.1e-09,1.25)";"Delta(0)";"Delta(0)";1;"HC3N+ + CO";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CO+ + HCN";"kooij";"Logn(3.4e-09,1.1)";"Delta(0)";"Delta(0)";2;"Diut(0.90<HCN+ + CO>,0.00<HCO+ + CN>;1.00,0.10)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CO+ + N4S";"kooij";"Logn(8.2e-11,1.2)";"Delta(0)";"Delta(0)";1;"NO+ + C";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"CO2+ + E";"dr";"Logn(4.2e-07,2)";"Delta(7.5e-01)";"Delta(0)";1;"CO + O3P";"Viggiano2005";"Viggiano2005";"NA";"Viggiano2005";"NA";2022-08-19 09:26:14
+"CxHyNz+ + E";"dr";"Logu(3e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"Products";"NA";"NA";"NA";"NA";"Default data: auto generated";2022-08-19 09:26:14
+"H+ + C2H2";"kooij";"Logn(5.4e-10,1.2)";"Delta(0)";"Delta(0)";1;"C2H2+ + H";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"H+ + C2H3NH";"kooij";"Logn(5e-09,2)";"Delta(-5e-01)";"Delta(0)";2;"Diri(1<CH3CN+ + H2>,1<CH3CNH+ + H>;1)";"Quan2016";"Quan2016";"NA";"Quan2016";"NA";2022-08-19 09:26:14
+"H+ + C2H4";"kooij";"Logn(4.9e-09,1.2)";"Delta(0)";"Delta(0)";3;"Dirg(0.2<C2H4+ + H>,0.6<C2H3+ + H2>,0.2<C2H2+ + H2 + H>;0.03,0.06,0.03)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"H+ + C2H6";"kooij";"Logn(4.7e-09,1.2)";"Delta(0)";"Delta(0)";4;"Diut(0.55<C2H3+ + H2 + H2>,0.25<C2H4+ + H2 + H>,0<C2H5+ + H2>,0<CH3+ + CH4>;0.65,0.35,0.05,0.05)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"H+ + CH3CHNH";"kooij";"Logn(1.03e-08,2)";"Delta(-5.00e-01)";"Delta(0)";2;"Diri(1<CH3CNH+ + H2>,1<C2H5N+ + H>;1)";"Quan2016";"Quan2016";"NA";"Quan2016";"NA";2022-08-19 09:26:14
+"H+ + CH3CN";"ionpol1";"Logn(4.29e-09,1.5)";"Delta(6.58e+00)";"Delta(0)";3;"Dirg(0.70<CH3CN+ + H>,0.05<CH2CN+ + H2>,0.25<CH3+ + HCN>;0.07,0.05,0.03)";"KIDA";"KIDA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"H+ + CH4";"kooij";"Logn(4.15e-09,1.1)";"Delta(0.00e+00)";"Delta(0)";2;"Dirg(0.8200E+00<CH3+ + H2>,0.1800E+00<CH4+ + H>;0.2460E+00,0.5400E-01)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"H+ + E";"dr";"Logn(3.61e-12,1.2)";"Unif(7.00e-01,0.8)";"Delta(0)";1;"H + HV";"Prasad1980";"Prasad1980";"NA";"NA";"2018-06-29 Changed to reference values";2022-08-19 09:26:14
+"H+ + H2";"kooij";"Logn(5.01e-13,1.9977)";"Delta(0.00e+00)";"Delta(0)";1;"H2+ + H";"NA";"NA";"NA";"NA";"Douteux...";2022-08-19 09:26:14
+"H+ + H2O";"kooij";"Logn(8.2e-09,1.1)";"Delta(0.0e+00)";"Delta(0)";1;"H2O+ + H";"Anicich2003";"NA";"NA";"NA";"NA";2022-08-19 09:26:14
+"H+ + HCN";"kooij";"Logn(1.1e-08,1.2)";"Delta(0.0e+00)";"Delta(0)";1;"HCN+ + H";"Anicich2003";"NA";"NA";"NA";"NA";2022-08-19 09:26:14
+"H+ + HCOOH";"ionpol1";"Logn(4.31e-09,2)";"Delta(2.77e+00)";"Delta(0)";1;"HCOOH+ + H";"Woon2009";"Woon2009";"NA";"Woon2009";"NA";2022-08-19 09:26:14
+"H+ + NH3";"kooij";"Logn(3.7e-09,1.2)";"Delta(0.0e+00)";"Delta(0)";1;"NH3+ + H";"Anicich2003";"NA";"NA";"NA";"NA";2022-08-19 09:26:14
+"H2+ + Ar";"kooij";"Logn(2.1e-09,1.1)";"Delta(0)";"Delta(0)";1;"ArH+ + H";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"H2+ + C2H2";"kooij";"Logn(5.3e-09,1.1)";"Delta(0)";"Delta(0)";2;"Dirg(0.91<C2H2+ + H2>,0.09<C2H3+ + H>;0.27,0.09)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"H2+ + C2H4";"kooij";"Logn(4.9e-09,1.1)";"Delta(0)";"Delta(0)";3;"Dirg(0.1800E+00<C2H2+ + H2 + H2>,0.3700E+00<C2H3+ + H2 + H>,0.4500E+00<C2H4+ + H2>;0.5400E-01,0.1110E+00,0.1350E+00)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"H2+ + C2H6";"kooij";"Logn(4.9e-09,1.1)";"Delta(0)";"Delta(0)";5;"Dirg(0.4000E-01<C2H2+ + H2 + H2 + H2>,0.1400E+00<C2H3+ + H2 + H2 + H>,0.4800E+00<C2H4+ + H2 + H2>,0.2800E+00<C2H5+ + H2 + H>,0.6000E-01<C2H6+ + H2>;0.4000E-01,0.4200E-01,0.1440E+00,0.8400E-01,0.6000E-01)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"H2+ + CH4";"kooij";"Logn(3.8e-09,1.1)";"Delta(0)";"Delta(0)";3;"Dirg(0.60<CH3+ + H2 + H>,0.37<CH4+ + H2>,0.03<CH5+ + H>;0.18,0.11,0.03)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"H2+ + CO";"ionpol2";"Logn(2.39e-9,1.5)";"Delta(0.251)";"Delta(0)";2;"Dirg(0.23<CO+ + H2>,0.77<HCO+ + H>;0.05,0.05)";"KIDA";"KIDA";"NA";"Anicich2003;KIDA";"NA";2022-08-19 09:26:14
+"H2+ + E";"dr";"Logn(1.6e-08,2.00)";"Nort(4.3e-01,0.43,0.5,1.5)";"Delta(0)";1;"H + H";"Florescu2006";"Florescu2006";"NA";"NA";"NA";2022-08-19 09:26:14
+"H2+ + H";"kooij";"Logn(6.4e-10,1.2)";"Delta(0)";"Delta(0)";1;"H+ + H2";"Anicich2003";"NA";"NA";"NA";"NA";2022-08-19 09:26:14
+"H2+ + H2";"kooij";"Logn(2e-09,1.1)";"Delta(0)";"Delta(0)";1;"H3+ + H";"Anicich2003";"NA";"NA";"NA";"NA";2022-08-19 09:26:14
+"H2+ + H2O";"ionpol1";"Logn(2.07e-9,1.5)";"Delta(5.51)";"Delta(0)";2;"Dirg(0.53<H2O+ + H2>,0.47<H3O+ + H>;0.16,0.14)";"KIDA";"KIDA";"NA";"Anicich2003;KIDA";"NA";2022-08-19 09:26:14
+"H2+ + N2";"kooij";"Logn(2e-09,1.1)";"Delta(0)";"Delta(0)";1;"N2H+ + H";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"H2+ + NH3";"ionpol1";"Logn(2.53e-9,1.5)";"Delta(3.65)";"Delta(0)";1;"NH3+ + H2";"KIDA";"KIDA";"NA";"Anicich2003;KIDA";"NA";2022-08-19 09:26:14
+"H2+ + O2";"kooij";"Logn(2.7e-09,1.1)";"Delta(0)";"Delta(0)";2;"Dirg(0.29<O2+ + H2>,0.71<HO2+ + H>;0.05,0.05)";"Anicich1993";"NA";"NA";"Anicich1993";"NA";2022-08-19 09:26:14
+"H2CO+ + CH4";"kooij";"Logn(1.1e-10,1.2)";"Delta(0)";"Delta(0)";2;"Dirg(0.85<CH2OH+ + CH3>,0.15<CH3CHOH+ + H>;0.05,0.05)";"Anicich1993";"NA";"NA";"Anicich1993";"NA";2022-08-19 09:26:14
+"H2CO+ + E";"dr";"Logu(3e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"Products";"NA";"NA";"NA";"NA";"Default data: auto generated";2022-08-19 09:26:14
+"H2NO+ + E";"dr";"Logn(3e-07,2)";"Delta(5e-01)";"Delta(0)";2;"Diri(1<NO + H2>,1<HNO + H>;1)";"KIDA";"KIDA";"NA";"KIDA";"NA";2022-08-19 09:26:14
+"H2O+ + C2H2";"kooij";"Logn(1.9e-09,1.5)";"Delta(0)";"Delta(0)";1;"C2H2+ + H2O";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"H2O+ + C2H4";"kooij";"Logn(1.5e-09,1.5)";"Delta(0)";"Delta(0)";1;"C2H4+ + H2O";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"H2O+ + C2H6";"kooij";"Logn(1.6e-09,1.2)";"Delta(0)";"Delta(0)";4;"Dirg(0.83<H3O+ + C2H5>,0.12<C2H4+ + H2 + H2O>,0.01<C2H5+ + H + H2O>,0.04<C2H6+ + H2O>;0.08,0.04,0.01,0.04)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"H2O+ + C2N2";"kooij";"Logn(1e-09,1.3)";"Delta(0)";"Delta(0)";1;"C2HN2+ + OH";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"H2O+ + CH4";"kooij";"Logn(1.12e-09,1.1)";"Delta(0)";"Delta(0)";1;"H3O+ + CH3";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"H2O+ + CO";"kooij";"Logn(4.25e-10,1.2)";"Delta(0)";"Delta(0)";1;"HCO+ + OH";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"H2O+ + E";"dr";"Logn(3e-07,1.5)";"Unif(7e-01,0.9)";"Delta(0)";3;"Dirg(0.22<OH + H>,0.10<O3P + H2>,0.68<O3P + H + H>;0.07,0.10,0.07)";"Florescu2006";"Florescu2006";"NA";"NA";"NA";2022-08-19 09:26:14
+"H2O+ + H2";"kooij";"Logn(7.6e-10,1.15)";"Delta(0.0e+00)";"Delta(0)";1;"H3O+ + H";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"H2O+ + H2CO";"kooij";"Logn(2.07e-09,1.1)";"Delta(0)";"Delta(0)";2;"Dirg(0.68<H2CO+ + H2O>,0.32<CH2OH+ + OH>;0.03,0.03)";"Anicich1993";"NA";"NA";"Anicich1993";"NA";2022-08-19 09:26:14
+"H2O+ + H2O";"kooij";"Logn(1.85e-09,1.15)";"Delta(0)";"Delta(0)";1;"H3O+ + OH";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"H2O+ + HCN";"kooij";"Logn(2.1e-09,1.1)";"Delta(0)";"Delta(0)";2;"Dior(1<HCNH+ + OH>,2<H3O+ + CN>)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"H2O+ + N4S";"kooij";"Logn(1.4e-10,1.2)";"Delta(0)";"Delta(0)";2;"Dirg(0.80<HNO+ + H>,0.20<NO+ + H2>;0.08,0.07)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"H2O+ + NH3";"kooij";"Logn(3.15e-09,1.1)";"Delta(0)";"Delta(0)";2;"Dirg(0.7<NH3+ + H2O>,0.3<NH4+ + OH>;0.07,0.03)";"Anicich1993";"NA";"NA";"Anicich1993";"NA";2022-08-19 09:26:14
+"H3+ + Ar";"kooij";"Logn(3.7e-10,1.1)";"Delta(0)";"Delta(0)";1;"ArH+ + H2";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"H3+ + C2H2";"kooij";"Logn(3.2e-09,1.25)";"Delta(0)";"Delta(0)";1;"C2H3+ + H2";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"H3+ + C2H4";"kooij";"Logn(2.9e-09,1.2)";"Delta(0)";"Delta(0)";2;"Dirg(0.7000E+00<C2H3+ + H2 + H2>,0.3000E+00<C2H5+ + H2>;0.2100E+00,0.9000E-01)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"H3+ + C2H6";"kooij";"Logn(2.9e-09,1.25)";"Delta(0)";"Delta(0)";1;"C2H5+ + H2 + H2";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"H3+ + C2N2";"kooij";"Logn(2.8e-09,1.25)";"Delta(0)";"Delta(0)";1;"C2HN2+ + H2";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"H3+ + C3H6";"kooij";"Logn(3.1e-09,1.2)";"Delta(0)";"Delta(0)";2;"Dirg(0.7000E+00<C3H5+ + H2 + H2>,0.3000E+00<C2H3+ + CH4 + H2>;0.2100E+00,0.9000E-01)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"H3+ + C3H8";"kooij";"Logn(3e-09,1.2)";"Delta(0)";"Delta(0)";1;"CxHy+ + Products";"McEwan2007";"NA";"NA";"NA";"NA";2022-08-19 09:26:14
+"H3+ + C4H2";"kooij";"Logn(2.6e-09,1.4)";"Delta(0)";"Delta(0)";1;"C4H3+ + H2";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"H3+ + C6H6";"kooij";"Logn(3.3e-09,1.2)";"Delta(0)";"Delta(0)";1;"C6H7+ + H2";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"H3+ + CH2CCH2";"kooij";"Logn(2.9e-09,1.2)";"Delta(0)";"Delta(0)";1;"cC3H3+ + H2 + H2";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"H3+ + CH2CHCN";"kooij";"Logn(9.1e-09,1.2)";"Delta(0)";"Delta(0)";2;"Dirg(0.9<CH2CHCNH+ + H2>,0.1<HCNH+ + H2 + C2H2>;0.05,0.05)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"H3+ + CH3C2H";"kooij";"Logn(3e-09,1.2)";"Delta(0)";"Delta(0)";2;"Dirg(0.70<C3H5+ + H2>,0.30<C2H3+ + CH4>;0.07,0.10)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"H3+ + CH3CN";"kooij";"Logn(2.91e-9,1.5)";"Delta(6.58)";"Delta(0)";1;"CH3CNH+ + H2";"KIDA";"KIDA";"NA";"Anicich2003;KIDA";"NA";2022-08-19 09:26:14
+"H3+ + CH3COCH3";"kooij";"Logn(6.41e-09,2)";"Delta(-5.00e-01)";"Delta(0)";1;"C3H6OH+ + H2";"KIDA";"KIDA";"NA";"KIDA";"NA";2022-08-19 09:26:14
+"H3+ + CH3NH2";"kooij";"Logn(3.1e-09,2)";"Delta(0)";"Delta(0)";4;"Dirg(0.16<CH3NH3+ + H2>,0.07<CH3NH2+ + H2 + H>,0.76<CH2NH2+ + H2 + H2>,0.01<CH3+ + NH3 + H2>;0.05,0.05,0.20,0.01)";"KIDA";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"H3+ + CH4";"kooij";"Logn(2.4e-09,1.2)";"Delta(0)";"Delta(0)";1;"CH5+ + H2";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"H3+ + CO";"kooij";"Logn(1.99e-9,1.5)";"Delta(0.251)";"Delta(0)";2;"Dirg(0.9400E+00<HCO+ + H2>,0.6000E-01<HOC+ + H2>;0.2820E+00,0.6000E-01)";"KIDA";"KIDA";"NA";"Anicich2003;KIDA";"NA";2022-08-19 09:26:14
+"H3+ + E";"dr";"Logn(7.2e-8,1.15)";"Unif(0.48,1.0)";"Delta(0)";2;"Dirg(0.35<H2 + H>,0.15<H + H + H>;0.10,0.10)";"Larsson2008a;Kokoouline2003;Kokoouline2003a";"Florescu2006;McCall2004;Leu1973";"NA";"KIDA;McCall2004";"NA";2022-08-19 09:26:14
+"H3+ + H2O";"kooij";"Logn(1.73e-9,1.5)";"Delta(5.51)";"Delta(0)";1;"H3O+ + H2";"KIDA";"KIDA";"NA";"Anicich2003;KIDA";"NA";2022-08-19 09:26:14
+"H3+ + HC2O";"ionpol1";"Logn(3.1e-09,2)";"Delta(2.8e+00)";"Delta(0)";1;"CH2CO+ + H2";"KIDA";"KIDA";"NA";"KIDA";"NA";2022-08-19 09:26:14
+"H3+ + HC3N";"kooij";"Logn(3.37e-9,1.5)";"Delta(5.44)";"Delta(0)";1;"HC3NH+ + H2";"KIDA";"KIDA";"NA";"Anicich2003;KIDA";"NA";2022-08-19 09:26:14
+"H3+ + HC3O";"ionpol1";"Logn(3.17e-09,3)";"Delta(4.11e+00)";"Delta(0)";1;"C3H2O+ + H2";"KIDA";"KIDA";"NA";"KIDA";"NA";2022-08-19 09:26:14
+"H3+ + HCN";"kooij";"Logn(2.25e-9,1.5)";"Delta(6.61)";"Delta(0)";1;"HCNH+ + H2";"KIDA";"KIDA";"NA";"Anicich2003;KIDA";"NA";2022-08-19 09:26:14
+"H3+ + N2";"kooij";"Logn(1.86e-09,1.1)";"Delta(0)";"Delta(0)";1;"N2H+ + H2";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"H3+ + NH3";"kooij";"Logn(2.12e-9,1.5)";"Delta(3.65)";"Delta(0)";1;"NH4+ + H2";"KIDA";"KIDA";"NA";"Anicich2003;KIDA";"NA";2022-08-19 09:26:14
+"H3+ + O2";"kooij";"Logn(6.7e-10,1.1)";"Delta(0)";"Delta(0)";1;"HO2+ + H2";"Anicich1993";"NA";"NA";"Anicich1993";"NA";2022-08-19 09:26:14
+"H3O+ + C2H2";"kooij";"Logn(1e-10,1.3)";"Delta(0)";"Delta(0)";1;"CH3CHOH+";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"H3O+ + C2H5CN";"kooij";"Logn(4.6e-09,1.3)";"Delta(0)";"Delta(0)";1;"C2H5CNH+ + H2O";"Edwards2008";"NA";"NA";"Edwards2008";"NA";2022-08-19 09:26:14
+"H3O+ + C2H5OH";"kooij";"Logn(2.8e-09,1.25)";"Delta(0)";"Delta(0)";1;"C2H5OH2+ + H2O";"Anicich1993";"NA";"NA";"NA";"NA";2022-08-19 09:26:14
+"H3O+ + C3H6";"kooij";"Logn(1.7e-09,1.3)";"Delta(0)";"Delta(0)";1;"C3H7+ + H2O";"Milligan2002";"NA";"NA";"Milligan2002";"NA";2022-08-19 09:26:14
+"H3O+ + C4H2";"kooij";"Logn(1.1e-09,1.3)";"Delta(0)";"Delta(0)";1;"C4H3+ + H2O";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"H3O+ + CH2CHCN";"kooij";"Logn(5e-09,1.15)";"Delta(0)";"Delta(0)";1;"CH2CHCNH+ + H2O";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"H3O+ + CH2NH";"kooij";"Logn(3e-09,1.3)";"Delta(0)";"Delta(0)";1;"CH2NH2+ + H2O";"Edwards2008";"NA";"NA";"Edwards2008";"NA";2022-08-19 09:26:14
+"H3O+ + CH3C2H";"kooij";"Logn(1.8e-09,1.15)";"Delta(0)";"Delta(0)";1;"C3H5+ + H2O";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"H3O+ + CH3CHO";"kooij";"Logn(3.55e-09,1.25)";"Delta(0)";"Delta(0)";1;"CH3CHOH+ + H2O";"Anicich1993";"NA";"NA";"Anicich1993";"NA";2022-08-19 09:26:14
+"H3O+ + CH3CN";"kooij";"Logn(4.5e-09,1.15)";"Delta(0)";"Delta(0)";1;"CH3CNH+ + H2O";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"H3O+ + CH3COCH3";"kooij";"Logn(2.87e-09,2)";"Delta(-5.00e-01)";"Delta(0)";1;"C3H6OH+ + H2O";"KIDA";"KIDA";"NA";"KIDA";"NA";2022-08-19 09:26:14
+"H3O+ + CH3COOH";"kooij";"Logn(1.89e-09,1.25)";"Delta(-5.00e-01)";"Delta(0)";1;"C2H5O2+ + H2O";"KIDA";"KIDA";"NA";"KIDA";"NA";2022-08-19 09:26:14
+"H3O+ + CH3NH2";"kooij";"Logn(2.1e-09,1.3)";"Delta(0)";"Delta(0)";1;"CH3NH3+ + H2O";"Edwards2008";"NA";"NA";"Edwards2008";"NA";2022-08-19 09:26:14
+"H3O+ + CH3OCH3";"kooij";"Logn(2.7e-09,1.25)";"Delta(0)";"Delta(0)";1;"CH3OHCH3+ + H2O";"Anicich1993";"NA";"NA";"NA";"NA";2022-08-19 09:26:14
+"H3O+ + CH3OH";"kooij";"Logn(2.5e-09,1.25)";"Delta(0)";"Delta(0)";1;"CH3OH2+ + H2O";"Anicich1993";"NA";"NA";"Anicich1993";"NA";2022-08-19 09:26:14
+"H3O+ + E";"dr";"Logn(7.6e-07,1.2)";"Norm(8.3e-01,0.1)";"Delta(0)";4;"Dirg(0.25<H2O + H>,0.14<OH + H2>,0.60<OH + H + H>,0.013<O3P + H2 + H>;0.01,0.01,0.02,0.005)";"Neau2000";"Neau2000";"NA";"Jensen2000";"NA";2022-08-19 09:26:14
+"H3O+ + H2CO";"kooij";"Logn(3e-09,1.3)";"Delta(0)";"Delta(0)";1;"CH2OH+ + H2O";"Anicich1993";"NA";"NA";"Anicich1993";"NA";2022-08-19 09:26:14
+"H3O+ + HC2O";"ionpol1";"Logn(1.4e-09,2)";"Delta(2.8e+00)";"Delta(0)";1;"CH2CO+ + H2O";"KIDA";"KIDA";"NA";"KIDA";"NA";2022-08-19 09:26:14
+"H3O+ + HC3N";"kooij";"Logn(3.9e-09,1.3)";"Delta(0)";"Delta(0)";1;"HC3NH+ + H2O";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"H3O+ + HC3O";"ionpol1";"Logn(1.43e-09,3)";"Delta(4.11e+00)";"Delta(0)";1;"C3H2O+ + H2O";"KIDA";"KIDA";"NA";"KIDA";"NA";2022-08-19 09:26:14
+"H3O+ + HC5N";"kooij";"Logn(5.6e-09,1.3)";"Delta(0)";"Delta(0)";1;"HC5NH+ + H2O";"Edwards2008";"NA";"NA";"Edwards2008";"NA";2022-08-19 09:26:14
+"H3O+ + HCN";"kooij";"Logn(3.8e-09,1.15)";"Delta(0)";"Delta(0)";1;"HCNH+ + H2O";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"H3O+ + NH3";"kooij";"Logn(2.2e-09,1.1)";"Delta(0)";"Delta(0)";1;"NH4+ + H2O";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"HC3N+ + C2H2";"kooij";"Logn(6.4e-10,1.3)";"Delta(0.0e+00)";"Delta(0)";2;"Dirg(0.20<C2H2+ + HC3N>,0.80<C4H2+ + HCN>;0.07,0.08)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"HC3N+ + C2H4";"kooij";"Logn(6.7e-10,1.3)";"Delta(0)";"Delta(0)";2;"Dirg(0.80<C2H4+ + HC3N>,0.20<HC3NH+ + C2H3>;0.08,0.07)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"HC3N+ + C4H2";"kooij";"Logn(8.9e-10,1.3)";"Delta(0)";"Delta(0)";1;"C4H2+ + HC3N";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"HC3N+ + CH4";"kooij";"Logn(0.5900E-09,1.3)";"Delta(0)";"Delta(0)";4;"Dirg(0.55*Diri(1<CH3CN+ + C2H2>,1<C3H5+ + CN>;1),0.35<HC3NH+ + CH3>,0.10<C3H4+ + HCN>;0.06,0.12,0.10)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"HC3N+ + E";"dr";"Logn(1.5e-6,1.2)";"Norm(0.6,0.02)";"Delta(0)";11;"Dirg(0.44<C3N + H>,0.479*Diri(1<C2H + CN>,1<1C2 + H + CN>,1*Diri(1<HCN + 1C2>,1<HNC + 1C2>;1);1),0.04<C2N + C + H>,0.02*Diri(1<C2N + CH>,1*Diri(1<N4S + cC3H>,1<N4S + lC3H>;1);1),0.02<CHCN + C>,0.001<NH + C3>;0.04,0.05,0.02,0.01,0.01,0.01)";"Geppert2004d";"Geppert2004d";"NA";"Geppert2004d;Plessis2010";"NA";2022-08-19 09:26:14
+"HC3N+ + H2";"kooij";"Logn(4.45e-12,1.8)";"Delta(0)";"Delta(0)";2;"Dirg(0.37<C2H2+ + HCN>,0.63<HC3NH+ + H>;0.13,0.07)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"HC3N+ + H2O";"kooij";"Logn(6.7e-10,1.3)";"Delta(0)";"Delta(0)";1;"HC3NH+ + OH";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"HC3N+ + HC3N";"kooij";"Logn(1.3e-09,1.2)";"Delta(0)";"Delta(0)";3;"Dirg(0.90<HC5N+ + HCN>,0.05<C6HN2+ + H>,0.05<C6H2N2+>;0.09,0.05,0.05)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"HC3N+ + HCN";"kooij";"Logn(1.3e-09,1.3)";"Delta(0)";"Delta(0)";3;"Dirg(0.30<HCNH+ + C3N>,0.20<C4HN2+ + H>,0.50<C4H2N2+ + HV>;0.10,0.07,0.05)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"HC3N+ + N4S";"kooij";"Logn(2.4e-10,1.2)";"Delta(0)";"Delta(0)";2;"Dirg(0.60<CCN+ + HCN>,0.40<C3H+ + N2>;0.06,0.13)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"HC3N+ + NH3";"kooij";"Logn(1.7e-09,1.3)";"Delta(0)";"Delta(0)";1;"NH3+ + HC3N";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"HC3NH+ + C2H4";"kooij";"Logu(1.3e-10,1.3e-09)";"Delta(0)";"Delta(0)";1;"C5H5N+ + H";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"HC3NH+ + C4H2";"kooij";"Logn(8.7e-10,1.3)";"Delta(0)";"Delta(0)";1;"C7H3NH+ + HV";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"HC3NH+ + CH3CN";"kooij";"Logn(1.6e-09,1.3)";"Delta(0)";"Delta(0)";2;"Dirg(0.80<CH3CNH+ + HC3N>,0.20<C4H4N+ + HCN>;0.08,0.07)";"McEwan2007";"NA";"NA";"McEwan2007";"Bug in reference for product (C5H4N+)";2022-08-19 09:26:14
+"HC3NH+ + E";"dr";"Logn(1.5e-6,1.2)";"Norm(0.58,0.02)";"Delta(0)";8;"Dirg(0.52*Diri(1*Dior(1*Diri(1<HC3N + H>,1<C3NH + H>;1),2*Diri(1<HC2NC + H>,1<C2NCH + H>;1)),1<C3N + H2>;1),0.48*Diri(1*Diri(1<HCN + C2H>,1<HNC + C2H>;1),1<CN + C2H2>;1);0.05,0.05)";"Geppert2004d";"Geppert2004d";"NA";"Geppert2004d;Plessis2010;Osamura1999";"NA";2022-08-19 09:26:14
+"HC3NH+ + HCN";"kooij";"Logn(6e-11,1.3)";"Delta(0)";"Delta(0)";1;"C4H3N2+ + HV";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"HC3NH+ + NH3";"kooij";"Logn(2e-09,1.3)";"Delta(0)";"Delta(0)";1;"NH4+ + HC3N";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"HC4N+ + E";"dr";"Logu(3e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"Products";"NA";"NA";"NA";"NA";"No data: auto generated";2022-08-19 09:26:14
+"HC5N+ + C2H4";"kooij";"Logn(1.2e-09,1.15)";"Delta(0)";"Delta(0)";3;"Dirg(0.75<HC5NH+ + C2H3>,0.05<C7H3N+ + H2>,0.20<C7H5N+ + HV>;0.08,0.05,0.07)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"HC5N+ + E";"dr";"Logu(3e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"Products";"NA";"NA";"NA";"NA";"Default data: auto generated";2022-08-19 09:26:14
+"HC5N2+ + E";"dr";"Logu(3e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"Products";"NA";"NA";"NA";"NA";"No data: auto generated";2022-08-19 09:26:14
+"HC5NH+ + E";"dr";"Logu(3e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"Products";"NA";"NA";"NA";"NA";"Default data: auto generated";2022-08-19 09:26:14
+"HCN+ + C2H2";"kooij";"Logn(0.1350E-08,1.45)";"Delta(0)";"Delta(0)";3;"Diut(0.85<C2H2+ + HCN>,0.00*Dior(1<C2H3+ + CN>,2<HC3NH+ + H>);1.00,0.15)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"HCN+ + C2N2";"kooij";"Logn(1.1e-09,1.2)";"Delta(0)";"Delta(0)";1;"C2HN2+ + CN";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"HCN+ + CH3NH2";"kooij";"Logn(1.5e-09,1.2)";"Delta(0)";"Delta(0)";1;"CH3NH3+ + CN";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"HCN+ + CH4";"kooij";"Logn(1.27e-09,1.15)";"Delta(0)";"Delta(0)";2;"Dirg(0.10<C2H3+ + NH2>,0.90<HCNH+ + CH3>;0.10,0.09)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"HCN+ + CO";"kooij";"Logn(4.6e-10,1.2)";"Delta(0)";"Delta(0)";2;"Dirg(0.30<HCO+ + CN>,0.70<HNC+ + CO>;0.10,0.07)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"HCN+ + E";"dr";"Logn(2.5e-6,2.00)";"Norm(1,0.02)";"Delta(0)";1;"CN + H";"Talbi2000;Plessis2010";"Talbi2000;Sheehan1999";"NA";"NA";"NA";2022-08-19 09:26:14
+"HCN+ + H2";"kooij";"Logn(8.8e-10,1.2)";"Delta(0)";"Delta(0)";1;"HCNH+ + H";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"HCN+ + H2O";"kooij";"Logn(3.6e-09,1.1)";"Delta(0)";"Delta(0)";3;"Dirg(0.48<H2O+ + HCN>,0.48<H3O+ + CN>,0.04<HCNH+ + OH>;0.05,0.05,0.04)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"HCN+ + HC3N";"kooij";"Logn(4.6e-09,1.2)";"Delta(0)";"Delta(0)";2;"Dirg(0.52<HC3N+ + HCN>,0.48<HC3NH+ + CN>;0.05,0.05)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"HCN+ + HCN";"kooij";"Logn(1.45e-09,1.45)";"Delta(0)";"Delta(0)";1;"HCNH+ + CN";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"HCN+ + N4S";"kooij";"Logn(2.2e-10,1.2)";"Delta(0)";"Delta(0)";1;"CH+ + N2";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"HCN+ + NH3";"kooij";"Logn(0.2800E-08,1.1)";"Delta(0)";"Delta(0)";3;"Diut(0.95*Dirg(0.66<NH3+ + HCN>,0.34<HCNH+ + NH2>;0.07,0.12),0.00<NH4+ + CN>;1.00,0.05)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"HCNH+ + C4H2";"kooij";"Logn(1.8e-09,1.3)";"Delta(0)";"Delta(0)";1;"C4H3+ + HCN";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"HCNH+ + CH2CHCN";"kooij";"Logn(4.5e-9,1.6)";"Delta(0)";"Delta(0)";1;"CH2CHCNH+ + HCN";"Petrie1992;Vuitton2007";"NA";"NA";"Petrie1992;Vuitton2007";"NA";2022-08-19 09:26:14
+"HCNH+ + CH2NH";"kooij";"Logn(2.7e-09,1.3)";"Delta(0)";"Delta(0)";1;"CH2NH2+ + HCN";"Vuitton2007";"NA";"NA";"Vuitton2007";"NA";2022-08-19 09:26:14
+"HCNH+ + CH3CN";"kooij";"Logn(3.8e-09,1.2)";"Delta(0)";"Delta(0)";1;"CH3CNH+ + HCN";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"HCNH+ + CH3NH2";"kooij";"Logn(2.1e-09,1.2)";"Delta(0)";"Delta(0)";2;"Dirg(0.89<CH3NH3+ + HCN>,0.11<CH2NH2+ + CH2NH>;0.09,0.04)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"HCNH+ + E";"dr";"Logn(3.2e-7,1.25)";"Unif(0.65,1.38)";"Delta(0)";4;"Diut(0.26<HCN + H>,0.29<HNC + H>,0.00<CN + H2>,0.23<CN + H + H>;0.41,0.39,0.05,0.43)";"Florescu2006;McLain2009a;Semaniak2001;McLain2009b";"McLain2009a;Semaniak2001";"NA";"Semaniak2001;Hickman2005;Ishii2006";"NA";2022-08-19 09:26:14
+"HCNH+ + H2O";"kooij";"Logn(8.8e-13,1.4)";"Delta(0)";"Delta(0)";1;"H3O+ + HCN";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"HCNH+ + HC3N";"kooij";"Logn(3.4e-09,1.3)";"Delta(0)";"Delta(0)";1;"HC3NH+ + HCN";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"HCNH+ + HC3O";"kooij";"Logn(1.26e-09,3)";"Delta(4.11e+00)";"Delta(0)";1;"C3H2O+ + HCN";"KIDA";"KIDA";"NA";"KIDA";"NA";2022-08-19 09:26:14
+"HCNH+ + NH3";"kooij";"Logn(2.3e-09,1.3)";"Delta(0)";"Delta(0)";1;"NH4+ + HCN";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"HCO+ + C2H2";"kooij";"Logn(1.36e-09,1.25)";"Delta(0)";"Delta(0)";1;"C2H3+ + CO";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"HCO+ + C2H6";"kooij";"Logn(1.2e-10,1.2)";"Delta(0)";"Delta(0)";1;"C2H7+ + CO";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"HCO+ + CH3CN";"kooij";"Logn(4.1e-09,1.25)";"Delta(0)";"Delta(0)";1;"CH3CNH+ + CO";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"HCO+ + CH3COCH3";"kooij";"Logn(2.47e-09,2)";"Delta(-5.00e-01)";"Delta(0)";1;"C3H6OH+ + CO";"KIDA";"KIDA";"NA";"KIDA";"NA";2022-08-19 09:26:14
+"HCO+ + E";"dr";"Logn(3.0e-07,1.30)";"Norm(6.4e-01,0.02)";"Delta(0)";3;"Dirg(0.92<H + CO>,0.01<CH + O3P>,0.07<C + OH>;0.03,0.01,0.02)";"Geppert2005";"Geppert2005";"NA";"Geppert2005";"NA";2022-08-19 09:26:14
+"HCO+ + H2O";"kooij";"Logn(2.6e-09,1.3)";"Delta(0)";"Delta(0)";1;"H3O+ + CO";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"HCO+ + HC2O";"ionpol1";"Logn(1.3e-09,2)";"Delta(2.8e+00)";"Delta(0)";1;"CH2CO+ + CO";"KIDA";"KIDA";"NA";"KIDA";"NA";2022-08-19 09:26:14
+"HCO+ + HC3N";"kooij";"Logn(3.8e-09,1.2)";"Delta(0)";"Delta(0)";1;"HC3NH+ + CO";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"HCO+ + HC3O";"ionpol1";"Logn(1.23e-09,3)";"Delta(4.11e+00)";"Delta(0)";1;"C3H2O+ + CO";"KIDA";"KIDA";"NA";"KIDA";"NA";2022-08-19 09:26:14
+"HCO+ + HCN";"kooij";"Logn(3.5e-09,1.15)";"Delta(0)";"Delta(0)";1;"HCNH+ + CO";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"HCO2+ + E";"dr";"Logn(8.1e-07,1.25)";"Delta(6.4e-01)";"Delta(0)";3;"Dirg(0.68<CO + O3P + H>,0.27<CO + OH>,0.05<CO2 + H>;0.05,0.05,0.05)";"KIDA";"KIDA";"NA";"KIDA";"NA";2022-08-19 09:26:14
+"HCOOH+ + E";"dr";"Logn(3e-07,2)";"Delta(5e-01)";"Delta(0)";1;"CO2 + H + H";"KIDA";"KIDA";"NA";"KIDA";"NA";2022-08-19 09:26:14
+"HN2O+ + E";"dr";"Logn(1.4e-06,1.10)";"Nort(7.4e-01,0.02,0.5,1.5)";"Delta(0)";6;"Dirg(0.001<N2O + H>,0.46<N2 + OH>,0.09<NO + NH>,0.40<N2 + O3P + H>,0.001<NO + N4S + H>,0.05<OH + N4S + N4S>;0.02,0.05,0.03,0.08,0.02,0.02)";"Geppert2004e";"Geppert2004e";"NA";"Geppert2004e";"NA";2022-08-19 09:26:14
+"HNC+ + C2H2";"kooij";"Logn(1.5e-09,1.3)";"Delta(0)";"Delta(0)";2;"Dirg(0.40<C2H2+ + HCN>,0.60<HC3NH+ + H>;0.13,0.06)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"HNC+ + CH4";"kooij";"Logn(1.1e-09,1.3)";"Delta(0)";"Delta(0)";1;"HCNH+ + CH3";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"HNC+ + E";"dr";"Logn(1.3e-7,1.70)";"Norm(0.98,0.02)";"Delta(0)";1;"CN + H";"Talbi2000;Sheehan1999";"Talbi2000;Sheehan1999";"NA";"NA";"NA";2022-08-19 09:26:14
+"HNC+ + H2";"kooij";"Logn(7e-10,1.3)";"Delta(0)";"Delta(0)";1;"HCNH+ + H";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"HNC+ + HCN";"kooij";"Logn(1.6e-09,2)";"Delta(0)";"Delta(0)";1;"HCNH+ + CN";"Vuitton2007";"NA";"NA";"Vuitton2007";"NA";2022-08-19 09:26:14
+"HNC+ + NH3";"kooij";"Logn(1.7e-09,2)";"Delta(0)";"Delta(0)";1;"NH3+ + HNC";"Vuitton2007";"NA";"NA";"Vuitton2007";"NA";2022-08-19 09:26:14
+"HNCO+ + E";"dr";"Logu(3e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"Products";"NA";"NA";"NA";"NA";"Default data: auto generated";2022-08-19 09:26:14
+"HNO+ + E";"dr";"Logu(3e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"H + NO";"NA";"NA";"NA";"NA";"Default rate data: auto generated; Main channel according to Johnsen, R. et al. (2000). SPECTROSCOPIC EMISSIONS...";2022-08-19 09:26:14
+"HO2+ + E";"dr";"Logn(3e-07,2)";"Delta(5e-01)";"Delta(0)";1;"O2 + H";"KIDA";"KIDA";"NA";"KIDA";"NA";2022-08-19 09:26:14
+"HOC+ + CH4";"kooij";"Logn(1.1e-09,1.2)";"Delta(0)";"Delta(0)";1;"CH5+ + CO";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"HOC+ + CO";"kooij";"Logn(6e-10,1.2)";"Delta(0)";"Delta(0)";1;"HCO+ + CO";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"HOC+ + E";"dr";"Logn(3.0e-07,1.30)";"Norm(6.4e-01,0.02)";"Delta(0)";3;"Dirg(0.92<H + CO>,0.01<CH + O3P>,0.07<C + OH>;0.03,0.01,0.02)";"NA";"NA";"NA";"NA";"No data: duplicata of HCO+";2022-08-19 09:26:14
+"HOC+ + H2";"kooij";"Logn(4.7e-10,1.2)";"Delta(0)";"Delta(0)";2;"Dirg(0.57<H3+ + CO>,0.43<HCO+ + H2>;0.06,0.06)";"McEwan2007";"NA";"NA";"McEwan2007";"Extrapolated from DOC+ + H2";2022-08-19 09:26:14
+"HOC+ + N2";"kooij";"Logn(6.6e-10,1.2)";"Delta(0)";"Delta(0)";1;"N2H+ + CO";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"lC3H3+ + C2H2";"kooij";"Logn(2.1e-10,1.4)";"Delta(0)";"Delta(0)";1;"cC3H3+ + C2H2";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"lC3H3+ + C2H4";"kooij";"Logn(1.1e-09,1.5)";"Delta(0)";"Delta(0)";2;"Diri(1<C5H5+ + H2>,1<C5H7+ + HV>;1)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"lC3H3+ + C3H8";"kooij";"Logn(1.2e-09,1.3)";"Delta(0)";"Delta(0)";2;"Dirg(0.67<C3H7+ + CH2CCH2>,0.33<C4H7+ + C2H4>;0.07,0.11)";"McEwan2007";"NA";"NA";"McEwan2007";"Allene product is hypothetical";2022-08-19 09:26:14
+"lC3H3+ + C4H2";"kooij";"Logn(1.4e-09,1.5)";"Delta(0)";"Delta(0)";2;"Dirg(0.24<cC3H3+ + C4H2>,0.76<C5H3+ + C2H2>;0.08,0.08)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"lC3H3+ + C6H6";"kooij";"Logn(1.4e-09,1.2)";"Delta(0)";"Delta(0)";2;"Diri(1<C7H7+ + C2H2>,1<C9H7+ + H2>;1)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"lC3H3+ + CH3CN";"kooij";"Logn(1.6e-10,1.2)";"Delta(0)";"Delta(0)";1;"CxHyNz+ + Products";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"lC3H3+ + CH3OH";"kooij";"Logn(3e-10,1.2)";"Delta(0)";"Delta(0)";2;"Diri(1<CH2OH+ + CH3C2H>,1<CH2OH+ + CH2CCH2>;1)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"lC3H3+ + E";"dr";"Logn(1.15e-7,1.17)";"Delta(0)";"Delta(0)";11;"Dirg(0.907*Diri(1<lC3H2 + H>,1*Diri(1*Dior(1<cC3H + H + H>,2<cC3H + H2>),1*Dior(1<lC3H + H + H>,2<lC3H + H2>);1),1<C3 + H2 + H>;1),0.093*Diri(1*Diri(1<C2H2 + CH>,1<C2H2 + C + H>;1),1*Diri(1<C2H + 1CH2>,1<C2H + 3CH2>;1),1<1C2 + CH3>;1);0.011,0.005)";"Florescu2006;McLain2005;Adams2006";"Florescu2006;Adams2006";"NA";"Plessis2010;Florescu2006;Angelova2004;Mitchell2005";"NA";2022-08-19 09:26:14
+"lC3H3+ + H2O";"kooij";"Logn(8e-12,1.2)";"Delta(0)";"Delta(0)";3;"Dirg(0.40<H3O+ + lC3H2>,0.30<C3H3O+ + H2>,0.30<C3H5O+ + HV>;0.13,0.10,0.10)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"lC3H3+ + HC3N";"kooij";"Logn(9e-10,1.2)";"Delta(0)";"Delta(0)";1;"CxHyNz+ + Products";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"lC3H3+ + N4S";"kooij";"Logn(5.8e-11,1.4)";"Delta(0)";"Delta(0)";1;"HC3N+ + H2";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"lC3H3+ + NH3";"kooij";"Logn(3e-10,1.2)";"Delta(0)";"Delta(0)";2;"Dirg(0.60<NH4+ + lC3H2>,0.40<HCNH+ + C2H4>;0.06,0.13)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"N1D+ + C2H2";"kooij";"Logn(1.42e-9,1.2)";"Delta(0)";"Delta(0)";3;"Dirg(0.90<C2H2+ + N4S>,0.05<CNC+ + H2>,0.05<CHNC+ + H>;0.09,0.05,0.05)";"Dutuit2013";"NA";"NA";"Dutuit2013;Anicich2004";"NA";2022-08-19 09:26:14
+"N1D+ + C2H4";"kooij";"Logn(1.58e-9,1.2)";"Delta(0)";"Delta(0)";7;"Dirg(0.26<C2H2+ + NH2>,0.22<C2H3+ + NH>,0.46<C2H4+ + N4S>,0.06*Diri(1<HCN+ + CH3>,1<HCNH+ + 1CH2>,1<CHNC+ + H2 + H>,1<CH2CN+ + H2>;1);0.01,0.01,0.02,0.01)";"Dutuit2013";"NA";"NA";"Dutuit2013;Anicich2004";"Changed CHCN+ to CHNC+ to conform with [Anicich2004]";2022-08-19 09:26:14
+"N1D+ + C2H6";"kooij";"Logn(1.6e-09,2)";"Delta(0)";"Delta(0)";4;"Diri(1<C2H5+ + NH>,1<C2H4+ + NH2>,1<C2H3+ + NH3>,1<HCNH+ + CH4>;1)";"Dutuit2013";"NA";"NA";"Dutuit2013";"NA";2022-08-19 09:26:14
+"N1D+ + C3H8";"kooij";"Logn(1.8e-09,1.2)";"Delta(0)";"Delta(0)";7;"Diri(1<C2H3+ + CH4 + NH>,1<C2H4+ + CH3 + NH>,1<C2H5+ + 3CH2 + NH>,1<C3H5+ + NH3>,1<C3H6+ + NH2>,1<C3H7+ + NH>,1<C3H8+ + N4S>;1)";"Dutuit2013";"NA";"NA";"Dutuit2013";"NA";2022-08-19 09:26:14
+"N1D+ + CH4";"kooij";"Logn(1.15e-09,1.2)";"Delta(0)";"Delta(0)";4;"Dirg(0.09<CH3+ + NH>,0.40<CH4+ + N4S>,0.33<HCNH+ + H2>,0.18<HCN+ + H2 + H>;0.01,0.02,0.02,0.01)";"Dutuit2013";"NA";"NA";"Dutuit2013";"NA";2022-08-19 09:26:14
+"N1D+ + E";"dr";"Logn(4e-12,1.50)";"Nort(0.58,0.29,0.5,1.5)";"Delta(0)";1;"N4S + HV";"Woodall2007;Nahar1997";"Woodall2007;Nahar1997";"NA";"NA";"To be checked";2022-08-19 09:26:14
+"N2+ + Ar";"kooij";"Logn(2e-13,1.2)";"Delta(0)";"Delta(0)";1;"Ar+ + N2";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"N2+ + C2H2";"kooij";"Logn(4.15e-10,1.25)";"Delta(0)";"Delta(0)";2;"Dirg(0.94<C2H2+ + N2>,0.06<N2H+ + C2H>;0.09,0.06)";"Dutuit2013";"NA";"NA";"Dutuit2013";"NA";2022-08-19 09:26:14
+"N2+ + C2H4";"kooij";"Logn(1.3e-09,1.15)";"Delta(0)";"Delta(0)";3;"Dirg(0.67<C2H3+ + H + N2>,0.23<C2H2+ + H2 + N2>,0.10<N2H+ + C2H3>;0.07,0.08,0.10)";"Dutuit2013";"NA";"NA";"Dutuit2013";"NA";2022-08-19 09:26:14
+"N2+ + C2H6";"kooij";"Logn(1.3e-09,1.3)";"Delta(0)";"Delta(0)";6;"Dirg(0.14<C2H5+ + N2 + H>,0.27<C2H4+ + N2 + H2>,0.32<C2H3+ + N2 + H2 + H>,0.18<C2H2+ + N2 + H2 + H2>,0.08<CH3+ + N2 + CH3>,0.01<CH4+ + N2 + 1CH2>;0.05,0.09,0.11,0.06,0.08,0.01)";"Dutuit2013";"NA";"NA";"Dutuit2013";"NA";2022-08-19 09:26:14
+"N2+ + C2N2";"kooij";"Logn(9.3e-10,1.25)";"Delta(0)";"Delta(0)";1;"C2N2+ + N2";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"N2+ + C3H8";"kooij";"Logn(1.3e-09,1.3)";"Delta(0)";"Delta(0)";4;"Dirg(0.13<C3H5+ + N2 + H2 + H>,0.30<C2H5+ + N2 + CH3>,0.17<C2H4+ + N2 + CH4>,0.40<C2H3+ + N2 + CH4 + H>;0.05,0.10,0.06,0.13)";"Dutuit2013";"NA";"NA";"Dutuit2013";"NA";2022-08-19 09:26:14
+"N2+ + C6H6";"kooij";"Logn(1.6e-9,1.25)";"Delta(0)";"Delta(0)";6;"Dirg(0.12<C6H6+ + N2>,0.24<C6H5+ + H + N2>,0.04<C6H4+ + H2 + N2>,0.02<C5H3+ + CH3 + N2>,0.41<C4H4+ + C2H2 + N2>,0.17<cC3H3+ + C3H3 + N2>;0.04,0.08,0.04,0.02,0.14,0.06)";"Arnold1999;Vuitton2007";"NA";"NA";"Arnold1999;Vuitton2007";"NA";2022-08-19 09:26:14
+"N2+ + CH2CHCN";"kooij";"Logn(1e-09,2)";"Delta(0)";"Delta(0)";5;"Dirg(0.10<C2H3+ + N2 + CN>,0.30<C2H2+ + N2 + HCN>,0.35<HC3NH+ + N2 + H>,0.05<HC3N+ + N2 + H2>,0.20<N2H+ + HC3NH>;0.10,0.10,0.12,0.05,0.07)";"Anicich2003";"NA";"NA";"Anicich2003";"Rate estimated";2022-08-19 09:26:14
+"N2+ + CH3CN";"kooij";"Logn(2.1e-09,1.3)";"Delta(0)";"Delta(0)";2;"Dirg(0.14<CH3CN+ + N2>,0.86<CH2CN+ + H + N2>;0.01,0.01)";"McEwan2007";"NA";"NA";"Gichuhi2012";"NA";2022-08-19 09:26:14
+"N2+ + CH3NH2";"kooij";"Logn(1.22e-9,1.3)";"Delta(0)";"Delta(0)";4;"Dirg(0.05<CH3NH2+ + N2>,0.67<CH2NH2+ + N2 + H>,0.21<CH2NH+ + N2 + H2>,0.07<CH3+ + N2 + NH2>;0.05,0.07,0.07,0.07)";"Jackson2005;Vuitton2007";"NA";"NA";"Jackson2005;Vuitton2007";"NA";2022-08-19 09:26:14
+"N2+ + CH4";"kooij";"Logn(1.18e-09,1.2)";"Delta(0)";"Delta(0)";3;"Dirg(0.86<CH3+ + H + N2>,0.09<CH2+ + H2 + N2>,0.05<N2H+ + CH3>;0.09,0.09,0.05)";"Dutuit2013";"NA";"NA";"Dutuit2013";"NA";2022-08-19 09:26:14
+"N2+ + CO";"kooij";"Logn(7.3e-11,1.2)";"Delta(0)";"Delta(0)";1;"CO+ + N2";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"N2+ + CO2";"kooij";"Logn(8e-10,1.2)";"Delta(0)";"Delta(0)";1;"CO2+ + N2";"Anicich1993";"NA";"NA";"Anicich1993";"NA";2022-08-19 09:26:14
+"N2+ + E";"dr";"Logn(2.2e-7,1.25)";"Norm(0.35,0.05)";"Delta(0)";3;"Dirg(0.42<N4S + N2D>,0.09<N4S + N2P>,0.49<N2D + N2D>;0.1,0.09,0.1)";"Zipf1980;Kasner1967;Mehr1969;Mahdavi1971;Cunningham1972;GeoGhegan1991;Canosa1991;Peterson1998";"Zipf1980;Kasner1967;Mehr1969;Mahdavi1971;Cunningham1972;Peterson1998";"NA";"Peterson1998;Kella1996";"NA";2022-08-19 09:26:14
+"N2+ + H2";"kooij";"Logn(1.56e-09,1.2)";"Delta(0)";"Delta(0)";2;"Dirg(0.99<N2H+ + H>,0.01<H2+ + N2>;0.01,0.01)";"Dutuit2013";"NA";"NA";"Dutuit2013";"Other avlue proposed in ref: 1.3e-9@150K";2022-08-19 09:26:14
+"N2+ + H2O";"kooij";"Logn(2.4e-09,1.2)";"Delta(0)";"Delta(0)";2;"Dirg(0.79<H2O+ + N2>,0.21<N2H+ + OH>;0.08,0.07)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"N2+ + HC3N";"kooij";"Logn(3.5e-09,1.25)";"Delta(0)";"Delta(0)";1;"HC3N+ + N2";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"N2+ + HCN";"kooij";"Logn(3.9e-10,1.1)";"Delta(0)";"Delta(0)";1;"HCN+ + N2";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"N2+ + NH3";"kooij";"Logn(1.95e-09,1.1)";"Delta(0)";"Delta(0)";1;"NH3+ + N2";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"N2+ + O2";"kooij";"Logn(5e-11,1.15)";"Delta(0)";"Delta(0)";1;"O2+ + N2";"Anicich1993";"NA";"NA";"Anicich1993";"NA";2022-08-19 09:26:14
+"N2H+ + C2H2";"kooij";"Logn(1.41e-09,1.15)";"Delta(0)";"Delta(0)";1;"C2H3+ + N2";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"N2H+ + C2H4";"kooij";"Logn(1.3e-09,2)";"Delta(0)";"Delta(0)";1;"C2H5+ + N2";"Milligan2002";"NA";"NA";"Milligan2002";"NA";2022-08-19 09:26:14
+"N2H+ + C2H6";"kooij";"Logn(1.3e-09,1.35)";"Delta(0)";"Delta(0)";2;"Dirg(0.87<C2H5+ + H2 + N2>,0.13<C2H7+ + N2>;0.09,0.05)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"N2H+ + C2N2";"kooij";"Logn(1.2e-09,1.3)";"Delta(0)";"Delta(0)";1;"C2HN2+ + N2";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"N2H+ + C4H2";"kooij";"Logn(1.1e-09,1.3)";"Delta(0)";"Delta(0)";1;"C4H3+ + N2";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"N2H+ + C6H6";"kooij";"Logn(1.5e-09,1.15)";"Delta(0)";"Delta(0)";1;"C6H7+ + N2";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"N2H+ + CH2CCH2";"kooij";"Logn(1.4e-09,1.15)";"Delta(0)";"Delta(0)";1;"C3H5+ + N2";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"N2H+ + CH2CHCN";"kooij";"Logn(1.5e-09,1.15)";"Delta(0)";"Delta(0)";1;"CH2CHCNH+ + N2";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"N2H+ + CH3C2H";"kooij";"Logn(1.5e-09,1.15)";"Delta(0)";"Delta(0)";1;"C3H5+ + N2";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"N2H+ + CH3CN";"kooij";"Logn(4.1e-09,1.25)";"Delta(0)";"Delta(0)";1;"CH3CNH+ + N2";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"N2H+ + CH4";"kooij";"Logn(8.9e-10,1.3)";"Delta(0)";"Delta(0)";1;"CH5+ + N2";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"N2H+ + CO";"kooij";"Logn(8.8e-10,1.25)";"Delta(0)";"Delta(0)";1;"HCO+ + N2";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"N2H+ + CO2";"kooij";"Logn(1.07e-09,1.2)";"Delta(0)";"Delta(0)";1;"HCO2+ + N2";"Anicich1993";"NA";"NA";"Anicich1993";"NA";2022-08-19 09:26:14
+"N2H+ + E";"dr";"Logn(2e-7,1.5)";"Nort(0.5,0.25,0.5,1.5)";"Delta(0)";2;"Diut(0.95<N2 + H>,0<NH + N4S>;1,0.05)";"Florescu2006;Geppert2005;Adams2005;Geppert2004a;Adams1984;Amano1990;Rosati2004;Poterya2005";"Geppert2005;Adams2005;Amano1990;Poterya2005";"NA";"Molek2007;Molek2009;Adams1984";"NA";2022-08-19 09:26:14
+"N2H+ + H2CO";"kooij";"Logn(3.3e-09,1.25)";"Delta(0)";"Delta(0)";1;"CH2OH+ + N2";"Anicich1993";"NA";"NA";"Anicich1993";"NA";2022-08-19 09:26:14
+"N2H+ + H2O";"kooij";"Logn(2.6e-09,1.1)";"Delta(0)";"Delta(0)";1;"H3O+ + N2";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"N2H+ + HC2O";"ionpol1";"Logn(1.3e-09,2)";"Delta(2.8e+00)";"Delta(0)";1;"CH2CO+ + N2";"KIDA";"KIDA";"NA";"KIDA";"NA";2022-08-19 09:26:14
+"N2H+ + HC3N";"kooij";"Logn(4.2e-09,1.2)";"Delta(0)";"Delta(0)";1;"HC3NH+ + N2";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"N2H+ + HCN";"kooij";"Logn(3.2e-09,1.2)";"Delta(0)";"Delta(0)";1;"HCNH+ + N2";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"N2H+ + NH3";"kooij";"Logn(2.3e-09,1.2)";"Delta(0)";"Delta(0)";1;"NH4+ + N2";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"N3P+ + C2H2";"kooij";"Logn(1.42e-9,1.2)";"Delta(0)";"Delta(0)";3;"Dirg(0.70<C2H2+ + N4S>,0.15<CNC+ + H2>,0.15<CHNC+ + H>;0.07,0.05,0.05)";"Dutuit2013";"NA";"NA";"Dutuit2013;Anicich2004";"NA";2022-08-19 09:26:14
+"N3P+ + C2H4";"kooij";"Logn(1.58e-9,1.2)";"Delta(0)";"Delta(0)";7;"Dirg(0.12<C2H2+ + NH2>,0.32<C2H3+ + NH>,0.38<C2H4+ + N4S>,0.02<HCN+ + CH3>,0.10<HCNH+ + 1CH2>,0.01<CHNC+ + H2 + H>,0.05<CH2CN+ + H2>;0.04,0.11,0.13,0.02,0.10,0.01,0.05)";"Dutuit2013";"NA";"NA";"Dutuit2013;Anicich2004";"NA";2022-08-19 09:26:14
+"N3P+ + C2H6";"kooij";"Logn(1.6e-09,2)";"Delta(0.0e+00)";"Delta(0)";4;"Dirg(0.10<C2H5+ + NH>,0.55<C2H4+ + NH2>,0.25<C2H3+ + NH3>,0.10<HCNH+ + CH4>;0.03,0.06,0.08,0.03)";"Dutuit2013";"NA";"NA";"Dutuit2013";"NA";2022-08-19 09:26:14
+"N3P+ + C2N2";"kooij";"Logn(1.7e-09,1.3)";"Delta(0.0e+00)";"Delta(0)";2;"Dirg(0.80<CNC+ + N2>,0.20<C2N2+ + N4S>;0.08,0.07)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"N3P+ + C3H8";"kooij";"Logn(1.8e-09,1.2)";"Delta(0.0e+00)";"Delta(0)";7;"Dirg(0.12<C2H3+ + CH4 + NH>,0.25<C2H4+ + CH3 + NH>,0.36<C2H5+ + 3CH2 + NH>,0.11<C3H5+ + NH3>,0.05<C3H6+ + NH2>,0.09<C3H7+ + NH>,0.02<C3H8+ + N4S>;0.04,0.07,0.12,0.04,0.05,0.09,0.02)";"Dutuit2013";"NA";"NA";"Dutuit2013";"NA";2022-08-19 09:26:14
+"N3P+ + C6H6";"kooij";"Logn(2e-9,1.25)";"Delta(0)";"Delta(0)";6;"Dirg(0.68<C6H6+ + N4S>,0.07<C6H5+ + NH>,0.01<C6H4+ + NH2>,0.07<C5H4+ + HCN + H>,0.05<C4H4+ + CH2CN>,0.12<cC3H3+ + C2H2 + HCN>;0.07,0.07,0.01,0.07,0.05,0.04)";"Arnold1999;Vuitton2007";"NA";"NA";"Arnold1999;Vuitton2007";"NA";2022-08-19 09:26:14
+"N3P+ + CH2CHCN";"kooij";"Logn(1e-9,2)";"Delta(0)";"Delta(0)";6;"Dirg(0.35<CH2CHCN+ + N4S>,0.15<HC3NH+ + NH>,0.25*Diri(1<CHCN+ + H2CN>,1<cC3H3+ + N2>;1),0.25*Diri(1<CN+ + CH3CN>,1<C2H2+ + N2 + CH>;1);0.12,0.05,0.08,0.08)";"NA";"NA";"NA";"McEwan2007";"Rate estimated + corrected invalid product in orig. ref (CH2N2 --> H2CN)";2022-08-19 09:26:14
+"N3P+ + CH3CN";"kooij";"Logn(1e-9,2)";"Delta(0)";"Delta(0)";4;"Dirg(0.50<CH3CN+ + N4S>,0.30<CHCNH+ + NH>,0.20*Diri(1<C2H2+ + N2 + H>,1<CN+ + CH2NH>;1);0.05,0.10,0.07)";"NA";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"N3P+ + CH3NH2";"kooij";"Logn(2.56e-09,1.15)";"Delta(0.00e+00)";"Delta(0)";5;"Dirg(0.07<CH3+ + NH2 + N4S>,0.18<HCNH+ + H2 + H + N4S>,0.07<CH2NH+ + H2 + N4S>,0.62<CH2NH2+ + H + N4S>,0.06<CH3NH2+ + N4S>;0.05,0.05,0.05,0.05,0.05)";"Jackson2005";"NA";"NA";"Jackson2005";"NA";2022-08-19 09:26:14
+"N3P+ + CH4";"kooij";"Logn(1.15e-09,1.2)";"Delta(0.00e+00)";"Delta(0)";4;"Dirg(0.50<CH3+ + NH>,0.05<CH4+ + N4S>,0.35<HCNH+ + H2>,0.10<HCN+ + H2 + H>;0.05,0.05,0.12,0.03)";"Dutuit2013";"NA";"NA";"Dutuit2013";"NA";2022-08-19 09:26:14
+"N3P+ + CO";"kooij";"Logn(5.6e-10,1.25)";"Delta(0.0e+00)";"Delta(0)";3;"Dirg(0.01<C+ + NO>,0.88<CO+ + N4S>,0.11<NO+ + C>;0.01,0.09,0.04)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"N3P+ + CO2";"kooij";"Logn(1.12e-09,1.1)";"Delta(0)";"Delta(0)";2;"Dirg(0.18<CO+ + NO>,0.82<CO2+ + N4S>;0.05,0.05)";"Anicich1993";"NA";"NA";"Anicich1993";"NA";2022-08-19 09:26:14
+"N3P+ + E";"dr";"Logn(3.5e-12,1.2)";"Nort(7.0e-01,0.2,0.5,1.5)";"Delta(0)";1;"N4S + HV";"Dutuit2013";"Dutuit2013";"NA";"NA";"NA";2022-08-19 09:26:14
+"N3P+ + H2";"kooij";"Logn(3.8e-10,1.2)";"Delta(0.0e+00)";"Delta(0)";1;"NH+ + H";"Dutuit2013";"NA";"NA";"Dutuit2013";"NA";2022-08-19 09:26:14
+"N3P+ + H2O";"kooij";"Logn(2.7e-09,1.2)";"Delta(0.0e+00)";"Delta(0)";1;"H2O+ + N4S";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"N3P+ + HC3N";"kooij";"Logn(4.2e-09,1.2)";"Delta(0.0e+00)";"Delta(0)";2;"Dirg(0.38<C3H+ + N2>,0.62<HC3N+ + N4S>;0.13,0.07)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"N3P+ + HCN";"kooij";"Logn(3.7e-09,1.2)";"Delta(0.0e+00)";"Delta(0)";2;"Dirg(0.65<HCN+ + N4S>,0.35<CH+ + N2>;0.07,0.12)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"N3P+ + NH3";"kooij";"Logn(2.35e-09,1.2)";"Delta(0.00e+00)";"Delta(0)";3;"Dirg(0.20<NH2+ + NH>,0.71<NH3+ + N4S>,0.09<N2H+ + H2>;0.07,0.07,0.09)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"NCO+ + E";"dr";"Logu(3e-07,3.0e-06)";"Unif(5e-01,1.5e+00)";"Delta(0)";1;"Products";"NA";"NA";"NA";"NA";"Default data: auto generated";2022-08-19 09:26:14
+"NH+ + C2H4";"kooij";"Logn(1.5e-09,1.2)";"Delta(0)";"Delta(0)";6;"Dirg(0.10<C2H2+ + NH3>,0.25<C2H3+ + NH2>,0.25<C2H4+ + NH>,0.20<HCNH+ + CH3>,0.10<CH2NH+ + 1CH2>,0.10<CH3CN+ + H2>;0.03,0.08,0.08,0.07,0.03,0.03)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"NH+ + CH3C2H";"kooij";"Delta(9.1e-10)";"Delta(0)";"Delta(0)";8;"Mlgn(0.12<CH2NH+ + C2H2>,0.10<CH2NH2+ + C2H>,0.35*Diri(1<cC3H3+ + NH2>,1<CHCN+ + CH4>;1),0.29*Diri(1<C3H4+ + NH>,1<CHCNH+ + CH3>;1),0.14*Diri(1<C3H5+ + N4S>,1<CH2CNH+ + 3CH2>;1);1.2,1.2,1.2,1.2,1.2)";"Operti2004;Vuitton2007";"NA";"NA";"Operti2004;Vuitton2007";"The rates of the channels seem to have been measured independently: the global rate is fixed and the BR are taken here as independent, with the 20% uncertainty of the partial rates. Check products CHCNH+, CH2CNH+ ???";2022-08-19 09:26:14
+"NH+ + CH3NH2";"kooij";"Logn(2.1e-09,1.2)";"Delta(0)";"Delta(0)";5;"Dirg(0.17<HCNH+ + NH3 + H>,0.05<CH2NH+ + NH3>,0.45<CH2NH2+ + NH2>,0.17<CH3NH2+ + NH>,0.16<CH3NH3+ + N4S>;0.06,0.05,0.15,0.06,0.06)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"NH+ + CH4";"kooij";"Logn(9.6e-10,1.2)";"Delta(0)";"Delta(0)";3;"Dirg(0.10<CH5+ + N4S>,0.20<NH2+ + CH3>,0.70<HCNH+ + H2 + H>;0.03,0.07,0.07)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"NH+ + CO";"kooij";"Logn(9.8e-10,1.2)";"Delta(0)";"Delta(0)";2;"Dirg(0.45<HCO+ + N4S>,0.55<NCO+ + H>;0.10,0.06)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"NH+ + E";"dr";"Logn(4.33e-8,2)";"Unif(0.5,1.5)";"Delta(0)";1;"N4S + H";"Woodall2007;Florescu2006;Plessis2010";"Plessis2010";"NA";"NA";"NA";2022-08-19 09:26:14
+"NH+ + H2";"kooij";"Logn(1.23e-09,1.3)";"Delta(0)";"Delta(0)";2;"Dirg(0.15<H3+ + N4S>,0.85<NH2+ + H>;0.05,0.09)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"NH+ + H2O";"kooij";"Logn(3.5e-09,1.2)";"Delta(0)";"Delta(0)";5;"Dirg(0.25<NH2+ + OH>,0.05<NH3+ + O3P>,0.30<H2O+ + NH>,0.30<H3O+ + N4S>,0.10<HNO+ + H2>;0.08,0.05,0.10,0.10,0.03)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"NH+ + N2";"kooij";"Logn(6.5e-10,1.2)";"Delta(0)";"Delta(0)";1;"N2H+ + N4S";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"NH+ + NH3";"kooij";"Logn(2.4e-09,1.2)";"Delta(0)";"Delta(0)";2;"Dirg(0.75<NH3+ + NH>,0.25<NH4+ + N4S>;0.08,0.08)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"NH+ + O2";"kooij";"Logn(8.2e-10,1.2)";"Delta(0)";"Delta(0)";3;"Dirg(0.55<O2+ + NH>,0.20<HO2+ + N4S>,0.25<NO+ + OH>;0.05,0.05,0.05)";"Anicich1993";"NA";"NA";"Anicich1993";"NA";2022-08-19 09:26:14
+"NH2+ + C2H4";"kooij";"Logn(1.5e-09,1.2)";"Delta(0)";"Delta(0)";4;"Dirg(0.30<C2H4+ + NH2>,0.20<C2H5+ + NH>,0.30<CH2NH2+ + 1CH2>,0.20<C2H5N+ + H>;0.10,0.07,0.10,0.07)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"NH2+ + CH3C2H";"kooij";"Delta(7.8e-10)";"Delta(0)";"Delta(0)";5;"Mlgn(0.37*Diri(1<C3H4+ + NH2>,1<CHCNH+ + CH4>;1),0.37*Diri(1<C3H5+ + NH>,1<CH2CNH+ + 3CH2 + H>;1),0.26<CH2CHCNH+ + H2>;1.2,1.2,1.2)";"Operti2004;Vuitton2007";"NA";"NA";"Operti2004;Vuitton2007";"The rates of the channels seem to have been measured independently: the global rate is fixed and the BR are taken here as independent, with the 20% uncertainty of the partial rates. Check products CHCNH+, CH2CNH+, CH2CHCNH+ ???";2022-08-19 09:26:14
+"NH2+ + CH3NH2";"kooij";"Logn(1.9e-09,1.2)";"Delta(0)";"Delta(0)";4;"Dirg(0.08<NH4+ + CH2NH>,0.20<CH2NH2+ + NH3>,0.53<CH3NH2+ + NH2>,0.20<CH3NH3+ + NH>;0.08,0.07,0.06,0.07)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"NH2+ + CH4";"kooij";"Logn(9.2e-10,1.2)";"Delta(0)";"Delta(0)";1;"NH3+ + CH3";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"NH2+ + E";"dr";"Logu(0.5e-7,1.0e-06)";"Unif(0.5,1.5e+00)";"Delta(0)";5;"Dirg(0.04<N4S + H2>,0.38<NH + H>,0.58*Dirg(0.53<N4S + H + H>,0.45<N2D + H + H>,0.02<N2P + H + H>;0.04,0.05,0.02);0.03,0.06,0.09)";"Plessis2010";"Plessis2010";"NA";"Vikor1999;Thomas2005a";"NA";2022-08-19 09:26:14
+"NH2+ + H2";"kooij";"Logn(1.95e-10,1.5)";"Delta(0)";"Delta(0)";1;"NH3+ + H";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"NH2+ + H2O";"kooij";"Logn(2.9e-09,1.2)";"Delta(0)";"Delta(0)";3;"Dirg(0.03<NH3+ + OH>,0.03<NH4+ + O3P>,0.94<H3O+ + NH>;0.03,0.03,0.09)";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"NH2+ + HCN";"kooij";"Logn(1.2e-09,2)";"Delta(0)";"Delta(0)";1;"HCNH+ + NH";"Vuitton2007";"NA";"NA";"Vuitton2007";"NA";2022-08-19 09:26:14
+"NH2+ + N4S";"kooij";"Logn(9.1e-11,2)";"Delta(0)";"Delta(0)";1;"N2H+ + H";"Vuitton2007";"NA";"NA";"Vuitton2007";"NA";2022-08-19 09:26:14
+"NH2+ + NH3";"kooij";"Logn(2.3e-09,1.1)";"Delta(0)";"Delta(0)";2;"Dirg(0.50<NH3+ + NH2>,0.50<NH4+ + NH>;0.05,0.05)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"NH2+ + NO";"kooij";"Logn(7e-10,1.2)";"Delta(0)";"Delta(0)";1;"NO+ + NH2";"Anicich1993";"NA";"NA";"Anicich1993";"NA";2022-08-19 09:26:14
+"NH3+ + C2H4";"kooij";"Logn(1.4e-09,1.2)";"Delta(0)";"Delta(0)";1;"NH4+ + C2H3";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"NH3+ + CH3NH2";"kooij";"Logn(1.8e-09,1.2)";"Delta(0)";"Delta(0)";3;"Dirg(0.50<CH3NH2+ + NH3>,0.35<CH3NH3+ + NH2>,0.15<NH4+ + CH2NH2>;0.10,0.12,0.05)";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"NH3+ + CH4";"kooij";"Logn(4.8e-10,1.2)";"Delta(0)";"Delta(0)";1;"NH4+ + CH3";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"NH3+ + E";"dr";"Logn(3.1e-7,2)";"Unif(0.5,1.5)";"Delta(0)";5;"Diri(1<NH2 + H>,1*Dior(2<NH + H2>,1<NH + H + H>),1*Dior(2<N4S + H2 + H>,1<N4S + H + H + H>);1)";"Woodall2007";"Plessis2010";"NA";"Plessis2010";"NA";2022-08-19 09:26:14
+"NH3+ + H2";"kooij";"Logn(4.4e-13,1.2)";"Delta(0)";"Delta(0)";1;"NH4+ + H";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"NH3+ + H2O";"kooij";"Logn(2.5e-10,1.3)";"Delta(0)";"Delta(0)";1;"NH4+ + OH";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"NH3+ + NH3";"kooij";"Logn(2.1e-09,1.12)";"Delta(0)";"Delta(0)";1;"NH4+ + NH2";"McEwan2007";"NA";"NA";"McEwan2007";"NA";2022-08-19 09:26:14
+"NH3+ + O3P";"kooij";"Logn(2e-11,2)";"Delta(0)";"Delta(0)";2;"Dirg(0.50<HNO+ + H2>,0.50<H2NO+ + H>;0.10,0.10)";"KIDA";"NA";"NA";"KIDA";"NA";2022-08-19 09:26:14
+"NH4+ + CH3NH2";"kooij";"Logn(1.4e-09,1.3)";"Delta(0)";"Delta(0)";1;"CH3NH3+ + NH3";"Anicich2003";"NA";"NA";"Anicich2003";"NA";2022-08-19 09:26:14
+"NH4+ + E";"dr";"Logu(9e-7,15.0e-7)";"Norm(0.75,0.15)";"Delta(0)";5;"Dirg(0.839<NH3 + H>,0.02<NH2 + H2>,0.13<NH2 + H + H>,0.01<NH + H + H2>,0.001<N4S + H2 + H2>;0.04,0.02,0.01,0.01,0.001)";"Florescu2006;Ojekull2004;Huang1976;DuBois1978";"Florescu2006;Ojekull2004;DuBois1978";"NA";"Huang1976;DuBois1978;Adams1991;Adams2006";"NA";2022-08-19 09:26:14
+"NO+ + E";"dr";"Logn(4.e-7,1.20)";"Nort(0.9,0.05,0.5,1.5)";"Delta(0)";1;"N2D + O3P";"Florescu2006";"Florescu2006";"NA";"Vejby-Christensen1998;Larsson2008";"NA";2022-08-19 09:26:14
+"NO2+ + E";"dr";"Logn(3e-07,2)";"Delta(5e-01)";"Delta(0)";1;"NO + O3P";"KIDA";"KIDA";"NA";"KIDA";"NA";2022-08-19 09:26:14
+"NO2+ + H2";"kooij";"Logn(1.5e-10,2)";"Delta(0)";"Delta(0)";1;"NO+ + H2O";"KIDA";"NA";"NA";"KIDA";"NA";2022-08-19 09:26:14
+"O+ + C2H2";"kooij";"Logn(6.2e-11,1.3)";"Delta(0)";"Delta(0)";1;"C2H2+ + O3P";"Vuitton2019";"NA";"NA";"Vuitton2019";"NA";2022-08-19 09:26:14
+"O+ + C2H4";"kooij";"Logn(1.4e-09,1.2)";"Delta(0)";"Delta(0)";3;"Dirg(0.05<C2H4+ + O3P>,0.15<C2H3+ + OH>,0.80<C2H2+ + H2O>;0.03,0.03,0.03)";"Smith1992";"NA";"NA";"Smith1992";"NA";2022-08-19 09:26:14
+"O+ + C2H6";"kooij";"Logn(1.7e-09,1.2)";"Delta(0)";"Delta(0)";2;"Dirg(0.3<C2H5+ + OH>,0.7<C2H4+ + H2O>;0.07,0.07)";"Smith1992";"NA";"NA";"Smith1992";"NA";2022-08-19 09:26:14
+"O+ + C6H6";"kooij";"Logn(1.9e-09,1.3)";"Delta(0)";"Delta(0)";1;"C6H6+ + O3P";"Arnold1999";"NA";"NA";"Arnold1999";"NA";2022-08-19 09:26:14
+"O+ + CH3CN";"kooij";"Logn(4.2e-09,1.2)";"Delta(0)";"Delta(0)";2;"Dirg(0.70<CH3CN+ + O3P>,0.30<C2H3+ + NO>;0.07,0.07)";"Vuitton2019";"NA";"NA";"Vuitton2019";"NA";2022-08-19 09:26:14
+"O+ + CH3NH2";"kooij";"Logn(2.1e-09,1.2)";"Delta(0)";"Delta(0)";3;"Dirg(0.06<CH3NH2+ + O3P>,0.79<CH2NH2+ + OH>,0.15<CH2NH+ + H2O>;0.06,0.06,0.06)";"Vuitton2019";"NA";"NA";"Vuitton2019";"NA";2022-08-19 09:26:14
+"O+ + CH3OH";"kooij";"Logn(1.9e-09,1.3)";"Delta(0)";"Delta(0)";3;"Dirg(0.05<H2CO+ + H2O>,0.70<CH2OH+ + OH>,0.25<CH3OH+ + O3P>;0.05,0.05,0.05)";"Anicich1993";"NA";"NA";"Anicich1993";"NA";2022-08-19 09:26:14
+"O+ + CH4";"kooij";"Logn(1.1e-09,1.2)";"Delta(0)";"Delta(0)";2;"Dirg(0.8<CH4+ + O3P>,0.2<CH3+ + OH>;0.02,0.02)";"Smith1992";"NA";"NA";"Smith1992";"NA";2022-08-19 09:26:14
+"O+ + H";"kooij";"Logn(6.4e-10,1.3)";"Delta(0)";"Delta(0)";1;"H+ + O3P";"Anicich1993";"NA";"NA";"Anicich1993";"NA";2022-08-19 09:26:14
+"O+ + H2";"kooij";"Logn(1.62e-09,1.3)";"Delta(0)";"Delta(0)";1;"OH+ + H";"Anicich1993";"NA";"NA";"Anicich1993";"NA";2022-08-19 09:26:14
+"O+ + H2CO";"kooij";"Logn(3.5e-09,1.3)";"Delta(0)";"Delta(0)";2;"Dirg(0.40<HCO+ + OH>,0.60<H2CO+ + O3P>;0.04,0.04)";"Anicich1993";"NA";"NA";"Anicich1993";"NA";2022-08-19 09:26:14
+"O+ + H2O";"kooij";"Logn(2.6e-09,1.15)";"Delta(0)";"Delta(0)";1;"H2O+ + O3P";"Anicich1993";"NA";"NA";"Anicich1993";"NA";2022-08-19 09:26:14
+"O+ + HCN";"kooij";"Logn(2.51e-09,1.2)";"Delta(0)";"Delta(0)";3;"Dirg(0.02<HCN+ + O3P>,0.45<HCO+ + N4S>,0.53<NO+ + CH>;0.05,0.05,0.05)";"Vuitton2019";"NA";"NA";"Vuitton2019";"NA";2022-08-19 09:26:14
+"O+ + N2";"kooij";"Logn(4.60e-09,1.2)";"Delta(1.37e+00)";"Delta(2.86e+01)";1;"NO+ + N4S";"Vuitton2019";"Vuitton2019";"Vuitton2019";"NA";"Includes 1/T0^BETA";2022-08-19 09:26:14
+"O+ + NH3";"kooij";"Logn(1.1e-09,1.3)";"Delta(0)";"Delta(0)";1;"NH3+ + O3P";"Smith1992";"NA";"NA";"Smith1992";"NA";2022-08-19 09:26:14
+"O+ + NO";"kooij";"Logn(4.10e-09,1.2)";"Delta(1.37e+00)";"Delta(1.21e+01)";1;"NO+ + O3P";"Vuitton2019";"Vuitton2019";"Vuitton2019";"NA";"Includes 1/T0^BETA";2022-08-19 09:26:14
+"O+ + NO2";"kooij";"Logn(1.6e-09,1.3)";"Delta(0)";"Delta(0)";1;"NO2+ + O3P";"Anicich1993";"NA";"NA";"Anicich1993";"NA";2022-08-19 09:26:14
+"O+ + OH";"ionpol1";"Logn(8.45e-10,2)";"Delta(5.50e+00)";"Delta(0)";2;"Dirg(0.50<O2+ + H>,0.50<OH+ + O3P>;0.10,0.10)";"KIDA";"KIDA";"NA";"KIDA";"NA";2022-08-19 09:26:14
+"O2+ + CH3OH";"kooij";"Logn(1e-09,1.5)";"Delta(0)";"Delta(0)";2;"Dirg(0.50<CH2OH+ + HO2>,0.50<CH3OH+ + O2>;0.10,0.10)";"Anicich1993";"NA";"NA";"Anicich1993";"NA";2022-08-19 09:26:14
+"O2+ + HCO";"ionpol1";"Logn(9.60e-10,2)";"Delta(3.58e+00)";"Delta(0)";2;"Dirg(0.50<HO2+ + CO>,0.50<HCO+ + O2>;0.10,0.10)";"KIDA";"KIDA";"NA";"KIDA";"NA";2022-08-19 09:26:14
+"O2+ + NH";"ionpol1";"Logn(8.82e-10,2)";"Delta(4.40e+00)";"Delta(0)";2;"Dirg(0.5<HNO+ + O3P>,0.5<NO2+ + H>;0.1,0.1)";"Woon2009";"Woon2009";"NA";"Woon2009";"NA";2022-08-19 09:26:14
+"O2+ + NO2";"kooij";"Logn(6.6e-10,1.3)";"Delta(0)";"Delta(0)";1;"NO2+ + O2";"Anicich1993";"NA";"NA";"Anicich1993";"NA";2022-08-19 09:26:14
+"OH+ + C2H6";"kooij";"Logn(1.6e-09,1.2)";"Delta(0)";"Delta(0)";5;"Dirg(0.10<H3O+ + C2H4>,0.65<C2H4+ + H2O + H>,0.20<C2H5+ + H2O>,0.03<C2H6+ + OH>,0.02<C2H7+ + O3P>;0.05,0.05,0.05,0.05,0.05)";"Anicich1993";"NA";"NA";"Anicich1993";"NA";2022-08-19 09:26:14
+"OH+ + CH4";"kooij";"Logn(1.45e-09,1.1)";"Delta(0)";"Delta(0)";2;"Dirg(0.13<CH5+ + O3P>,0.87<H3O+ + 3CH2>;0.05,0.05)";"Anicich1993";"NA";"NA";"Anicich1993";"NA";2022-08-19 09:26:14
+"OH+ + CO";"kooij";"Logn(8.4e-10,1.2)";"Delta(0)";"Delta(0)";1;"HCO+ + O3P";"Anicich1993";"NA";"NA";"Anicich1993";"NA";2022-08-19 09:26:14
+"OH+ + H2";"kooij";"Logn(9.7e-09,1.2)";"Delta(0)";"Delta(0)";1;"H2O+ + H";"Anicich1993";"NA";"NA";"Anicich1993";"NA";2022-08-19 09:26:14
+"OH+ + H2CO";"kooij";"Logn(1.86e-09,1.1)";"Delta(0)";"Delta(0)";2;"Dirg(0.40<H2CO+ + OH>,0.60<CH2OH+ + O3P>;0.05,0.05)";"Anicich1993";"NA";"NA";"Anicich1993";"NA";2022-08-19 09:26:14
+"OH+ + H2O";"kooij";"Logn(2.89e-09,1.1)";"Delta(0)";"Delta(0)";2;"Dirg(0.55<H2O+ + OH>,0.45<H3O+ + O3P>;0.05,0.05)";"Anicich1993";"NA";"NA";"Anicich1993";"NA";2022-08-19 09:26:14
+"OH+ + N2";"kooij";"Logn(2.4e-10,1.3)";"Delta(0)";"Delta(0)";1;"N2H+ + O3P";"Anicich1993";"NA";"NA";"Anicich1993";"NA";2022-08-19 09:26:14
+"OH+ + NH3";"kooij";"Logn(1.84e-09,1.3)";"Delta(0)";"Delta(0)";2;"Dirg(0.5<NH3+ + OH>,0.5<NH4+ + O3P>;0.05,0.05)";"Anicich1993";"NA";"NA";"Anicich1993";"NA";2022-08-19 09:26:14
+"OH+ + NO";"kooij";"Logn(8.15e-10,1.15)";"Delta(0)";"Delta(0)";1;"NO+ + OH";"Anicich1993";"NA";"NA";"Anicich1993";"NA";2022-08-19 09:26:14
+"OH+ + O3P";"kooij";"Logn(7.1e-10,2)";"Delta(0)";"Delta(0)";1;"O2+ + H";"KIDA";"NA";"NA";"KIDA";"NA";2022-08-19 09:26:14

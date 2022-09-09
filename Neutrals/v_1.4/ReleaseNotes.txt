@@ -1,0 +1,46 @@
+*** v_1.4 ***
+
+2022-08-23
+	* Merged all data into a single file with new "reaction type" column
+	* Corrected some bugs (improper decimal notations)
+          for PAH data from Jeremy Bourgalais
+
+*** v_1.3 ***
+
+2022-03-07
+	* Created v_1.3
+	* Added OHx cycle reactions for Thomas Drant  
+
+2022-03-24
+	* Added new reactions for Thomas Drant
+	* created trimol_supp.dat      
+
+*** v_1.2 ***
+
+2020-06-23
+	* Created v_1.2
+	* Introduced updates in Hickson2020 (A kinetic study of the N(2D)+ C2H4) 
+
+2021-01-06
+	* Added reactions for heavy species leading to PAH (Jeremy Bourgalais)     
+
+2021-01-08
+	* Removed reacs involving C4H2X
+	* Introduced SOOTO
+	* Removed spurious reacs with unspecified products (SOOTC) 
+          replaced by Jeremy's PAH reacs  
+
+*** v_1.1 ***
+
+2019-05-29
+	* Changed model for trimolecular reactions from Troe to Kadduct, 
+	  according to Dobrijevic2016/Loison. 
+	  Affects genSamples.R and plotRates.R 
+	* Unified mass calculations by use of massCalc.R (same as in Ions)
+	* Created kinParse.R to unify DB files reading in scripts
+	* Added reactions for O chemistry, mostly based on Vuitton2019 and KIDA
+	* Added Fc column in trimolecular data files
+
+
+
+

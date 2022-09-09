@@ -1,0 +1,15 @@
+*** Release Notes for ChemDB v_1.0 ***
+
+Changes:
+* New data for CH4+ from [Thomas2013]
+* Updated data for BR of N2+ + CH3CN [Gichuhi2012]
+
+Bugs/Typos:
+* 2018-06-29: Corrected invalid rates for H+ + E and H2+ + E (Thanks E. Roueff)
+* Corrected invalid products in C3H6+ + E --> C + CH3 + CH4. 
+* Corrected invalid products in C3H7+ + E --> C2H3 + 1CH2 + 1CH2 and similar channels. 
+* Corrected invalid products in C4H6+ + E --> C3H2 + 1CH2 + H
+* In several reaction of N+ with hydrocarbons from [Dutuit2013], 
+  I changed CHCN+ to CHNC+ (most stable) to conform with [Anicich2004],
+  from which the BR were issued
+

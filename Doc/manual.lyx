@@ -13,6 +13,15 @@
 % Added by lyx2lyx
 \renewcommand{\textendash}{--}
 \renewcommand{\textemdash}{---}
+
+\usepackage{listings}
+\lstset{
+  basicstyle=\ttfamily\linespread{0.8},
+  aboveskip=5pt,
+  belowskip=0pt,
+  framesep=5pt,
+  tabsize=3
+}
 \end_preamble
 \use_default_options false
 \begin_modules
@@ -1300,9 +1309,13 @@ For ion reactions, one describes separately the
 \end_inset
 
 -dependence of the global rate constant (kooij, dr or ionpol1/2), and the
- set of branching ratios (BR) which are assumed to be T-independent.
+ set of branching ratios (BR) which are assumed to be 
+\begin_inset Formula $T$
+\end_inset
+
+-independent.
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 At the moment, there is practically no information on 
@@ -1321,26 +1334,30 @@ At the moment, there is practically no information on
 
 \end_inset
 
-
+ 
 \end_layout
 
 \begin_layout Standard
-The 
-\family typewriter
-Source
-\family default
- database is stored in a 'ionsDB.csv' files, in which one has one line per
- 
+The database is stored in a 'ionsDB.csv' file, in which one has one line
+ per 
 \emph on
 globa
 \emph default
-l reaction as defined by the 
+l reaction (meaning that each line might describe several partial reactions
+ or channels) with 14 fields: 
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+
 \family typewriter
 REACTANTS
 \family default
- field, meaning that one line might describe several partial reactions or
- channels.
- The global reaction rate is then defined by four main fields:
+ the reactants in 'A + B' form
+\end_layout
+
+\begin_layout Standard
+The global reaction rate is defined by four main fields:
 \end_layout
 
 \begin_layout Labeling
@@ -1364,6 +1381,20 @@ ionpol1
  or 
 \family typewriter
 ionpol2
+\family default
+.
+ See Sect.
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Reaction-types"
+
+\end_inset
+
+ for definitions.
 \end_layout
 
 \begin_layout Labeling
@@ -1403,8 +1434,8 @@ reference "tab:distRates"
 \end_layout
 
 \begin_layout Standard
-The following two fields encode the probabilistic tree describing the uncertain
- BRs:
+the next two fields encode the probabilistic tree describing the uncertain
+ BRs
 \end_layout
 
 \begin_layout Labeling
@@ -1415,7 +1446,7 @@ NBR
 \family default
  the number of channels.
  It is mostly used to ensure that the STRINGBR distribution is properly
- interpreted.
+ formatted and interpreted.
 \end_layout
 
 \begin_layout Labeling
@@ -1424,11 +1455,11 @@ NBR
 \family typewriter
 STRINGBR
 \family default
- is a string that describes a probabilistic tree used to generate random
- samples of the BRs.
+ is a string that encodes a probabilistic tree used to generate random samples
+ of the BRs.
  
 \size normal
-To learn to build a probabilistic tree see the article by Plessis 
+To learn to build a probabilistic tree, see the article by Plessis 
 \size default
 \emph on
 et al.
@@ -1444,7 +1475,7 @@ key "Plessis2010a"
 
 \end_inset
 
-.
+ and examples below.
  
 \size normal
 For the available distributions, see Table
@@ -1456,11 +1487,13 @@ reference "tab:distRates-1"
 
 .
  Note that the syntax is slightly different from the mathematical notations
- of the article.
+ of the article as it interleaves the identity of the products for each
+ channel.
 \end_layout
 
 \begin_layout Standard
-The four following fields contain the bibliographic references:
+the four following fields contain the bibliographic references for the previous
+ data
 \end_layout
 
 \begin_layout Labeling
@@ -1481,19 +1514,23 @@ REF_GAMMA,
 
 REF_BR
 \family default
- should contain semicolumn-separated 
+ should contain 
+\series bold
+semicolumn
+\series default
+-separated 
 \emph on
 bibtex
 \emph default
  keys appearing in the 
 \family typewriter
-refsDR.bib
+Doc/refsDR.bib
 \family default
  file.
 \end_layout
 
 \begin_layout Standard
-The two last fields are
+finally, the two last fields are
 \end_layout
 
 \begin_layout Labeling
@@ -1518,7 +1555,7 @@ TIMESTAMP
 \begin_inset Float table
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -1799,7 +1836,27 @@ name "tab:distRates"
 
 \end_inset
 
-Available distributions for rate constant parameters.
+Available distributions for rate constant parameters used in the 
+\family typewriter
+ALPHA
+\family default
+,
+\family typewriter
+ BETA
+\family default
+,
+\family typewriter
+ 
+\family default
+and
+\family typewriter
+ GAMMA
+\family default
+ fields of the 
+\family typewriter
+ionsDB
+\family default
+ database.
 \end_layout
 
 \end_inset
@@ -1810,13 +1867,10 @@ Available distributions for rate constant parameters.
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float table
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -2033,7 +2087,7 @@ Mlgn(
 \begin_inset Text
 
 \begin_layout Plain Layout
-Multivariate lognormal (no correlation), mean 
+Uncorrelated multivariate lognormal distribution, with mean 
 \begin_inset Formula $b_{i}$
 \end_inset
 
@@ -2085,7 +2139,15 @@ name "tab:distRates-1"
 
 \end_inset
 
-Available distributions for branching ratios.
+Available distributions for branching ratios used in the 
+\family typewriter
+STRINGBR
+\family default
+ field of the 
+\family typewriter
+ionsDB
+\family default
+ database.
 \end_layout
 
 \end_inset
@@ -2096,97 +2158,260 @@ Available distributions for branching ratios.
 \end_inset
 
 
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\noindent
-\align center
-
-\series bold
-\size larger
-\color teal
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "100col%"
-height "1pt"
-
-\end_inset
-
-
 \end_layout
 
-\begin_layout Plain Layout
-\noindent
-\align center
-\begin_inset Graphics
-	filename Figs/figTreeBR.png
-	lyxscale 40
-	width 95col%
-	BoundingBox 0bp 0bp 800bp 300bp
-	clip
+\begin_layout Subsection
 
-\end_inset
+\family typewriter
+STRINGBR
+\family default
+ examples 
+\end_layout
 
+\begin_layout Standard
+Products are encoded between brackets as terminal leaves of the tree.
+\end_layout
 
-\begin_inset Caption Standard
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
 
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Probabilistic-tree"
-
-\end_inset
-
-Probabilistic tree for the fragments of the dissociative recombination of
- 
-\begin_inset Formula $\ce{C2H2+},$
-\end_inset
-
-generated from Table
+\family typewriter
+ArH+
 \begin_inset space ~
 \end_inset
 
-
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "tab:Exemple-ions"
-
++
+\begin_inset space ~
 \end_inset
 
+C2H4
+\family default
+ two channels for this reactions, with measured BRs (
+\begin_inset Formula $0.73\pm0.05$
+\end_inset
+
+ for 
+\family typewriter
+C2H3+ + Ar + H2
+\family default
+ and 
+\begin_inset Formula $0.27\pm0.05$
+\end_inset
+
+ for 
+\family typewriter
+C2H5+ + Ar)
+\family default
 .
+ This is encoded via a generalized Dirichlet distribution:
+\family typewriter
  
+\begin_inset listings
+lstparams "basicstyle={\normalsize\ttfamily},showstringspaces=false,tabsize=4"
+inline false
+status open
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+
+Dirg(
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+
+	0.73<C2H3+ + Ar + H2>,
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+
+	0.27<C2H5+ + Ar>;
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+
+0.05,0.05)
 \end_layout
 
 \end_inset
 
 
-\end_layout
+\family default
+which is compacted to
+\family typewriter
 
-\begin_layout Plain Layout
-\noindent
-\align center
+\begin_inset Newline newline
+\end_inset
 
-\series bold
-\size larger
-\color teal
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "100col%"
-height "1pt"
 
+\begin_inset Quotes eld
+\end_inset
+
+Dirg(0.73<C2H3+ + Ar + H2>,0.27<C2H5+ + Ar>;0.05,0.05)
+\begin_inset Quotes erd
 \end_inset
 
 
 \end_layout
 
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+
+\family typewriter
+C2H2+
+\begin_inset space ~
+\end_inset
+
++
+\begin_inset space ~
+\end_inset
+
+E
+\family default
+ a more involved case with several levels of information.
+ Five primary channels with measured BRs, and a secondary splitting for
+ CH2 between singlet and triplet with no preferred value (uniform Dirichlet)
+\begin_inset listings
+lstparams "basicstyle={\ttfamily}"
+inline false
+status open
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+
+Dirg(
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+
+	0.5<C2H + H>,
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+
+	0.3<1C2 + H + H>,
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+
+	0.02<1C2 + H2>,
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+
+	0.05*Diri(
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+
+		1<1CH2 + C>,
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+
+		1<3CH2 + C>;
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+
+	1),
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+
+	0.13<CH + CH>;
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+
+0.06,0.05,0.03,0.01,0.01)
+\end_layout
+
+\end_inset
+
+compacted to
+\begin_inset Newline newline
 \end_inset
 
 
+\family typewriter
+"Dirg(0.5<C2H + H>,0.3<1C2 + H + H>,0.02<1C2 + H2>,0.05*Diri(1<1CH2 + C>,1<3CH2
+ + C>;1),0.13<CH + CH>;0.06,0.05,0.03,0.01,0.01)" 
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+
+\family typewriter
+C2H3+
+\begin_inset space ~
+\end_inset
+
++
+\begin_inset space ~
+\end_inset
+
+N4S
+\family default
+ 
+\family typewriter
+in this case, one has only limits for the BRs of two channels (e.g.
+ 
+\begin_inset Formula $>0.9$
+\end_inset
+
+ for the first one, or 
+\begin_inset Formula $<0.1$
+\end_inset
+
+for the second one).
+ This is expressed by
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+
+Diut(
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+
+	0.9<CHCN+ + H2>,
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+
+	0.0<CHCNH+ + H>;
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+
+1.0,0.1)
+\end_layout
+
+\end_inset
+
+or in compact form
+\begin_inset Newline newline
+\end_inset
+
+"Diut(0.9<CHCN+ + H2>,0.0<CHCNH+ + H>;1.0,0.1)"
 \end_layout
 
 \begin_layout Section
@@ -2195,9 +2420,17 @@ Neutral reactions
 
 \begin_layout Standard
 The branching ratios formalism for ions has not been implemented for reactions
- between neutral species, as partial rates are often measured separately,
- and the database contains on line per reactions.
- 
+ between neutral species, as partial rates are often measured independently,
+ and the database contains on line per channel.
+ The actual format derives from M.
+ Dobrijevic's implementation 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Dobrijevic2016"
+
+\end_inset
+
+ for neutral association reactions, with a few extra fields: 
 \end_layout
 
 \begin_layout Labeling
@@ -2239,7 +2472,7 @@ P4,
 
 P5
 \family default
- one product per field 
+ one product per field (
 \family typewriter
 P5
 \family default
@@ -2476,89 +2709,6 @@ COMMENTS
 TIMESTAMP
 \family default
  the date and time of creation/modification of this reaction
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-placement !t
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\noindent
-\align center
-
-\series bold
-\size larger
-\color teal
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "100col%"
-height "1pt"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\noindent
-\align center
-\begin_inset Graphics
-	filename Figs/9: H+C2H6->C2H5+H2.png
-	lyxscale 40
-	width 75col%
-	BoundingBox 0bp 0bp 1000bp 1000bp
-	clip
-
-\end_inset
-
-
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Neu-Summary-Sheet"
-
-\end_inset
-
-Summary sheet for neutral reaction 
-\begin_inset Formula $\ce{H + C2H6}$
-\end_inset
-
-.
- 
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\noindent
-\align center
-
-\series bold
-\size larger
-\color teal
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "100col%"
-height "1pt"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Section

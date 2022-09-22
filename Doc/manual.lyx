@@ -883,11 +883,7 @@ key "Gans2013"
 \end_layout
 
 \begin_layout Standard
-The 
-\family typewriter
-Source and Public
-\family default
- databases consist therefore of three sections (
+The database consists therefore of three sections (
 \family typewriter
 Ions
 \family default
@@ -903,7 +899,7 @@ processes).
 \end_layout
 
 \begin_layout Section
-Reaction types
+Reaction rate expressions
 \begin_inset CommandInset label
 LatexCommand label
 name "sec:Reaction-types"
@@ -1252,7 +1248,7 @@ assocMD
  another expression for pressure-dependent association reactions,
 \begin_inset CommandInset citation
 LatexCommand cite
-key "Dobrijevic2016"
+key "Vuitton2012,Dobrijevic2016"
 
 \end_inset
 
@@ -2186,7 +2182,7 @@ ArH+
 
 C2H4
 \family default
- two channels for this reactions, with measured BRs (
+ there are two channels with measured BRs (
 \begin_inset Formula $0.73\pm0.05$
 \end_inset
 
@@ -2271,8 +2267,8 @@ C2H2+
 E
 \family default
  a more involved case with several levels of information.
- Five primary channels with measured BRs, and a secondary splitting for
- CH2 between singlet and triplet with no preferred value (uniform Dirichlet)
+ One has five primary channels with measured BRs, and a secondary splitting
+ for CH2 between singlet and triplet with no preferred value (uniform Dirichlet)
 \begin_inset listings
 lstparams "basicstyle={\ttfamily}"
 inline false
@@ -2375,7 +2371,7 @@ in this case, one has only limits for the BRs of two channels (e.g.
 \begin_inset Formula $<0.1$
 \end_inset
 
-for the second one).
+ for the second one).
  This is expressed by
 \begin_inset listings
 inline false

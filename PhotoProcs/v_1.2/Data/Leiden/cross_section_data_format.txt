@@ -1,0 +1,112 @@
+
+         Photodissociation and photoionization cross sections
+
+
+###########################
+## Text file data format ##
+###########################
+
+These files contain separate listings for continuum and line
+photodissociation/ionisation. This is useful where the wavelength
+dependence of a calculated electronic/vibrational transition is not
+known. 
+
+See photo.tar file with the photodissociation (.pd) and
+photoionization (.pi) cross sections. The basic reference is:
+
+E.F. van Dishoeck 1988, in Rate Coefficients in Astrochemistry, eds.
+T.J. Millar and D.A. Williams (Kluwer), p. 49-72.
+
+The format is:
+
+- line 1:       title
+- line 2:       number of discrete transitions N (5 in this case)
+- line 3-3+N:   - label of transition
+                - wavelength (A) 
+                - pi e^2/m c^2  lambda^2 f eta (cm^2 A)  (See Eq. 2)
+
+- line 3+N+1:   number of wavelengths M at which continuous cross section is
+                specified
+- line 3+N+2:   lower wavelength threshold for continuous cross section
+                (cross section is zero for lambda < lambda_th)
+                this is often indicated with a minus sign, or, in case
+                the zero is explicitly listed as the last point, as -1.
+- line 3+N+2+M: - label 
+                - wavelength (A)
+                - cross section (cm^2) at specific wavelengths
+                  you need to make a spline fit through these points to get 
+                  the continuous cross section as a function of wavelength 
+                  (See Eq. 1)
+
+Photoionization is only by continuous absorption.
+
+
+#############################
+## Binary hdf5 data format ##
+#############################
+
+In these files all lines and continuum data is combined into a single
+cross section with an assumed wavelength dependence for calculated
+vertical transitions.
+
+The hdf5 files are made of the following data sets:
+
+- README                A description of the data contents of this
+                        file and references to the cross sections.
+- wavelength            Wavelength scale (nm)
+- photoabsorption       Photoabsorption cross section (cm2)   
+- photodissociation     Photodissociation cross section (cm2) 
+- photoionisation       Photoionisation cross section (cm2)
+
+To extract the data on the command line using the h5tools package (in
+most linux distributions):
+
+    h5dump -d data_set_name filename.hdf5
+
+
+A an example of how to extract the binary data into a python program:
+
+    ## necessarily libraries
+    import h5py
+    import numpy as np
+    ## open the file
+    x = h5py.File('filename.hdf5','r')
+    ## print all data fields
+    keys = [t for t in x.keys()]
+    print(keys)
+    print()
+    ## load the README text
+    README = x['README'].value
+    print( README)
+    ## load data as a numpy array
+    wavelength = x['wavelength'].value
+    photodissociation = x['photodissociation'].value
+
+
+
+
+######################################################
+## Text files with combined line and continuum data ##
+######################################################
+
+For simpler usage the same data as in the binary files are also given
+in simple text files. As an example of the format take the file
+H2O.txt:
+
+   # H2O cross sections
+   # From the Leiden database for photodissociation and photoionization of astrophysically relevant molecules, http://home.strw.leidenuniv.nl/~ewine/photo/
+   # File last modified by Alan Heays 2017-03-01
+   # references: smith1981 10.1086/159359, chan1993d 10.1016/0301-0104(93)85078-M, yoshino1996 10.1016/0301-0104(96)00210-8, yoshino1997 10.1016/S0301-0104(96)00381-3, parkinson2003 10.1016/S0301-0104(03)00361-6, fillion2003 http://stacks.iop.org/0953-4075/36/i=13/a=308, fillion2004 10.1063/1.1652566, mota2005 10.1016/j.cplett.2005.09.073, harrevelt2008 10.1021/jp711857w,
+   # wavelength        -- Wavelength (nm)
+   # photoabsorption   -- Photoabsorption cross section (cm2)
+   # photodissociation -- Photodissociation cross section (cm2)
+   # photoionisation   -- Photoionisation cross section (cm2)
+   # wavelength   photoabsorption photodissociation   photoionisation
+      6.2000000       3.65000e-19       0.00000e+00       3.65000e-19
+      6.2600000       3.82000e-19       0.00000e+00       3.82000e-19
+      6.3300000       4.17000e-19       0.00000e+00       4.17000e-19
+      6.3900000       4.01000e-19       0.00000e+00       4.01000e-19
+      6.4600000       4.51000e-19       0.00000e+00       4.51000e-19
+      ... more data...
+
+

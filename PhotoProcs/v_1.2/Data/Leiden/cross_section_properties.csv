@@ -1,0 +1,122 @@
+## Some summary parameters of the cross sections for atoms and molecules in the Leiden database
+##
+## -- Header keys --
+## cross_sect_ref:    Where to find a discussion of this cross section
+## cross_sec_unc:     Uncertainty of cross section for wavelengths relevant to a stellar radiation field.
+## Lyalpha_unc:       Uncertainty of cross section for wavelengths relevant to Lyman alpha radiation.
+## cosmic_ray_unc:    Uncertainty of cross section for wavelengths relevant to a cosmic ray induced radiation field.
+## Lyalpha_pd_xs:     The value of the photodissociation cross seciton at Lyman alpha (cm2).
+## Lyalpha_pi_xs:     The value of the photoionisation cross seciton at Lyman alpha (cm2).
+## pd_threshold:      The longest wavelength important photodissociation threshold (nm).
+## pi_threshold:      important photoionisation threshold (nm).
+## pd_products :      The dominant fragments of photodissociation at its long wavelength threshold.
+##
+## -- Uncertainty codes --
+## A+: accurate to within 20%
+##  A: accurate to within 30%
+##  B: accurate within a factor of 2
+##  C: accurate within a factor of 10
+species , cross_sect_ref    , cross_sec_unc    , Lyalpha_unc , cosmic_ray_unc , Lyalpha_pd_xs , Lyalpha_pi_xs , Lyalpha_pd_rate , Lyalpha_pi_rate , pd_threshold , pi_threshold , pd_products
+Al      , heays2017         , B                , B           , B              , 0.00e+00      , 8.71e-18      , 0.000e+00       , 1.370e-09       , nan          , 207          , --
+AlH     , heays2017         , C                , C           , C              , 5e-20         , 0.00e+00      , 7.867e-12       , 0.000e+00       , 392          , 156          , Al + H
+C       , heays2017         , B                , --          , B              , 0.00e+00      , 0.00e+00      , 0.000e+00       , 0.000e+00       , nan          , 110          , --
+C2      , pouilly1983       , B                , B           , B              , 4.98e-19      , 0.00e+00      , 7.835e-11       , 0.000e+00       , 193          , 102          , C + C
+C2H     , heays2017         , B                , C           , C              , 3.21e-18      , 0.00e+00      , 5.051e-10       , 0.000e+00       , 253          , 109          , C2 + H
+C2H2    , heays2017         , A+               , B           , B              , 5.78e-17      , 0.00e+00      , 9.094e-09       , 0.000e+00       , 217          , 109          , C2H + H
+C2H4    , zelikoff1953      , C                , C           , C              , 2.36e-17      , 0.00e+00      , 3.713e-09       , 0.000e+00       , 258          , 118          , C2H2 + H2
+C2H5OH  , heays2017         , A                , A           , B              , 2.56e-17      , 0.00e+00      , 4.028e-09       , 0.000e+00       , 208          , 119          , C2H5O + H
+C2H6    , heays2017         , A+               , A+          , A              , 2.26e-17      , 0.00e+00      , 3.556e-09       , 0.000e+00       , 287          , 108          , C2H5 + H
+C3      , heays2017         , C                , C           , C              , 1.38e-17      , 0.00e+00      , 2.171e-09       , 0.000e+00       , 268          , 102          , C2 + C
+C3H7OH  , heays2017         , A                , A           , B              , 5.16e-17      , 2.80e-19      , 8.119e-09       , 4.405e-11       , 208          , 123          , C3H7O + H
+CH      , van_dishoeck1987  , C                , C           , C              , 5e-20         , 0.00e+00      , 7.867e-12       , 0.000e+00       , 358          , 117          , C + H
+CH+     , "kirby1980        ,uzer1978"         , A           , C              , B             , 5e-20         , 0.00e+00        , 0.000e+00       , 0.000e+00    , 303          , nan , C + H+
+CH2     , "van_dishoeck1996 ,kroes1997b"       , C           , C              , C             , 5e-20         , 0.00e+00        , 7.867e-12       , 0.000e+00    , 417          , 119 , C + H
+CH2+    , heays2017         , B                , C           , B              , 5e-20         , 0.00e+00      , 7.867e-12       , 0.000e+00       , 204          , nan          , CH+ + H
+CH3     , heays2017         , B                , B           , B              , 5e-20         , 5.31e-18      , 7.867e-12       , 8.355e-10       , 271          , 126          , CH + H2
+CH3CHO  , heays2017         , A                , A           , B              , 2.03e-17      , 1.23e-18      , 3.194e-09       , 1.935e-10       , 342          , 121          , HCO + CH3
+CH3CN   , heays2017         , A                , A           , B              , 1.09e-17      , 0.00e+00      , 1.715e-09       , 0.000e+00       , 308          , 102          , CH2CN + H
+CH3NH2  , heays2017         , A                , A           , B              , 0.00e+00      , 2.44e-17      , 0.000e+00       , 3.839e-09       , 244          , 135          , CH3NH + H
+CH3OH   , heays2017         , A+               , A+          , B              , 1.39e-17      , 0.00e+00      , 2.187e-09       , 0.000e+00       , 280          , 113          , CH3O + H
+CH3SH   , heays2017         , A                , B           , A              , 2.18e-17      , 2.37e-17      , 3.4296e-09      , 3.7223e-09      , 331          , 131          , CH3S + H
+CH4     , heays2017         , A+               , A+          , B              , 1.80e-17      , 0.00e+00      , 2.832e-09       , 0.000e+00       , 277          , 98           , CH3 + H
+CH4+    , heays2017         , B                , C           , B              , 5e-20         , 0.00e+00      , 7.867e-12       , 0.000e+00       , 1031         , nan          , CH3+ + H
+CN      , heays2017         , B                , C           , B              , 4.00e-19      , 0.00e+00      , 6.293e-11       , 0.000e+00       , 160          , 87           , C + N
+CO      , heays2017         , A+               , --          , B              , 0.00e+00      , 0.00e+00      , 0.000e+00       , 0.000e+00       , 110          , 88           , C + O
+CO+     , heays2017         , B                , C           , B              , 5e-20         , 0.00e+00      , 7.867e-12       , 0.000e+00       , 149          , nan          , C+ + O
+CO2     , heays2017         , A+               , A+          , B              , 6.54e-20      , 0.00e+00      , 1.029e-11       , 0.000e+00       , 227          , 90           , CO + O
+CS      , heays2017         , C                , C           , C              , 5.36e-17      , 0.00e+00      , 8.4434e-09      , 0.0000e+00      , 169          , 110          , C + S
+CS2     , heays2017         , A                , A           , A              , 1.71e-17      , 1.04e-18      , 2.6848e-09      , 1.6303e-10      , 278          , 123          , CS + S
+Ca      , heays2017         , B                , B           , B              , 0.00e+00      , 9.13e-19      , 0.000e+00       , 1.436e-10       , nan          , 203          , --
+Ca+     , black1972         , B                , --          , B              , 0.00e+00      , 0.00e+00      , 0.000e+00       , 0.000e+00       , nan          , 104          , --
+Cl      , heays2017         , B                , --          , B              , 0.00e+00      , 0.00e+00      , 0.000e+00       , 0.000e+00       , nan          , 96           , --
+Co      , reilman1979       , B                , B           , B              , 0.00e+00      , 1.77e-19      , 0.000e+00       , 2.785e-11       , nan          , 158          , --
+Cr      , reilman1979       , B                , B           , B              , 0.00e+00      , 7.35e-18      , 0.000e+00       , 1.156e-09       , nan          , 183          , --
+Fe      , heays2017         , A                , A           , B              , 0.00e+00      , 4.86e-18      , 0.000e+00       , 7.647e-10       , nan          , 158          , --
+H       , heays2017         , A                , --          , B              , 0.00e+00      , 0.00e+00      , 0.000e+00       , 0.000e+00       , nan          , 91           , --
+H-      , wishart1979       , B                , B           , B              , 0.00e+00      , 4.75e-18      , 0.000e+00       , 7.474e-10       , nan          , 1470         , --
+H2      , heays2017         , A+               , --          , B              , 0.00e+00      , 0.00e+00      , 0.000e+00       , 0.000e+00       , 274          , 82           , H + H
+H2+     , dunn1968          , A                , A           , B              , 6.83e-18      , 0.00e+00      , 1.075e-09       , 0.000e+00       , 290          , nan          , H + H+
+H2CO    , heays2017         , B                , B           , B              , 9.43e-18      , 0.00e+00      , 1.484e-09       , 0.000e+00       , 361          , 114          , H2 + CO
+H2O     , heays2017         , A+               , A+          , B              , 1.53e-17      , 0.00e+00      , 2.407e-09       , 0.000e+00       , 242          , 98           , H + OH
+H2O2    , heays2017         , A                , A           , B              , 9.65e-18      , 0.00e+00      , 1.518e-09       , 0.000e+00       , 556          , 117          , OH + OH
+H2S     , heays2017         , A                , A           , A              , 5.39e-17      , 0.00e+00      , 8.3518e-09      , 0.0000e+00      , 318          , 119          , H + SH
+H3+     , kulander1978      , A                , --          , B              , 0.00e+00      , 0.00e+00      , 0.000e+00       , 0.000e+00       , 283          , nan          , H+ + H2
+HC3H    , heays2017         , B                , C           , C              , 5e-20         , 0.00e+00      , 7.867e-12       , 0.000e+00       , 400          , 138          , l-C3H + H
+HC3N    , heays2017         , A                , B           , B              , 1.98e-17      , 0.00e+00      , 3.115e-09       , 0.000e+00       , 244          , 107          , H + C3N
+HCN     , heays2017         , A                , A           , B              , 3.40e-17      , 0.00e+00      , 5.349e-09       , 0.000e+00       , 243          , 91           , H + CN
+HCO     , "bruna1976        ,van_dishoeck1988" , C           , C              , C             , 5e-20         , 0.00e+00        , 7.867e-12       , 0.000e+00    , 2037         , 152 , H + CO
+HCO+    , heays2017         , B                , --          , B              , 0.00e+00      , 0.00e+00      , 0.000e+00       , 0.000e+00       , 145          , nan          , H + CO+
+HCl     , heays2017         , A                , A           , B              , 9.19e-19      , 0.00e+00      , 1.446e-10       , 0.000e+00       , 279          , 97           , H + Cl
+HCl+    , heays2017         , C                , C           , C              , 8.44e-19      , 0.00e+00      , 1.328e-10       , 0.000e+00       , 267          , nan          , H + Cl+
+HF      , website           , A                , A           , A              , 3.1e-18       , 0             , 4.93e-10        , 0               , 211.4        , 77.5         , H + F
+HO2     , "mcadam1987       ,van_dishoeck1988" , C           , C              , C             , 5e-20         , 0.00e+00        , 7.867e-12       , 0.000e+00    , 476          , 109 , H + O2
+K       , heays2017         , B                , B           , B              , 0.00e+00      , 2.22e-19      , 0.000e+00       , 3.493e-11       , nan          , 286          , --
+Li      , huebner2015       , A                , A           , B              , 0.00e+00      , 1.33e-18      , 0.000e+00       , 2.093e-10       , nan          , 230          , --
+LiH     , kirby1978         , A                , C           , B              , 5e-20         , 0.00e+00      , 7.867e-12       , 0.000e+00       , 579          , 152          , Li + H
+Mg      , heays2017         , B                , B           , B              , 0.00e+00      , 7.13e-20      , 0.000e+00       , 1.122e-11       , nan          , 162          , --
+MgH     , kirby1979b        , C                , C           , C              , 5e-20         , 0.00e+00      , 7.867e-12       , 0.000e+00       , 623          , nan          , Mg + H
+Mn      , "reilman1979      ,mcguire1968"      , B           , B              , B             , 0.00e+00      , 4.42e-20        , 0.000e+00       , 6.954e-12    , nan          , 167 , --
+N       , heays2017         , A                , --          , B              , 0.00e+00      , 0.00e+00      , 0.000e+00       , 0.000e+00       , nan          , 85           , --
+N2      , heays2017         , A+               , --          , B              , 0.00e+00      , 0.00e+00      , 0.000e+00       , 0.000e+00       , 127          , 79           , N + N
+N2O     , lee1984           , B                , C           , B              , 3.85e-18      , 0.00e+00      , 6.058e-10       , 0.000e+00       , 735          , 96           , N2 + O
+NH      , heays2017         , B                , B           , B              , 3.10e-19      , 0.00e+00      , 4.877e-11       , 0.000e+00       , 362          , 92           , N + H
+NH+     , van_dishoeck1986  , C                , C           , C              , 4.68e-20      , 0.00e+00      , 7.363e-12       , 0.000e+00       , 281          , nan          , N+ + H
+NH2     , heays2017         , C                , C           , C              , 3.03e-20      , 0.00e+00      , 4.767e-12       , 0.000e+00       , 314          , 111          , NH + H
+NH2CHO  , heays2017         , A                , A           , B              , 1.82e-17      , 1.88e-19      , 2.864e-09       , 2.958e-11       , 208          , 121          , NH3 + CO
+NH3     , heays2017         , A+               , A+          , B              , 8.37e-18      , 3.11e-19      , 1.317e-09       , 4.893e-11       , 301          , 122          , NH + H2
+NO      , heays2017         , A                , B           , B              , 4.81e-19      , 2.08e-18      , 7.568e-11       , 3.273e-10       , 191          , 134          , N + O
+NO2     , lee1984           , B                , C           , B              , 5e-20         , 1.06e-19      , 7.867e-12       , 1.668e-11       , 398          , 127          , NO + O
+Na      , huebner2015       , B                , B           , B              , 0.00e+00      , 1.07e-19      , 0.000e+00       , 1.684e-11       , nan          , 241          , --
+NaCl    , "silver1986       ,zeiri1983"        , C           , C              , C             , 5e-20         , 0.00e+00        , 7.867e-12       , 0.000e+00    , 293          , nan , Na + Cl
+NaH     , kirby1978         , A                , C           , B              , 5e-20         , 0.00e+00      , 7.867e-12       , 0.000e+00       , 606          , 179          , Na + H
+Ni      , van_dishoeck1988  , B                , B           , B              , 0.00e+00      , 3.12e-19      , 0.000e+00       , 4.909e-11       , nan          , 162          , --
+O       , heays2017         , B                , --          , B              , 0.00e+00      , 0.00e+00      , 0.000e+00       , 0.000e+00       , nan          , 91           , --
+O2      , heays2017         , A                , B           , B              , 2.14e-19      , 0.00e+00      , 3.367e-11       , 0.000e+00       , 242          , 103          , O + O
+O2+     , heays2017         , B                , C           , B              , 2.52e-18      , 0.00e+00      , 3.965e-10       , 0.000e+00       , 186          , nan          , O + O+
+O3      , heays2017         , B                , B           , B              , 2.97e-17      , 0.00e+00      , 4.673e-09       , 0.000e+00       , 1180         , 99           , O2 + O
+OCS     , heays2017         , A                , A           , A              , 7.14e-18      , 0.00e+00      , 1.1476e-09      , 0.0000e+00      , 280          , 111          , CO + S
+OH      , "van_dishoeck1983 ,van_dishoeck1984" , A           , B              , B             , 4.07e-18      , 0.00e+00        , 6.404e-10       , 0.000e+00    , 279          , 95  , O + H
+OH+     , saxon1986         , A                , A           , B              , 2.58e-25      , 0.00e+00      , 4.059e-17       , 0.000e+00       , 247          , nan          , O+ + H
+P       , heays2017         , C                , --          , C              , 0.00e+00      , 0.00e+00      , 0.000e+00       , 0.000e+00       , nan          , 118          , --
+PH      , bruna1981         , C                , C           , C              , 1.13e-19      , 0.00e+00      , 1.778e-11       , 0.000e+00       , 398          , 122          , P + H
+PH+     , bruna1981         , C                , C           , C              , 1.06e-18      , 0.00e+00      , 1.668e-10       , 0.000e+00       , 369          , nan          , P+ + H
+Rb      , "weisheit1972     ,suemitsu1983"     , B           , B              , B             , 0.00e+00      , 1.49e-19        , 0.000e+00       , 2.344e-11    , nan          , 297 , --
+S       , heays2017         , A                , --          , B              , 0.00e+00      , 0.00e+00      , 0.000e+00       , 0.000e+00       , nan          , 120          , --
+S2      , heays2017         , B                , C           , B              , 0.00e+00      , 1.80e-18      , 0.0000e+00      , 2.8298e-10      , 283          , 133          , S + S
+SH      , heays2017         , B                , C           , C              , 8.07e-18      , 0.00e+00      , 1.2252e-09      , 0.0000e+00      , 345          , 119          , S + H
+SH+     , heays2017         , B                , C           , C              , 7.41e-20      , 0.00e+00      , 1.1656e-11      , 0.0000e+00      , 320          , nan          , S+ + H
+SO      , heays2017         , B                , C           , C              , 1.06e-16      , 0.00e+00      , 1.6701e-08      , 8.8070e-17      , 233          , 120          , S + O
+SO2     , heays2017         , A                , A           , A              , 3.86e-17      , 0.00e+00      , 6.0793e-09      , 0.0000e+00      , 219          , 100          , O + SO
+Si      , heays2017         , B                , B           , B              , 0.00e+00      , 3.61e-17      , 0.000e+00       , 5.680e-09       , nan          , 152          , --
+SiH     , lewerenz1983      , B                , C           , B              , 5e-20         , 0.00e+00      , 7.867e-12       , 0.000e+00       , 417          , 155          , Si + H
+SiH+    , van_dishoeck1988  , A                , B           , B              , 2.22e-17      , 0.00e+00      , 3.493e-09       , 0.000e+00       , 391          , nan          , Si+ + H
+SiO     , heays2017         , B                , C           , B              , 5e-20         , 0.00e+00      , 7.867e-12       , 0.000e+00       , 150          , 108          , Si + O
+Ti      , reilman1979       , C                , C           , C              , 0.00e+00      , 5.72e-18      , 0.000e+00       , 9.000e-10       , nan          , 182          , --
+Zn      , heays2017         , B                , B           , B              , 0.00e+00      , 5.91e-20      , 0.000e+00       , 9.299e-12       , nan          , 132          , --
+c-C3H   , heays2017         , B                , C           , B              , 5e-20         , 0.00e+00      , 7.867e-12       , 0.000e+00       , 289          , 129          , C3 + H
+c-C3H2  , heays2017         , B                , C           , B              , 5e-20         , 0.00e+00      , 7.867e-12       , 0.000e+00       , 284          , 136          , c-C3H + H
+l-C3H   , heays2017         , B                , C           , B              , 5e-20         , 0.00e+00      , 7.867e-12       , 0.000e+00       , 379          , 144          , C3 + H
+l-C3H2  , heays2017         , B                , C           , B              , 5e-20         , 0.00e+00      , 7.867e-12       , 0.000e+00       , 320          , 119          , l-C3H + H
+l-C4    , heays2017         , B                , C           , B              , 5e-20         , 0.00e+00      , 7.867e-12       , 0.000e+00       , 263          , 116          , C3 + C
+l-C4H   , heays2017         , B                , C           , B              , 5e-20         , 0.00e+00      , 7.867e-12       , 0.000e+00       , 267          , 129          , C4 + H
+l-C5H   , heays2017         , B                , C           , B              , 5e-20         , 0.00e+00      , 7.867e-12       , 0.000e+00       , 348          , 168          , C5 + H

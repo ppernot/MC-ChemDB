@@ -8,15 +8,15 @@
 
 2109-12-18 :
 	* Corrected problem with numbering of CH4 channels
-        * Added CO2; Assigned 3CO to CO (Channel 7)
+    * Added CO2; Assigned 3CO to CO (Channel 7)
 
 2019-07-31 : 
 	* New v1.1
  	  + changed structure : cohabitation of 1nm and 0.1nm resolutions
 	  + separated data from fixed resolution generated data
-          + generative model enables choice between Leiden and SWRI XS
-    	  + in absence of BR in Leiden DB, SWRI ones are used by default
-            except for CH4 (taken from Plessis et al.)
+      + generative model enables choice between Leiden and SWRI XS
+      + in absence of BR in Leiden DB, SWRI ones are used by default
+        except for CH4 (taken from Plessis et al.)
 
 2019-07-31 : 
 	* Added Leiden cross-sections 

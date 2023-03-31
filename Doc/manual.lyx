@@ -4,7 +4,7 @@
 \begin_header
 \save_transient_properties true
 \origin unavailable
-\textclass report
+\textclass article
 \begin_preamble
 \usepackage{color}
 \usepackage{xcolor}
@@ -36,7 +36,7 @@ theorems-std
 \font_sans "default" "default"
 \font_typewriter "default" "default"
 \font_math "auto" "auto"
-\font_default_family default
+\font_default_family sfdefault
 \use_non_tex_fonts false
 \font_sc false
 \font_osf false
@@ -96,7 +96,7 @@ theorems-std
 \quotes_language english
 \papercolumns 1
 \papersides 2
-\paperpagestyle plain
+\paperpagestyle headings
 \tracking_changes false
 \output_changes false
 \html_math_output 0
@@ -139,18 +139,35 @@ LatexCommand tableofcontents
 
 \end_layout
 
-\begin_layout Chapter
+\begin_layout Standard
+\begin_inset Newpage clearpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
 Introduction
 \end_layout
 
 \begin_layout Standard
 MC-ChemDB is a database of reactions rates and photoprocesses cross-sections
- for the simulation of cold chemical plasmas.
- The originality of MC-ChemDB is to encode uncertainty one the reaction
- rate parameters and cross-sections.
+ for the simulation of cold chemical plasmas 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Plessis2012,Peng2014"
+
+\end_inset
+
+.
+ The originality of MC-ChemDB is to encode uncertainty on the reaction rate
+ parameters and cross-sections with specific attention to branching ratios.
  This additional feature makes that MC-ChemDB is not directly readable by
- usual simulation codes, but it must be processed to produce samples of
- readable databases (for instance in the KiDA-type format 
+ simulation codes, but it must be processed to produce 
+\emph on
+samples
+\emph default
+ of readable databases (for instance in the KiDA-type format 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Wakelam2012"
@@ -162,20 +179,179 @@ key "Wakelam2012"
 \end_layout
 
 \begin_layout Standard
-Running a simulation code over a set of these samples amounts to what is
- known as Monte Carlo uncertainty propagation (MCUP), and enables to quantify
- the uncertainty on the predictions of chemical models due to the uncertainty
- on the chemical parameters.
- It also enables to perform sensitivity analysis to identify key reactions
- in need of better determination.
+Running a simulation code over a set of these samples is known as 
+\emph on
+Monte Carlo uncertainty propagation
+\emph default
+ (MCUP)
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Carrasco2007,Plessis2010a"
+
+\end_inset
+
+, and enables to quantify the uncertainty on the predictions of chemical
+ models due to the uncertainty on the chemical parameters.
+ It also enables to perform 
+\emph on
+sensitivity analysis
+\emph default
+ to identify key reactions in need of better determination 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Carrasco2008,Carrasco2008a,Dobrijevic2010"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+The MC-ChemDB system
 \end_layout
 
 \begin_layout Standard
+MC-ChemDBUI (
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://github.com/ppernot/MC-ChemDBUI
+\end_layout
+
+\end_inset
+
+) enables to edit the 
+\family typewriter
+MC-ChemDB
+\family default
+ database and to generate random samples in the 
+\family typewriter
+ChemDBPublic
+\family default
+ repertory.
+ These samples are used by 
+\family typewriter
+the plasma simulator
+\family default
+ through the 
+\family typewriter
+reactorui
+\family default
+ interface (
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://github.com/ppernot/ReactorUI
+\end_layout
+
+\end_inset
+
+) (see Fig
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Principle-scheme"
+
+\end_inset
+
+).
+ 
+\family typewriter
+Note that ChemDBPublic
+\family default
+ contains all the chemical reactions encoded in 
+\family typewriter
+MC-ChemDB
+\family default
+.
+ The chemical system under study is specified in 
+\family typewriter
+reactorui
+\family default
+ which assembles a consistent subset of reactions and extract the relevant
+ data from 
+\family typewriter
+ChemDBPublic
+\family default
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figs/principle.png
+	lyxscale 50
+	width 100text%
+	clip
+
+\end_inset
+
 
 \end_layout
 
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Principle-scheme"
+
+\end_inset
+
+Principle scheme of MC-ChemDB and its articulation with Reactor.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Installation
+\end_layout
+
+\begin_layout Enumerate
+Load the latest release of 
+\family typewriter
+MC-ChemDB
+\family default
+ from the GitHub repository 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+https://github.com/ppernot/MC-ChemDB
+\end_layout
+
+\end_inset
+
+ and unpack it.
+\end_layout
+
 \begin_layout Section
-Data and code adaptations
+The data model
 \end_layout
 
 \begin_layout Standard
@@ -322,9 +498,9 @@ which shows that random realizations of
 
 \end_inset
 
-In order to benefit from this solution, the end user has to adapt the rate
- expression in his code to include the 
-\begin_inset Formula $f*exp(g\left|1/T-1/T_{0}\right|)$
+In order to benefit from this solution, the end user has only to adapt the
+ rate expression in his code to include the 
+\begin_inset Formula $f'\times exp(g'\left|1/T-1/T_{0}\right|)$
 \end_inset
 
  term.
@@ -472,425 +648,7 @@ Note.
 
 \end_layout
 
-\begin_layout Subsection
-Branching ratios
-\end_layout
-
-\begin_layout Standard
-When branching ratios (BR) have been measured instead of 
-\emph on
-partial
-\emph default
- rate constants, one has to use a specific representation separating the
- global rate constant from the BRs.
- For the global rate constant, the uncertainty model can be any of the two
- cases detailed previously.
- 
-\end_layout
-
-\begin_layout Standard
-Random values of the BRs, 
-\begin_inset Formula $b_{i}$
-\end_inset
-
-, are sampled from probabilistic trees built from Dirichlet-type distributions
- 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Plessis2010"
-
-\end_inset
-
-.
- This way, sets of BRs are generated consistently with the sum-to_one constraint
- (
-\begin_inset Formula $\sum b_{i}=1$
-\end_inset
-
-), avoiding the spurious effects demonstrated in 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Carrasco2007a,Carrasco2008"
-
-\end_inset
-
-.
- 
-\end_layout
-
-\begin_layout Standard
-To derive a partial rate constant, one has thus to generate random parameters
- on the database side 
-\begin_inset Formula 
-\[
-\left\{ \alpha'=\alpha*b'_{i},\,\beta,\,\gamma,\,f',\,g'\right\} 
-\]
-
-\end_inset
-
-(for instance), where 
-\begin_inset Formula $b'_{i}$
-\end_inset
-
- is a realization of the BR for the 
-\begin_inset Formula $i^{th}$
-\end_inset
-
- pathway.
- Here again, no change of database format is required.
- On the user side, the changes are the same as described above, depending
- on the description of the global rate's uncertainty.
- 
-\end_layout
-
-\begin_layout Subsection
-Photo-processes
-\end_layout
-
-\begin_layout Standard
-A special treatment has to be considered for photo-processes which are described
- by wavelength-dependent properties (cross-sections, branching ratios) 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Gans2013"
-
-\end_inset
-
-.
- The database has to provide random samples of wavelength-dependent cross-sectio
-ns and branching ratios as sets of files.
- 
-\end_layout
-
 \begin_layout Subsubsection
-Cross-sections
-\end_layout
-
-\begin_layout Standard
-The uncertainty on the cross-section is defined by the uncertainty factor
- 
-\begin_inset Formula $XS\_F$
-\end_inset
-
-.
- Samples of cross-sections are thus obtained by
-\begin_inset Formula 
-\begin{eqnarray*}
-\sigma_{MC}(\lambda,R) & = & \sigma_{0}(\lambda,R)\times u_{F}\\
-u_{F} & \sim & LN(1,XS\_F)
-\end{eqnarray*}
-
-\end_inset
-
-where 
-\begin_inset Formula $\sigma_{0}(\lambda,R)$
-\end_inset
-
- is the reference photo-absorption cross-section for species 
-\begin_inset Formula $M$
-\end_inset
-
- and 
-\begin_inset Formula $u_{F}$
-\end_inset
-
- is a random number with a log-normal distribution centered on 1 with uncertaint
-y factor 
-\begin_inset Formula $XS\_F$
-\end_inset
-
-.
- This scheme assumes only systematic, wavelength-independent, uncertainty.
- 
-\end_layout
-
-\begin_layout Subsubsection
-Branching ratios
-\end_layout
-
-\begin_layout Standard
-As for the ionic reactions, probabilistic trees are used to get sum-to-one
- constrained random branching ratios.
- For most photodissociations, one does not have extensive information about
- the individual channel uncertainties 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Huebner2015"
-
-\end_inset
-
-, and the main partition is made between ionic channels and neutral channels
- because they are often issued from different experiments 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Peng2014"
-
-\end_inset
-
-.
- The proposed uncertainty scheme is therefore identical for all molecules.
- 
-\end_layout
-
-\begin_layout Standard
-A nested probabilistic tree was proposed in Ref.
- 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Peng2014"
-
-\end_inset
-
-, on the basis that the sum of all ionic channels is less uncertain that
- individual channels.
- In this hypothesis, the probabilistic tree has two levels: 
-\end_layout
-
-\begin_layout Enumerate
-The first one deals with the neutrals/ions separation, with branching rations
- 
-\begin_inset Formula $b_{N}$
-\end_inset
-
- and 
-\begin_inset Formula $b_{I}$
-\end_inset
-
-, respectively:
-\begin_inset Formula 
-\[
-(b_{N},b_{I})\sim\mathrm{Dirg}\left(b_{N,0}<\mathrm{Neutrals}>,(1-b_{N,0})<\mathrm{Ionic}>;r_{NI}b_{N,0},r_{NI}(1-b_{N,0})\right)
-\]
-
-\end_inset
-
-where one uses a generalized Dirichlet distribution with parameters 
-\begin_inset Formula $b_{N,0}=\sum_{i\in Neutrals}b_{i}$
-\end_inset
-
- and 
-\begin_inset Formula $r_{NI}$
-\end_inset
-
-.
- 
-\begin_inset Formula $b_{N,0}$
-\end_inset
-
- is the sum of the reference branching ratios of the neutral channels at
- a given wavelength.
- 
-\begin_inset Formula $r_{NI}$
-\end_inset
-
- is the relative uncertainty on the total charged species measurement of
- about 3
-\begin_inset space \thinspace{}
-\end_inset
-
-% on 
-\begin_inset Formula $b_{I}$
-\end_inset
-
- 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Plessis2010,Peng2014"
-
-\end_inset
-
-.
- 
-\end_layout
-
-\begin_layout Enumerate
-If one has more than one neutral channel, a secondary tree is specified
- by a generalized Dirichlet distribution with the corresponding branching
- ratios as parameters (renormalized) and a relative uncertainty 
-\begin_inset Formula $r_{N}$
-\end_inset
-
- of about 20
-\begin_inset space \thinspace{}
-\end_inset
-
-%.
- A similar sub-tree is designed for ionic channels (
-\begin_inset Formula $r_{I}$
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Standard
-This representation ensures that the sum of the ionic channels has a small
- uncertainty, while the branching ratios of individual channels might be
- more uncertain.
-\end_layout
-
-\begin_layout Standard
-
-\color orange
-I found that this approach might result in strong uncertainty discontinuities
- along the wavelength, and I propose an alternative one-level model based
- on partial cross-sections.
- One assumes that all neutral channels cross-sections are measured within
- 20
-\begin_inset space \thinspace{}
-\end_inset
-
-% (
-\begin_inset Formula $r_{N}$
-\end_inset
-
-) and all ionic channels within 10
-\begin_inset space \thinspace{}
-\end_inset
-
-% (
-\begin_inset Formula $r_{I}$
-\end_inset
-
-).
- The uncertainty on the branching ratios is derived by linear uncertainty
- propagation.
- Starting from
-\begin_inset Formula 
-\begin{equation}
-\sigma_{T}=\sum_{i}\sigma_{i}
-\end{equation}
-
-\end_inset
-
-and
-\begin_inset Formula 
-\begin{equation}
-b_{i}^{0}=\frac{\sigma_{i}}{\sigma_{T}}
-\end{equation}
-
-\end_inset
-
-one gets
-\begin_inset Formula 
-\begin{equation}
-u_{i}=\sqrt{\frac{1}{\sigma_{T}^{2}}u{}_{\sigma_{i}}^{2}+\left(\frac{\sigma_{i}}{\sigma_{T}^{2}}\right)^{2}u{}_{\sigma_{T}}^{2}-2\frac{\sigma_{i}}{\sigma_{T}^{3}}u_{\sigma_{i}}^{2}}
-\end{equation}
-
-\end_inset
-
-where 
-\begin_inset Formula $u_{\sigma_{i}}=r_{N/I}\sigma_{i}$
-\end_inset
-
- is the uncertainty on the 
-\begin_inset Formula $\sigma_{i}$
-\end_inset
-
- cross-section (Neutral or Ionic), and 
-\begin_inset Formula $u_{\sigma_{T}}=\sqrt{\sum_{i}u_{\sigma_{i}}^{2}}$
-\end_inset
-
- is the uncertainty on their sum.
- The third term in the LUP expression results from the covariance between
- 
-\begin_inset Formula $\sigma_{i}$
-\end_inset
-
- and 
-\begin_inset Formula $\sigma_{T}$
-\end_inset
-
-: 
-\begin_inset Formula $cov(\sigma i,\sigma_{T})=cov(\sigma_{i},\sigma_{i})=u_{\sigma_{i}}^{2}$
-\end_inset
-
-, assuming independent measurement errors for all cross-sections.
- 
-\end_layout
-
-\begin_layout Standard
-
-\color orange
-One can then use a generalized Dirichlet distribution based on the estimated
- uncertainties
-\begin_inset Formula 
-\begin{equation}
-(b_{1},\ldots,b_{n})\sim Dirg(b_{1}^{\text{0}},\ldots,b_{n}^{0};u_{1},\ldots,u_{n})
-\end{equation}
-
-\end_inset
-
-
-\color inherit
- 
-\end_layout
-
-\begin_layout Standard
-The sampling is done independently for each wavelength, leading to purely
- random errors.
- Several options are tested in Chem-DBUI to introduce some level of serial
- correlation.
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-It is possible to introduce some (unknown) level of systematic errors by
- ordering the samples for each channel and renormalizing them.
- This way, the first draw of a wavelength-dependent branching ratio will
- contain all the higher values of the wavelength-independent random draws.
- More elaborate schemes using Gaussian Processes can be considered.
- See options in the MC-CHEMDBUI manual.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Chapter
-Database structure
-\end_layout
-
-\begin_layout Standard
-There is presently a discrepancy on the uncertainty representations of reaction
- rates for reactions involving neutrals and the ones involving ions.
- The sum-to-one of branching ratios has been extensively implemented in
- ionic reactions by Pernot and coworkers 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Carrasco2007,Carrasco2007a,Plessis2010"
-
-\end_inset
-
-.
- This has not yet been done for neutrals 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Hebrard2006,Hebrard2009"
-
-\end_inset
-
-.
- Moreover, a special treatment has to be considered for photo-processes
- which are described by wavelength-dependent properties (cross-sections,
- branching ratios) 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Gans2013"
-
-\end_inset
-
-.
- 
-\end_layout
-
-\begin_layout Standard
-The database consists therefore of three independent sections (Ions, Neutrals
- and Photo\SpecialChar softhyphen
-processes).
-\end_layout
-
-\begin_layout Section
 Reaction rate expressions
 \begin_inset CommandInset label
 LatexCommand label
@@ -898,7 +656,7 @@ name "sec:Reaction-types"
 
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
@@ -1038,11 +796,7 @@ type reactions for the high-density limit (
 \begin_inset Formula $^{-1}$
 \end_inset
 
-), and the recombination 
-\color red
-???
-\color inherit
- rate (
+), and the recombination rate (
 \begin_inset Formula $k_{R}$
 \end_inset
 
@@ -1287,12 +1041,943 @@ with
 
 \end_layout
 
+\begin_layout Subsection
+Branching ratios
+\end_layout
+
+\begin_layout Standard
+When branching ratios (BR) have been measured instead of 
+\emph on
+partial
+\emph default
+ rate constants (which is the case for ion-neutral reactions or dissociative
+ recombination of ions), one has to use a specific representation separating
+ the global rate constant from the BRs.
+ 
+\end_layout
+
+\begin_layout Standard
+Random values of the BRs, 
+\begin_inset Formula $b_{i}$
+\end_inset
+
+, are sampled from probabilistic trees built from Dirichlet-type distributions
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Plessis2010"
+
+\end_inset
+
+.
+ This way, sets of BRs are generated consistently with the sum-to-one constraint
+ (
+\begin_inset Formula $\sum b_{i}=1$
+\end_inset
+
+), avoiding the spurious 
+\emph on
+uncertainty leak effect
+\emph default
+ demonstrated in 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Carrasco2007a,Carrasco2008"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+To derive a partial rate constant, one has thus to generate random parameters
+ on the database side 
+\begin_inset Formula 
+\[
+\left\{ \alpha'=\alpha\times b'_{i},\,\beta,\,\gamma,\,f',\,g'\right\} 
+\]
+
+\end_inset
+
+(for instance), where 
+\begin_inset Formula $b'_{i}$
+\end_inset
+
+ is a realization of the BR for the 
+\begin_inset Formula $i^{th}$
+\end_inset
+
+ pathway.
+ Here again, no change of database format is required.
+ On the user side, the changes are the same as described above, depending
+ on the description of the global rate's uncertainty.
+ 
+\end_layout
+
+\begin_layout Subsection
+Photo-processes
+\end_layout
+
+\begin_layout Standard
+A special treatment has to be considered for photo-processes which are described
+ by wavelength-dependent properties (cross-sections, branching ratios/quantum
+ yields) 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Gans2013"
+
+\end_inset
+
+.
+ The database has to provide random samples of wavelength-dependent cross-sectio
+ns and branching ratios as sets of files.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Cross-sections
+\end_layout
+
+\begin_layout Standard
+The uncertainty on the cross-section is defined by an uncertainty factor
+ 
+\begin_inset Formula $XS\_F$
+\end_inset
+
+.
+ Samples of cross-sections are thus obtained by
+\begin_inset Formula 
+\begin{eqnarray*}
+\sigma_{MC}(\lambda;M) & = & \sigma_{0}(\lambda;M)\times u_{F}\\
+u_{F} & \sim & LN(1,XS\_F)
+\end{eqnarray*}
+
+\end_inset
+
+where 
+\begin_inset Formula $\sigma_{0}(\lambda;M)$
+\end_inset
+
+ is the reference photo-absorption cross-section for species 
+\begin_inset Formula $M$
+\end_inset
+
+ and 
+\begin_inset Formula $u_{F}$
+\end_inset
+
+ is a random number with a log-normal distribution centered on 1 with uncertaint
+y factor 
+\begin_inset Formula $XS\_F$
+\end_inset
+
+.
+ This scheme assumes only systematic, wavelength-independent, uncertainty.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Branching ratios
+\end_layout
+
+\begin_layout Standard
+Probabilistic trees are used to get sum-to-one constrained random branching
+ ratios.
+ For most photodissociations, one does not have extensive information about
+ the individual channel uncertainties, and the main partition is made between
+ ionic channels and neutral channels because they are often issued from
+ different experiments 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Peng2014"
+
+\end_inset
+
+.
+ The proposed uncertainty scheme is therefore identical for all molecules.
+ 
+\end_layout
+
+\begin_layout Standard
+A nested probabilistic tree was proposed in Ref.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Peng2014"
+
+\end_inset
+
+, on the basis that the sum of all ionic channels is less uncertain that
+ individual channels.
+ In this hypothesis, the probabilistic tree has two levels: 
+\end_layout
+
+\begin_layout Enumerate
+The first one deals with the neutrals/ions separation, with branching rations
+ 
+\begin_inset Formula $b_{N}$
+\end_inset
+
+ and 
+\begin_inset Formula $b_{I}$
+\end_inset
+
+, respectively:
+\begin_inset Formula 
+\[
+(b_{N},b_{I})\sim\mathrm{Dirg}\left(b_{N,0}<\mathrm{Neutrals}>,(1-b_{N,0})<\mathrm{Ionic}>;r_{NI}b_{N,0},r_{NI}(1-b_{N,0})\right)
+\]
+
+\end_inset
+
+where one uses a generalized Dirichlet distribution with parameters 
+\begin_inset Formula $b_{N,0}=\sum_{i\in Neutrals}b_{i}$
+\end_inset
+
+ and 
+\begin_inset Formula $r_{NI}$
+\end_inset
+
+.
+ 
+\begin_inset Formula $b_{N,0}$
+\end_inset
+
+ is the sum of the reference branching ratios of the neutral channels at
+ a given wavelength.
+ 
+\begin_inset Formula $r_{NI}$
+\end_inset
+
+ is the relative uncertainty on the total charged species measurement of
+ about 3
+\begin_inset space \thinspace{}
+\end_inset
+
+% on 
+\begin_inset Formula $b_{I}$
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Plessis2010,Peng2014"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Enumerate
+If one has more than one neutral channel, a secondary tree is specified
+ by a generalized Dirichlet distribution with the corresponding branching
+ ratios as parameters (renormalized) and a relative uncertainty 
+\begin_inset Formula $r_{N}$
+\end_inset
+
+ of about 20
+\begin_inset space \thinspace{}
+\end_inset
+
+%.
+ A similar sub-tree is designed for ionic channels (
+\begin_inset Formula $r_{I}$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+This representation ensures that the sum of the ionic channels has a small
+ uncertainty, while the branching ratios of individual channels might be
+ more uncertain.
+\end_layout
+
+\begin_layout Standard
+It turns out that this approach might produce strong uncertainty discontinuities
+ along the wavelength, and an alternative one-level model based on partial
+ cross-sections is now implemented.
+ 
+\end_layout
+
+\begin_layout Standard
+One assumes that all neutral channels cross-sections are measured within
+ 20
+\begin_inset space \thinspace{}
+\end_inset
+
+% (
+\begin_inset Formula $r_{N}$
+\end_inset
+
+) and all ionic channels within 10
+\begin_inset space \thinspace{}
+\end_inset
+
+% (
+\begin_inset Formula $r_{I}$
+\end_inset
+
+).
+ The uncertainty on the branching ratios is derived by linear uncertainty
+ propagation (LUP).
+ Starting from
+\begin_inset Formula 
+\begin{equation}
+\sigma_{T}=\sum_{i}\sigma_{i}
+\end{equation}
+
+\end_inset
+
+and
+\begin_inset Formula 
+\begin{equation}
+b_{i}^{0}=\frac{\sigma_{i}}{\sigma_{T}}
+\end{equation}
+
+\end_inset
+
+one gets
+\begin_inset Formula 
+\begin{equation}
+u_{i}=\sqrt{\frac{1}{\sigma_{T}^{2}}u{}_{\sigma_{i}}^{2}+\left(\frac{\sigma_{i}}{\sigma_{T}^{2}}\right)^{2}u{}_{\sigma_{T}}^{2}-2\frac{\sigma_{i}}{\sigma_{T}^{3}}u_{\sigma_{i}}^{2}}
+\end{equation}
+
+\end_inset
+
+where 
+\begin_inset Formula $u_{\sigma_{i}}=r_{N/I}\sigma_{i}$
+\end_inset
+
+ is the uncertainty on the 
+\begin_inset Formula $\sigma_{i}$
+\end_inset
+
+ cross-section (Neutral or Ionic), and 
+\begin_inset Formula $u_{\sigma_{T}}=\sqrt{\sum_{i}u_{\sigma_{i}}^{2}}$
+\end_inset
+
+ is the uncertainty on their sum.
+ The third term in the LUP expression results from the covariance between
+ 
+\begin_inset Formula $\sigma_{i}$
+\end_inset
+
+ and 
+\begin_inset Formula $\sigma_{T}$
+\end_inset
+
+: 
+\begin_inset Formula $cov(\sigma_{i},\sigma_{T})=cov(\sigma_{i},\sigma_{i})=u_{\sigma_{i}}^{2}$
+\end_inset
+
+, assuming independent measurement errors for all cross-sections.
+ 
+\end_layout
+
+\begin_layout Standard
+One can then use a one-level generalized Dirichlet distribution based on
+ the estimated uncertainties
+\begin_inset Formula 
+\begin{equation}
+(b_{1},\ldots,b_{n})\sim Dirg(b_{1}^{\text{0}},\ldots,b_{n}^{0};u_{1},\ldots,u_{n})
+\end{equation}
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+The sampling is done independently for each wavelength, leading to purely
+ random errors.
+ Several options are tested in Chem-DBUI to introduce some level of serial
+ correlation.
+\end_layout
+
 \begin_layout Section
+The database 
+\end_layout
+
+\begin_layout Standard
+There is presently a discrepancy on the uncertainty representations of reaction
+ rates for reactions involving neutrals and the ones involving ions.
+ The sum-to-one of branching ratios has been extensively implemented in
+ ionic reactions by Pernot and coworkers 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Carrasco2007,Carrasco2007a,Plessis2010"
+
+\end_inset
+
+.
+ This has not yet been done for neutrals 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Hebrard2006,Hebrard2009"
+
+\end_inset
+
+.
+ Moreover, a special treatment has to be considered for photo-processes
+ which are described by wavelength-dependent properties (cross-sections,
+ branching ratios) 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Gans2013"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+The database consists therefore of three independent sections (Photo\SpecialChar softhyphen
+processes,
+ Neutrals and Ions).
+\end_layout
+
+\begin_layout Subsection
+Photo-processes
+\end_layout
+
+\begin_layout Standard
+The 
+\family typewriter
+PhoroProcs
+\family default
+ database contains a repertory for each version (e.g., 
+\family typewriter
+v_1.3
+\family default
+), in which one finds all the necessary data files for the cross-sections
+ and branching ratios (repertory 
+\family typewriter
+Data
+\family default
+) and the 
+\family typewriter
+photoDB.csv
+\family default
+ file which makes the link between the partial processes and the associated
+ data files.
+ It contains the following fields (one line per channel):
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+
+\family typewriter
+R1,
+\begin_inset space ~
+\end_inset
+
+R2
+\family default
+ the reactants (
+\family typewriter
+R2 = HV
+\family default
+)
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+
+\family typewriter
+P1,
+\begin_inset space ~
+\end_inset
+
+P2,
+\begin_inset space ~
+\end_inset
+
+P3,
+\begin_inset space ~
+\end_inset
+
+P4
+\family default
+ the products
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+
+\family typewriter
+CHANNEL
+\family default
+ the 
+\emph on
+index
+\emph default
+ of the channel for the current reaction
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+
+\family typewriter
+XS_SOURCE
+\family default
+ source for the cross-section (
+\family typewriter
+typically either Leiden, SWRI
+\family default
+ or 
+\family typewriter
+Hebrard
+\family default
+)
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+
+\family typewriter
+XS_F
+\family default
+ uncertainty factor for the cross-section.
+ The default value of 
+\family typewriter
+XS_F
+\family default
+ depends on the data source: the 
+\family typewriter
+Leiden
+\family default
+ database contains generally an estimate of 
+\family typewriter
+XS_F
+\family default
+; but for the 
+\family typewriter
+SWRI
+\family default
+ or 
+\family typewriter
+Hebrard
+\family default
+ cross-sections, a default value of 1.2 is used.
+ These default values can be superseded by specifying a different
+\family typewriter
+ XS_F
+\family default
+ value.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+
+\family typewriter
+BR_SOURCE
+\family default
+ source for the wavelength-dependent branching ratios (typically 
+\family typewriter
+SWRI
+\family default
+, or 
+\family typewriter
+Plessis
+\family default
+ for CH4)
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+
+\family typewriter
+REFS
+\family default
+ semi-column-separated 
+\emph on
+bitex
+\emph default
+ keys of bibliographical references appearing in the 
+\family typewriter
+Doc/refsDR.bib
+\family default
+ file.
+ Considered only if 
+\family typewriter
+
+\begin_inset Quotes eld
+\end_inset
+
+CHANNEL = 1
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+
+\family typewriter
+COMMENTS
+\family default
+ any useful information about the reaction.
+ Considered only if 
+\family typewriter
+
+\begin_inset Quotes eld
+\end_inset
+
+CHANNEL = 1
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+
+\family typewriter
+TIMESTAMP
+\family default
+ the date and time of creation/modification of this line (format: 
+\family typewriter
+YYYY-MM-DD HH:MM:SS
+\family default
+)
+\end_layout
+
+\begin_layout Subsection
+Neutral reactions
+\end_layout
+
+\begin_layout Standard
+The 
+\family typewriter
+Neutrals
+\family default
+ database contains a repertory for each version (e.g., 
+\family typewriter
+v_1.4
+\family default
+), in which one finds the 
+\family typewriter
+neutralsDB.csv
+\family default
+ file.
+ The actual format derives from M.
+ Dobrijevic's implementation 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Dobrijevic2016"
+
+\end_inset
+
+ for neutral association reactions, with a few extra fields: 
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+
+\family typewriter
+R1,
+\begin_inset space ~
+\end_inset
+
+R2,
+\begin_inset space ~
+\end_inset
+
+R3
+\family default
+ one reactant per field
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+
+\family typewriter
+P1,
+\begin_inset space ~
+\end_inset
+
+P2,
+\begin_inset space ~
+\end_inset
+
+P3,
+\begin_inset space ~
+\end_inset
+
+P4,
+\begin_inset space ~
+\end_inset
+
+P5
+\family default
+ one product per field (
+\family typewriter
+P5
+\family default
+ is not used)
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+
+\family typewriter
+TYPE
+\family default
+ reaction type (
+\family typewriter
+kooij
+\family default
+, 
+\family typewriter
+assocMD
+\family default
+ or 
+\family typewriter
+assocVV
+\family default
+)
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+
+\family typewriter
+A1,
+\begin_inset space ~
+\end_inset
+
+B1,
+\begin_inset space ~
+\end_inset
+
+C1,
+\begin_inset space ~
+\end_inset
+
+F1,
+\begin_inset space ~
+\end_inset
+
+G1
+\family default
+ parameters of a 
+\family typewriter
+kooij
+\family default
+ rate 
+\begin_inset Formula $k(A1,B1,C1)$
+\end_inset
+
+ and corresponding uncertainty factors for the 
+\begin_inset Formula $f/g$
+\end_inset
+
+ model.
+ See Sect.
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Reaction-types"
+
+\end_inset
+
+ for reaction-type-dependent definition (
+\begin_inset Formula $k_{0}$
+\end_inset
+
+ or 
+\begin_inset Formula $k_{\infty}$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+
+\family typewriter
+A2,
+\begin_inset space ~
+\end_inset
+
+B2,
+\begin_inset space ~
+\end_inset
+
+C2,
+\begin_inset space ~
+\end_inset
+
+F2,
+\begin_inset space ~
+\end_inset
+
+G2
+\family default
+ parameters of a 
+\family typewriter
+kooij
+\family default
+ rate 
+\begin_inset Formula $k(A2,B2,C2)$
+\end_inset
+
+ and corresponding uncertainty factors for the 
+\begin_inset Formula $f/g$
+\end_inset
+
+ model.
+ See Sect.
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Reaction-types"
+
+\end_inset
+
+ for reaction-type-dependent definition (
+\begin_inset Formula $k_{\infty}$
+\end_inset
+
+ or 
+\begin_inset Formula $k_{0}$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+
+\family typewriter
+A3,
+\begin_inset space ~
+\end_inset
+
+B3,
+\begin_inset space ~
+\end_inset
+
+C3,
+\begin_inset space ~
+\end_inset
+
+F3,
+\begin_inset space ~
+\end_inset
+
+G3
+\family default
+ parameters of a 
+\family typewriter
+kooij
+\family default
+ rate 
+\begin_inset Formula $k(A3,B3,C3)$
+\end_inset
+
+ and corresponding uncertainty factors for the 
+\begin_inset Formula $f/g$
+\end_inset
+
+ model.
+ Defines 
+\begin_inset Formula $k_{R}$
+\end_inset
+
+ in association reactions model (Sect.
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Reaction-types"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+
+\family typewriter
+FC
+\family default
+ broadening factor 
+\begin_inset Formula $F_{c}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+
+\family typewriter
+REFS
+\family default
+ comma-separated 
+\emph on
+bibtex
+\emph default
+ keys of bibliographic references appearing in the 
+\family typewriter
+Doc/refsDR.bib
+\family default
+ file
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+
+\family typewriter
+COMMENTS
+\family default
+ any useful information on the reaction
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+
+\family typewriter
+TIMESTAMP
+\family default
+ the date and time of creation/modification of this reaction (format: 
+\family typewriter
+YYYY-MM-DD HH:MM:SS
+\family default
+)
+\end_layout
+
+\begin_layout Subsection
 Ion reactions
 \end_layout
 
 \begin_layout Standard
-For ion reactions, one describes separately the 
+The 
+\family typewriter
+IOns
+\family default
+ database contains a repertory for each version (e.g., 
+\family typewriter
+v_1.4
+\family default
+).
+ One describes separately the 
 \begin_inset Formula $T$
 \end_inset
 
@@ -1322,12 +2007,11 @@ At the moment, there is practically no information on
 
 \end_inset
 
- 
-\end_layout
-
-\begin_layout Standard
-The database is stored in a 'ionsDB.csv' file, in which one has one line
- per 
+ The database is stored in a 
+\family typewriter
+ionsDB.csv 
+\family default
+file, in which one has one line per 
 \emph on
 globa
 \emph default
@@ -1502,11 +2186,7 @@ REF_GAMMA,
 
 REF_BR
 \family default
- should contain 
-\series bold
-semicolumn
-\series default
--separated 
+ should contain semicolumn-separated 
 \emph on
 bibtex
 \emph default
@@ -1536,7 +2216,11 @@ COMMENTS
 \family typewriter
 TIMESTAMP
 \family default
- the date and time of creation/modification of this reaction
+ the date and time of creation/modification of this reaction (format: 
+\family typewriter
+YYYY-MM-DD HH:MM:SS
+\family default
+)
 \end_layout
 
 \begin_layout Standard
@@ -2148,7 +2832,7 @@ ionsDB
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsubsection
 
 \family typewriter
 STRINGBR
@@ -2400,590 +3084,6 @@ or in compact form
 \end_inset
 
 "Diut(0.9<CHCN+ + H2>,0.0<CHCNH+ + H>;1.0,0.1)"
-\end_layout
-
-\begin_layout Section
-Neutral reactions
-\end_layout
-
-\begin_layout Standard
-The branching ratios formalism for ions has not been implemented for reactions
- between neutral species, as partial rates are often measured independently,
- and the database contains on line per channel.
- The actual format derives from M.
- Dobrijevic's implementation 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Dobrijevic2016"
-
-\end_inset
-
- for neutral association reactions, with a few extra fields: 
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 00.00.0000
-
-\family typewriter
-R1,
-\begin_inset space ~
-\end_inset
-
-R2,
-\begin_inset space ~
-\end_inset
-
-R3
-\family default
- one reactant per field
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 00.00.0000
-
-\family typewriter
-P1,
-\begin_inset space ~
-\end_inset
-
-P2,
-\begin_inset space ~
-\end_inset
-
-P3,
-\begin_inset space ~
-\end_inset
-
-P4,
-\begin_inset space ~
-\end_inset
-
-P5
-\family default
- one product per field (
-\family typewriter
-P5
-\family default
- is not used)
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 00.00.0000
-
-\family typewriter
-TYPE
-\family default
- reaction type (
-\family typewriter
-kooij
-\family default
-, 
-\family typewriter
-assocMD
-\family default
- or 
-\family typewriter
-assocVV
-\family default
-)
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 00.00.0000
-
-\family typewriter
-A1,
-\begin_inset space ~
-\end_inset
-
-B1,
-\begin_inset space ~
-\end_inset
-
-C1,
-\begin_inset space ~
-\end_inset
-
-F1,
-\begin_inset space ~
-\end_inset
-
-G1
-\family default
- parameters of a 
-\family typewriter
-kooij
-\family default
- rate 
-\begin_inset Formula $k(A1,B1,C1)$
-\end_inset
-
- and corresponding uncertainty factors for the 
-\begin_inset Formula $f/g$
-\end_inset
-
- model.
- See Sect.
-\begin_inset space \thinspace{}
-\end_inset
-
-
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "sec:Reaction-types"
-
-\end_inset
-
- for reaction-type-dependent definition (
-\begin_inset Formula $k_{0}$
-\end_inset
-
- or 
-\begin_inset Formula $k_{\infty}$
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 00.00.0000
-
-\family typewriter
-A2,
-\begin_inset space ~
-\end_inset
-
-B2,
-\begin_inset space ~
-\end_inset
-
-C2,
-\begin_inset space ~
-\end_inset
-
-F2,
-\begin_inset space ~
-\end_inset
-
-G2
-\family default
- parameters of a 
-\family typewriter
-kooij
-\family default
- rate 
-\begin_inset Formula $k(A2,B2,C2)$
-\end_inset
-
- and corresponding uncertainty factors for the 
-\begin_inset Formula $f/g$
-\end_inset
-
- model.
- See Sect.
-\begin_inset space \thinspace{}
-\end_inset
-
-
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "sec:Reaction-types"
-
-\end_inset
-
- for reaction-type-dependent definition (
-\begin_inset Formula $k_{\infty}$
-\end_inset
-
- or 
-\begin_inset Formula $k_{0}$
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 00.00.0000
-
-\family typewriter
-A3,
-\begin_inset space ~
-\end_inset
-
-B3,
-\begin_inset space ~
-\end_inset
-
-C3,
-\begin_inset space ~
-\end_inset
-
-F3,
-\begin_inset space ~
-\end_inset
-
-G3
-\family default
- parameters of a 
-\family typewriter
-kooij
-\family default
- rate 
-\begin_inset Formula $k(A3,B3,C3)$
-\end_inset
-
- and corresponding uncertainty factors for the 
-\begin_inset Formula $f/g$
-\end_inset
-
- model.
- Defines 
-\begin_inset Formula $k_{R}$
-\end_inset
-
- in association reactions model (Sect.
-\begin_inset space \thinspace{}
-\end_inset
-
-
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "sec:Reaction-types"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 00.00.0000
-
-\family typewriter
-FC
-\family default
- broadening factor 
-\begin_inset Formula $F_{c}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 00.00.0000
-
-\family typewriter
-REFS
-\family default
- comma-separated 
-\emph on
-bitex
-\emph default
- keys of references
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 00.00.0000
-
-\family typewriter
-COMMENTS
-\family default
- any useful information on the reaction
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 00.00.0000
-
-\family typewriter
-TIMESTAMP
-\family default
- the date and time of creation/modification of this reaction
-\end_layout
-
-\begin_layout Section
-Photo-processes
-\end_layout
-
-\begin_layout Standard
-The database is stored in a 'photoDB.csv' file, containing the following
- fields (one line per channel):
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 00.00.0000
-
-\family typewriter
-R1,
-\begin_inset space ~
-\end_inset
-
-R2
-\family default
- the reactants (
-\family typewriter
-R2 = HV
-\family default
-)
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 00.00.0000
-
-\family typewriter
-P1,
-\begin_inset space ~
-\end_inset
-
-P2,
-\begin_inset space ~
-\end_inset
-
-P3,
-\begin_inset space ~
-\end_inset
-
-P4
-\family default
- the products
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 00.00.0000
-
-\family typewriter
-CHANNEL
-\family default
- the index of the channel for the current reaction
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 00.00.0000
-
-\family typewriter
-XS_SOURCE
-\family default
- source for the cross-section (
-\family typewriter
-Leiden
-\family default
-, 
-\family typewriter
-SWRI
-\family default
- or 
-\family typewriter
-Hebrard
-\family default
-)
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 00.00.0000
-
-\family typewriter
-XS_F
-\family default
- uncertainty factor for the cross-section.
- If not specified, one uses Leiden value for 
-\family typewriter
-XS_SOURCE = LEIDEN
-\family default
-, otherwise one uses default value (1.2).
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 00.00.0000
-
-\family typewriter
-BR_SOURCE
-\family default
- source for the wavelength-dependent branching ratios (typically 
-\family typewriter
-SWRI
-\family default
-, or 
-\family typewriter
-Plessis
-\family default
- for CH4)
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 00.00.0000
-
-\family typewriter
-REFS
-\family default
- semi-column-separated 
-\emph on
-bitex
-\emph default
- keys of references.
- Considered only if on 
-\family typewriter
-
-\begin_inset Quotes eld
-\end_inset
-
-CHANNEL = 1
-\begin_inset Quotes erd
-\end_inset
-
-
-\family default
- line.
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 00.00.0000
-
-\family typewriter
-COMMENTS
-\family default
- any useful information on the reaction.
- Considered only if on 
-\family typewriter
-
-\begin_inset Quotes eld
-\end_inset
-
-CHANNEL = 1
-\begin_inset Quotes erd
-\end_inset
-
-
-\family default
- line.
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 00.00.0000
-
-\family typewriter
-TIMESTAMP
-\family default
- the date and time of creation/modification of this line
-\end_layout
-
-\begin_layout Subsection
-Uncertainty modeling
-\end_layout
-
-\begin_layout Itemize
-The default value of 
-\family typewriter
-XS_F
-\family default
- depends on the data source: the 
-\family typewriter
-Leiden
-\family default
- database contains generally an estimate of 
-\family typewriter
-XS_F
-\family default
-; but for the 
-\family typewriter
-SWRI
-\family default
- or 
-\family typewriter
-Hebrard
-\family default
- cross-sections, a default value of 1.2 is used.
- These default values can be superseded by specifying a different
-\family typewriter
- XS_F
-\family default
- value in the 
-\family typewriter
-photoDB.csv
-\family default
- file.
-\end_layout
-
-\begin_layout Itemize
-As an example, let us consider the photolysis of N
-\begin_inset Formula $_{2}$
-\end_inset
-
-, with three products channels: 
-\family typewriter
-N4S + N2D
-\family default
- (
-\begin_inset Formula $b_{1}$
-\end_inset
-
-), 
-\family typewriter
-N2+ + E
-\family default
- (
-\begin_inset Formula $b_{2}$
-\end_inset
-
-), and 
-\family typewriter
-N4S + N3P+ + E
-\family default
- (
-\begin_inset Formula $b_{3}$
-\end_inset
-
-).
- The branching ratios are sampled for each wavelength from the following
- distribution
-\family typewriter
-
-\begin_inset listings
-inline false
-status open
-
-\begin_layout Labeling
-\labelwidthstring 00.00.0000
-
-Dirg(
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 00.00.0000
-
-	b1<N4S + N2D>,
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 00.00.0000
-
-	(b2+b3)*Dirg(
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 00.00.0000
-
-		b2/(b2+b3)<N2+ + E>,
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 00.00.0000
-
-		b3/(b2+b3)<N4S + N3P+ + E>;
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 00.00.0000
-
-	b2*r_I, b3*r_I);
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 00.00.0000
-
-b1*r_NI, (b2+b3)*r_NI)
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard

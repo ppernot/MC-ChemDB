@@ -1041,6 +1041,31 @@ with
 
 \end_layout
 
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+
+\family typewriter
+assoc0
+\family default
+ 3-body reactions without high-pressure rates
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $k_{0}\times M$
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+with 
+\begin_inset Formula $k_{0}=k(\alpha_{1},\beta_{1},\gamma_{1},300)$
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 Branching ratios
 \end_layout
@@ -1656,7 +1681,7 @@ YYYY-MM-DD HH:MM:SS
 \end_layout
 
 \begin_layout Subsubsection
-How to add new data
+How to add new photolysis data
 \end_layout
 
 \begin_layout Standard
@@ -1741,11 +1766,11 @@ status open
 
 \begin_layout Plain Layout
 When adding a new SWRI file, great care has to be taken that the order of
- the products channels in the header line correspond to the corresponding
- channel in 
+ the products channels in the header line correspond to the channels in
+ 
 \family typewriter
 photoDB.csv.
- The header itself is not processed.
+ The SWRI header is not processed.
 \end_layout
 
 \end_inset
@@ -3203,10 +3228,6 @@ or in compact form
 \end_inset
 
 "Diut(0.9<CHCN+ + H2>,0.0<CHCNH+ + H>;1.0,0.1)"
-\end_layout
-
-\begin_layout Standard
-
 \end_layout
 
 \begin_layout Standard

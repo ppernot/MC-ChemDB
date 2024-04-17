@@ -1496,7 +1496,8 @@ photoDB.csv
 \family default
  file which makes the link between the partial processes and the associated
  data files.
- It contains the following fields (one line per channel):
+ It contains the following fields (one line per channel, semi-column separated
+ fields):
 \end_layout
 
 \begin_layout Labeling

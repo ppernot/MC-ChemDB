@@ -820,78 +820,6 @@ type reactions for the high-density limit (
 \labelwidthstring 00.00.0000
 
 \family typewriter
-3-body
-\family default
- the Troe formula
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Wakelam2012"
-
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Formula $k_{\infty}\times\left(R/(1+R)\right)\times F{}_{c}^{1/E}$
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Formula $R=k_{0}\times M/k_{\infty}$
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Formula $E=1+\left((\log_{10}(R)+C)/\left(N-0.14\times(\log_{10}(R)+C)\right)\right)^{2}$
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Formula $C=-0.4-0.67\times\log_{10}F_{c}$
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Formula $N=0.75-1.27\times\log_{10}F_{c}$
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-with 
-\begin_inset Formula $F_{c}=0.64$
-\end_inset
-
-, 
-\begin_inset Formula $k_{0}=k(\alpha_{1},\beta_{1},\gamma_{1},300)$
-\end_inset
-
- and 
-\begin_inset Formula $k_{\infty}=k(\alpha_{2},\beta_{2},\gamma_{2},300)$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 00.00.0000
-
-\family typewriter
 assocVV
 \family default
  a modified Troe formula for pressure-dependent association reactions
@@ -1061,6 +989,78 @@ assoc0
 
 with 
 \begin_inset Formula $k_{0}=k(\alpha_{1},\beta_{1},\gamma_{1},300)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+
+\family typewriter
+assocTroe
+\family default
+ the Troe formula
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Wakelam2012"
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $k_{\infty}\times\left(R/(1+R)\right)\times F{}_{c}^{1/E}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $R=k_{0}\times M/k_{\infty}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $E=1+\left((\log_{10}(R)+C)/\left(N-0.14\times(\log_{10}(R)+C)\right)\right)^{2}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $C=-0.4-0.67\times\log_{10}F_{c}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $N=0.75-1.27\times\log_{10}F_{c}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+with 
+\begin_inset Formula $F_{c}=0.64$
+\end_inset
+
+, 
+\begin_inset Formula $k_{0}=k(\alpha_{1},\beta_{1},\gamma_{1},300)$
+\end_inset
+
+ and 
+\begin_inset Formula $k_{\infty}=k(\alpha_{2},\beta_{2},\gamma_{2},300)$
 \end_inset
 
 
@@ -1559,13 +1559,13 @@ XS_SOURCE
 \family default
  source for the cross-section (
 \family typewriter
-typically either Leiden, SWRI
+typically either Leiden, SWRI,
 \family default
- or 
+ 
 \family typewriter
 Hebrard
 \family default
-)
+ or Vulcan)
 \end_layout
 
 \begin_layout Labeling
@@ -1589,7 +1589,7 @@ XS_F
 \family default
 ; but for the 
 \family typewriter
-SWRI
+SWRI, Vulcan
 \family default
  or 
 \family typewriter
@@ -1613,7 +1613,7 @@ BR_SOURCE
 \family typewriter
 SWRI
 \family default
-, or 
+, Vulcan or 
 \family typewriter
 Plessis
 \family default
@@ -1875,11 +1875,11 @@ kooij
 \family typewriter
 assocMD
 \family default
- or 
+ , 
 \family typewriter
 assocVV
 \family default
-)
+, assoc0 or assocTroe)
 \end_layout
 
 \begin_layout Labeling

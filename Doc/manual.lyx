@@ -1496,7 +1496,7 @@ photoDB.csv
 \family default
  file which makes the link between the partial processes and the associated
  data files.
- It contains the following fields (one line per channel, semi-column separated
+ It contains the following fields (one line per channel, comma separated
  fields):
 \end_layout
 
@@ -2068,7 +2068,7 @@ FC
 \family typewriter
 REFS
 \family default
- comma-separated 
+ semi-column-separated 
 \emph on
 bibtex
 \emph default

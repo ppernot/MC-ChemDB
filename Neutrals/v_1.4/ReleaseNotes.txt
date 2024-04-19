@@ -1,5 +1,8 @@
 *** v_1.4 ***
 
+2024_04_19 
+	* Delimiter changed to "," to restore compatibility with csv extension
+
 2022-08-23
 	* Merged all data into a single file with new "reaction type" column
 	* Corrected some bugs (improper decimal notations)

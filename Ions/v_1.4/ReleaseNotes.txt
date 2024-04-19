@@ -1,3 +1,8 @@
+*** Release Notes for ChemDB v_1.4 ***
+
+* 2024_04 (PP) Delimiter changed to "," to restore  
+  compatibility with csv extension
+
 *** Release Notes for ChemDB v_1.3 ***
 
 Purpose:

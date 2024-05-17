@@ -1,4 +1,7 @@
-2024_04_19 
+2024_05_17
+	* Changed atomic S to S3P to conform with neutral reactions DB
+
+2024_04_19
 	* Delimiter changed to "," to restore compatibility with csv extension
 
 2024-04-16:
@@ -18,7 +21,7 @@
 2022-03-24 :
         * Added H2O2 and O2
 
-2021-05-04 : 
+2021-05-04 :
 	***** New v1.2 *****
  	* Corrected inversion of CH4 channels 1 and 2 (CH3 and 1CH2)
 	  (found by E. Hébrard)
@@ -27,7 +30,7 @@
 	* Corrected problem with numbering of CH4 channels
     	* Added CO2; Assigned 3CO to CO (Channel 7)
 
-2019-07-31 : 
+2019-07-31 :
 	***** New v1.1 *****
 	* changed structure : cohabitation of 1nm and 0.1nm resolutions
 	* separated data from fixed resolution generated data
@@ -35,16 +38,16 @@
 	* in absence of BR in Leiden DB, SWRI ones are used by default
           except for CH4 (taken from Plessis et al.)
 
-2019-07-31 : 
-	* Added Leiden cross-sections 
+2019-07-31 :
+	* Added Leiden cross-sections
 
-2019-04-10 : 
+2019-04-10 :
 	* Added H2O
 
-2019-03-14 : 
-	* Restored data for C2H2, C2H4, C2H6 and HCN from SWRI (Ionic channels were strange...) 
+2019-03-14 :
+	* Restored data for C2H2, C2H4, C2H6 and HCN from SWRI (Ionic channels were strange...)
 
-2019-03-14 : 
+2019-03-14 :
 	* Added CO
 	* Assigned C1D to dummy CxHyNz
 
